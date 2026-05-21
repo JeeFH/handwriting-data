@@ -254,6 +254,10 @@ async function sub(){
   const dur=ws?Date.now()-ws:0;
   const n=parseInt(new URLSearchParams(location.search).get('n')||'0')+1;
 
+  // 保存当前数据（clr() 会重置这些变量）
+  const currentPrompt=cp;
+  const strokeCount=sc;
+
   // 立即清除画布并切换下一题（不等待后端）
   clr();
   cp=pick();
@@ -271,7 +275,12 @@ async function sub(){
   fetch('/api/submit',{
     method:'POST',
     headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({prompt:cp,imageBase64:b64,strokeCount:sc,writeDuration:dur})
+    body:JSON.stringify({
+      prompt: currentPrompt,
+      imageBase64: b64,
+      strokeCount: strokeCount,
+      writeDuration: dur
+    })
   }).then(r=>{
     if(!r.ok) console.warn('上传失败',r.status);
   }).catch(e=>console.warn('上传失败',e));
