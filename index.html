@@ -3,99 +3,261 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-  <title>数学表达式书写调研</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>数学表达式样本采集</title>
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+          onload="window.__katexReady=true;"></script>
+
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
-    :root{--bg-1:#667eea;--bg-2:#764ba2;--transition:1s}
-    body{
-      font-family:'Inter','-apple-system',BlinkMacSystemFont,'Segoe UI',sans-serif;
-      background:linear-gradient(135deg,var(--bg-1),var(--bg-2));
-      background-size:200% 200%;
-      animation:bgmove 8s ease infinite;
-      min-height:100vh;display:flex;flex-direction:column;align-items:center;
-      padding:20px 16px;transition:background var(--transition);
+    :root{
+      --bg:#f5f5f5;
+      --card:#fff;
+      --primary:#0f6efe;
+      --primary-hover:#005a9e;
+      --text-primary:#1a1a1a;
+      --text-secondary:#666;
+      --border:#e0e0e0;
+      --success:#107c10;
+      --error:#d13438;
+      --warning:#ffb900;
     }
-    @keyframes bgmove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
-    .card{background:rgba(255,255,255,.95);backdrop-filter:blur(20px);border-radius:20px;box-shadow:0 8px 32px rgba(0,0,0,.12);width:100%;max-width:420px;padding:28px 24px;margin-bottom:20px;transition:box-shadow .3s}
-    .card:hover{box-shadow:0 12px 48px rgba(0,0,0,.18)}
-    h1{font-size:20px;font-weight:700;color:#1a1a2e;margin-bottom:4px;letter-spacing:-.3px}
-    .subtitle{font-size:13px;color:#6c757d;margin-bottom:20px;line-height:1.5}
-    .badge{display:inline-block;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;font-size:11px;font-weight:600;padding:3px 10px;border-radius:20px;margin-bottom:16px}
-    .prompt-box{background:#f8f9fe;border:2px dashed #667eea;border-radius:14px;padding:18px;text-align:center;margin-bottom:18px;transition:border-color .3s}
-    .prompt-label{font-size:12px;color:#6c757d;margin-bottom:8px;font-weight:500}
-    .prompt-expr{font-size:32px;font-weight:700;color:#667eea;letter-spacing:3px;font-family:'Georgia','Times New Roman',serif}
-    .canvas-wrap{position:relative;border-radius:14px;overflow:hidden;margin-bottom:14px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
-    canvas{width:100%;aspect-ratio:3/2;background:#fafafa;border:2px solid #e9ecef;border-radius:14px;touch-action:none;cursor:crosshair;display:block;transition:border-color .3s}
-    canvas:active{border-color:#667eea}
-    .btn-row{display:flex;gap:10px;margin-bottom:14px}
-    button{flex:1;padding:13px 0;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;transition:all .15s;font-family:'Inter',sans-serif}
+    body{
+      font-family:'Segoe UI','-apple-system',BlinkMacSystemFont,'Helvetica Neue',sans-serif;
+      background:var(--bg);
+      min-height:100vh;display:flex;flex-direction:column;align-items:center;
+      padding:16px 12px;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    .header{text-align:center;margin-bottom:16px}
+    .header h1{font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:4px;letter-spacing:-.3px}
+    .header .subtitle{font-size:12px;color:var(--text-secondary);line-height:1.5}
+
+    .card{
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:0 1.6px 3.6px rgba(0,0,0,.08), 0 0.3px 0.9px rgba(0,0,0,.04);
+      width:100%;max-width:440px;
+      padding:20px 18px;
+      margin-bottom:14px;
+      border:1px solid var(--border);
+      transition:box-shadow .2s;
+    }
+    .card:hover{
+      box-shadow:0 3.6px 7.2px rgba(0,0,0,.1), 0 0.9px 1.8px rgba(0,0,0,.05);
+    }
+
+    /* 表达式展示区 */
+    .prompt-box{
+      background:#fafafa;
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding:14px 12px;
+      text-align:center;
+      margin-bottom:14px;
+      min-height:80px;
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+    }
+    .prompt-label{font-size:11px;color:var(--text-secondary);margin-bottom:8px;font-weight:500}
+    .prompt-expr{
+      display:flex;align-items:center;justify-content:center;
+      min-height:48px;
+      font-size:28px;
+      color:var(--text-primary);
+    }
+    .prompt-expr .katex{font-size:28px !important}
+
+    /* 手写区域 */
+    .canvas-wrap{position:relative;border-radius:10px;overflow:hidden;margin-bottom:12px}
+    canvas{
+      width:100%;aspect-ratio:3/2;
+      background:#fafafa;
+      border:1.5px solid var(--border);
+      border-radius:10px;
+      touch-action:none;cursor:crosshair;display:block;
+      transition:border-color .2s;
+    }
+    canvas:active{border-color:var(--primary)}
+
+    /* 按钮 */
+    .btn-row{display:flex;gap:8px;margin-bottom:12px}
+    button{
+      flex:1;padding:11px 0;
+      border:none;border-radius:8px;
+      font-size:14px;font-weight:600;
+      cursor:pointer;transition:all .12s;
+      font-family:'Segoe UI',sans-serif;
+      outline:none;
+    }
     button:active{transform:scale(.97)}
-    .btn-clear{background:#f1f3f5;color:#495057}
-    .btn-clear:hover{background:#e9ecef}
-    .btn-submit{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;box-shadow:0 4px 16px rgba(102,126,234,.35)}
-    .btn-submit:hover{box-shadow:0 6px 20px rgba(102,126,234,.5);transform:translateY(-1px)}
-    .btn-submit:active{transform:translateY(0) scale(.97)}
-    .btn-submit:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
-    .status{text-align:center;font-size:13px;padding:10px 14px;border-radius:10px;margin-bottom:10px;min-height:40px;display:flex;align-items:center;justify-content:center;font-weight:500;transition:all .3s}
-    .status.success{background:#d3f9d8;color:#151e11}
-    .status.error{background:#ffe3e3;color:#851212}
-    .status.loading{background:#fff3bf;color:#5f4b08}
-    .progress{font-size:12px;color:rgba(255,255,255,.8);text-align:center;margin-top:10px;font-weight:500}
-    .footer{font-size:11px;color:rgba(255,255,255,.6);text-align:center;margin-top:8px}
-    .share-hint{background:rgba(255,255,255,.15);color:#fff;border-radius:12px;padding:14px 18px;font-size:12px;max-width:420px;text-align:center;line-height:1.7;backdrop-filter:blur(10px)}
+    .btn-clear{
+      background:#f0f0f0;color:var(--text-primary);
+      border:1px solid var(--border);
+    }
+    .btn-clear:hover{background:#e8e8e8}
+    .btn-submit{
+      background:var(--primary);color:#fff;
+      box-shadow:0 1.6px 3.6px rgba(15,110,254,.25);
+    }
+    .btn-submit:hover{background:var(--primary-hover);box-shadow:0 3.6px 7.2px rgba(15,110,254,.3)}
+    .btn-submit:active{transform:scale(.97);box-shadow:none}
+    .btn-submit:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none}
+
+    /* 状态提示 */
+    .status{
+      text-align:center;font-size:12.5px;
+      padding:9px 14px;border-radius:8px;
+      margin-bottom:10px;min-height:38px;
+      display:flex;align-items:center;justify-content:center;
+      font-weight:500;transition:all .25s;
+    }
+    .status.success{background:#dff6dd;color:var(--success)}
+    .status.error{background:#fde7e9;color:var(--error)}
+    .status.loading{background:#dbeafe;color:#0f6efe}
+
+    .progress{font-size:11.5px;color:var(--text-secondary);text-align:center;margin-top:8px;font-weight:500}
+    .counter{font-size:11.5px;color:var(--text-secondary);text-align:center;margin-bottom:8px;font-weight:500}
+
+    .footer{font-size:11px;color:#999;text-align:center;margin-top:6px}
+    .share-hint{
+      background:rgba(15,110,254,.06);
+      border:1px solid rgba(15,110,254,.12);
+      color:var(--text-secondary);
+      border-radius:10px;padding:12px 14px;
+      font-size:11.5px;text-align:center;line-height:1.6;
+      max-width:440px;margin-bottom:12px;
+    }
+
     /* 弹窗 */
-    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:100;backdrop-filter:blur(4px);animation:fadeIn .25s}
-    .modal{background:#fff;border-radius:20px;padding:28px 24px;max-width:380px;width:90%;box-shadow:0 24px 64px rgba(0,0,0,.2);animation:slideUp .3s;max-height:85vh;overflow-y:auto}
-    .modal h2{font-size:18px;font-weight:700;color:#1a1a2e;margin-bottom:14px}
-    .modal p{font-size:13.5px;color:#495057;line-height:1.7;margin-bottom:12px}
-    .modal .example-box{background:#f8f9fe;border-radius:12px;padding:14px;margin:14px 0;border-left:4px solid #667eea}
-    .modal .example-box .label{font-size:11px;color:#6c757d;margin-bottom:6px;font-weight:600}
-    .modal .example-box .expr{font-size:22px;font-weight:700;color:#667eea;letter-spacing:2px}
-    .modal .tip{font-size:12px;color:#6c757d;background:#fff3bf;padding:10px 14px;border-radius:10px;line-height:1.6;margin-top:12px}
-    .modal button{width:100%;margin-top:16px;padding:14px;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;border:none;border-radius:12px;font-size:15px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:all .15s}
+    .modal-overlay{
+      position:fixed;inset:0;
+      background:rgba(0,0,0,.35);
+      display:flex;align-items:center;justify-content:center;
+      z-index:100;backdrop-filter:blur(4px);
+      animation:fadeIn .2s;
+    }
+    .modal{
+      background:#fff;border-radius:14px;
+      padding:24px 20px;max-width:400px;width:92%;
+      box-shadow:0 16px 48px rgba(0,0,0,.18);
+      animation:slideUp .25s;
+      max-height:85vh;overflow-y:auto;
+    }
+    .modal h2{font-size:17px;font-weight:600;color:var(--text-primary);margin-bottom:12px}
+    .modal p{font-size:13px;color:var(--text-secondary);line-height:1.65;margin-bottom:10px}
+    .modal .example-box{
+      background:#fafafa;border:1px solid var(--border);
+      border-left:3.5px solid var(--primary);
+      border-radius:8px;padding:12px;margin:12px 0;
+    }
+    .modal .example-box .label{font-size:11px;color:var(--text-secondary);margin-bottom:5px;font-weight:500}
+    .modal .example-box .expr{font-size:20px;font-weight:600;color:var(--text-primary)}
+    .modal .tip{
+      font-size:11.5px;color:var(--text-secondary);
+      background:rgba(255,185,0,.1);border:1px solid rgba(255,185,0,.2);
+      padding:9px 12px;border-radius:8px;line-height:1.6;margin-top:10px;
+    }
+    .modal button{
+      width:100%;margin-top:14px;padding:12px;
+      background:var(--primary);color:#fff;
+      border:none;border-radius:8px;font-size:14px;font-weight:600;
+      cursor:pointer;transition:all .12s;font-family:'Segoe UI',sans-serif;
+    }
+    .modal button:hover{background:var(--primary-hover)}
     .modal button:active{transform:scale(.97)}
+
     @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-    @keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
-    /* 计数器 */
-    .counter{font-size:11px;color:rgba(255,255,255,.7);text-align:center;margin-bottom:8px;font-weight:500}
+    @keyframes slideUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+    /* 激励弹窗 */
+    .celebrate-overlay{
+      position:fixed;inset:0;
+      background:rgba(0,0,0,.3);
+      display:flex;align-items:center;justify-content:center;
+      z-index:200;backdrop-filter:blur(3px);
+      animation:fadeIn .3s;
+    }
+    .celebrate-box{
+      background:#fff;border-radius:16px;
+      padding:28px 24px;text-align:center;
+      box-shadow:0 20px 60px rgba(0,0,0,.2);
+      animation:popIn .35s;
+      max-width:360px;width:88%;
+    }
+    .celebrate-box .emoji{font-size:48px;margin-bottom:12px}
+    .celebrate-box .msg{font-size:15px;font-weight:600;color:var(--text-primary);line-height:1.5}
+    .celebrate-box .sub{font-size:12px;color:var(--text-secondary);margin-top:8px}
+
+    @keyframes popIn{
+      0%{opacity:0;transform:scale(.85)}
+      60%{transform:scale(1.03)}
+      100%{opacity:1;transform:scale(1)}
+    }
+
+    .dev-stats{
+      font-size:11px;
+      color:var(--text-secondary);
+      text-align:center;
+      margin-bottom:2px;
+      font-weight:500;
+    }
+    .group-display{
+      font-size:12px;
+      color:var(--primary);
+      text-align:center;
+      margin-bottom:8px;
+      font-weight:600;
+    }
   </style>
 </head>
 <body>
+
 <div class="counter" id="counter"></div>
+<div class="dev-stats" id="dev-stats"></div>
+<div class="group-display" id="group-display"></div>
+
+<div class="header">
+  <h1>数学表达式样本采集</h1>
+  <p class="subtitle">请按照上方表达式的样子，在下方手写区域书写</p>
+</div>
+
 <div class="card">
-  <div class="badge">📋 学术研究 · 匿名参与</div>
-  <h1>数学表达式书写调研</h1>
-  <p class="subtitle">请按照上方表达式的样子，在下方手写区域书写。<br>您的参与将帮助认知科学研究。</p>
   <div class="prompt-box">
     <div class="prompt-label">请手写这个表达式：</div>
     <div class="prompt-expr" id="pt"></div>
   </div>
+
   <div class="canvas-wrap">
     <canvas id="cv"></canvas>
   </div>
+
   <div class="btn-row">
     <button class="btn-clear" onclick="clr()">清空重画</button>
     <button class="btn-submit" id="sb" onclick="sub()">提交</button>
   </div>
+
   <div class="status" id="st"></div>
   <div class="progress" id="pg"></div>
 </div>
-<div class="share-hint">💡 邀请朋友一起参与，帮助研究进展更快！<br>长按右上角 ··· 分享到聊天或朋友圈</div>
+
+<div class="share-hint">💡 邀请朋友一起参与，帮助研究进展更快！<br>点击右上角 ··· 分享到聊天或朋友圈</div>
 <p class="footer">数据仅用于学术研究 · 完全匿名 · 感谢您的参与 🙏</p>
 
-<!-- 示例说明弹窗 -->
+
+<!-- 书写说明弹窗 -->
 <div class="modal-overlay" id="modal" style="display:none">
   <div class="modal">
     <h2>📝 书写说明</h2>
-    <p>请根据上方显示的表达式，在手写区域<strong>按相同格式</strong>书写。</p>
+    <p>请根据上方显示的 LaTeX 表达式，在手写区域<strong>按相同格式</strong>书写。</p>
     <div class="example-box">
-      <div class="label">示例：</div>
-      <div class="expr">2 + 3 =</div>
+      <div class="label">LaTeX 示例：</div>
+      <div class="expr">\cos(30) + \sqrt{2}</div>
     </div>
     <p>书写时注意：</p>
-    <p>① <strong>等号 = </strong>需要写（即使示例中显示 <code>=</code>）<br>
+    <p>① <strong>等号 =</strong> 需要写（即使示例中显示 <code>=</code>）<br>
        ② <strong>括号</strong>按示例写，不要省略<br>
        ③ 尽量清晰书写，与平时手写习惯一致</p>
     <div class="tip">💡 每份样本约需 10 秒，共 2–3 分钟即可完成。数据完全匿名，仅用于学术研究。</div>
@@ -103,197 +265,437 @@
   </div>
 </div>
 
-<script>
-const POOL=['2+3=','5-1=','4*6=','8/2=','1+2+3=','10-4=','3*7=','9/3=',
-  '(2+3)*4=','12.5+3.7=','100/(5+5)=','(3+5)*(2-1)=','6.8-2.3=','9/(1+2)=',
-  'π*3=','(10-4)/2=','7.2+1.8=','2^3+5=','sqrt(16)+3^2=','1/2+1/4=',
-  '(2+3^2)*sqrt(4)=','π*r^2=','sqrt(a^2+b^2)='];
 
-const FEEDBACK = [
-  '✅ 感谢您的参与！',
-  '🎉 提交成功，数据已记录',
-  '👏 书写质量很好，感谢！',
-  '📊 您的数据对研究很有价值',
-  '💡 谢谢参与，继续加油！',
-  '✨ 已记录，感谢您的贡献',
-  '🙏 感谢支持认知科学研究',
-  '👍 提交成功，辛苦了！',
-  '📝 数据已保存，谢谢！',
-  '🌟 您的参与帮助很大！'
+<!-- 激励弹窗（提交后随机出现）-->
+<div class="celebrate-overlay" id="celebrate" style="display:none">
+  <div class="celebrate-box">
+    <div class="emoji" id="cel-emoji"></div>
+    <div class="msg" id="cel-msg"></div>
+    <div class="sub" id="cel-sub"></div>
+  </div>
+</div>
+
+
+<script>
+// ===== 分组逻辑 =====
+function seededRandom(seed) {
+  let s = seed | 0;
+  return function() {
+    s = s ^ (s << 13);
+    s = s ^ (s >>> 17);
+    s = s ^ (s << 5);
+    return (s >>> 0) / 4294967296;
+  };
+}
+
+function getSeedFromDeviceId(deviceId) {
+  let seed = 0;
+  for (let i = 0; i < deviceId.length; i++) {
+    seed = ((seed << 5) - seed) + deviceId.charCodeAt(i);
+    seed = seed | 0;
+  }
+  return Math.abs(seed);
+}
+
+function shuffleWithSeed(arr, rng) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function createGroups(allExprs, deviceId) {
+  const pools = { simple: [], normal: [], complex: [] };
+  allExprs.forEach(e => {
+    const d = e.difficulty || '';
+    if (pools[d]) pools[d].push(e);
+  });
+
+  const seed = getSeedFromDeviceId(deviceId);
+  const rng = seededRandom(seed);
+  const shuffledPools = {};
+  for (const k in pools) {
+    shuffledPools[k] = shuffleWithSeed(pools[k], rng);
+  }
+
+  const groups = [];
+  let idx = { simple: 0, normal: 0, complex: 0 };
+  while (idx.simple + 3 <= shuffledPools.simple.length &&
+         idx.normal + 5 <= shuffledPools.normal.length &&
+         idx.complex + 2 <= shuffledPools.complex.length) {
+    const group = [
+      ...shuffledPools.simple.slice(idx.simple, idx.simple + 3),
+      ...shuffledPools.normal.slice(idx.normal, idx.normal + 5),
+      ...shuffledPools.complex.slice(idx.complex, idx.complex + 2),
+    ];
+    const grng = seededRandom(seed + groups.length);
+    const shuffledGroup = shuffleWithSeed(group, grng);
+    groups.push(shuffledGroup);
+    idx.simple += 3;
+    idx.normal += 5;
+    idx.complex += 2;
+  }
+  return groups;
+}
+
+// ===== 表达式库（从 JSON 加载）=====
+let EXPRS = [];
+let GROUPS = [];
+let GROUP_IDX = 0;
+let EXPR_IN_GROUP = 0;
+let DEVICE_ID = '';
+let DEVICE_STATS = { simple: 0, normal: 0, complex: 0 };
+let CURRENT_DIFFICULTY = '';
+
+// ===== 激励语库 =====
+const CELEBRATIONS = [
+  { emoji:'🎉', msg:'太棒了！感谢您的贡献！', sub:'已有更多人加入，一起加油～' },
+  { emoji:'😊', msg:'提交成功，您真棒！', sub:'每一份样本都很珍贵 💖' },
+  { emoji:'🌟', msg:'感谢参与！您的数据很有价值', sub:'继续加油，距离目标又近了一步' },
+  { emoji:'🎊', msg:'🎊 恭喜完成一份样本！', sub:'手写识别研究因您而进步' },
+  { emoji:'💡', msg:'✨ 已记录，感谢您的贡献', sub:'您的参与让 AI 更懂手写数学' },
+  { emoji:'🙏', msg:'🙏 感谢支持认知科学研究', sub:'学术研究的每一步都离不开志愿者' },
+  { emoji:'👍', msg:'👍 提交成功，辛苦了！', sub:'稍作休息，也可以继续哦' },
+  { emoji:'📊', msg:'📊 数据已保存，谢谢！', sub:'您是第 ' + (()=>Math.floor(Math.random()*1000+500))() + ' 位参与者' },
+  { emoji:'🌺', msg:'🌺 感谢您的耐心书写', sub:'高质量样本对研究非常重要' },
+  { emoji:'💖', msg:'💖 您的数据已经安全保存', sub:'继续参与还有更多惊喜哦' },
 ];
 
-let cp='', sc=0, ws=0, draw=false, lx=0, ly=0;
-
-const $=(id)=>document.getElementById(id);
-
-function pick(){
-  const r=Math.random();
-  if(r<.3) return POOL[Math.floor(Math.random()*8)];
-  if(r<.8) return POOL[8+Math.floor(Math.random()*10)];
-  return POOL[18+Math.floor(Math.random()*6)];
-}
-
-function randomFeedback(){
-  return FEEDBACK[Math.floor(Math.random()*FEEDBACK.length)];
-}
-
-// ========== 背景色随提交数变化 ==========
-function updateBg(n){
-  let c1,c2;
-  if(n<=2){c1='#667eea';c2='#764ba2'}          // 紫
-  else if(n<=5){c1='#6366f1';c2='#38bdf8'}     // 蓝
-  else if(n<=9){c1='#38bdf8';c2='#4ade80'}      // 青绿
-  else if(n<=15){c1='#4ade80';c2='#fbbf24'}     // 绿金
-  else{c1='#fbbf24';c2='#f97316'}                // 金橙
-  document.documentElement.style.setProperty('--bg-1',c1);
-  document.documentElement.style.setProperty('--bg-2',c2);
-}
-
-function init(){
-  cp=pick();
-  $('pt').textContent=cp;
-
-  // 弹窗逻辑
-  if(!localStorage.getItem('hw_survey_seen')){
-    $('modal').style.display='flex';
+// ===== 设备标识与统计 =====
+function getDeviceId() {
+  let id = localStorage.getItem('hw_device_id');
+  if (!id) {
+    id = 'dev_' + Math.random().toString(36).substr(2, 9) + '_' + Date.now().toString(36);
+    localStorage.setItem('hw_device_id', id);
   }
+  return id;
+}
 
-  C=document.getElementById('cv');
-  X=C.getContext('2d');
-  const dpr=window.devicePixelRatio||1,rc=C.getBoundingClientRect();
-  C.width=rc.width*dpr;
-  C.height=rc.height*dpr;
-  X.scale(dpr,dpr);
-  C.style.width=rc.width+'px';
-  C.style.height=rc.height+'px';
+function loadDeviceStats() {
+  const raw = localStorage.getItem('hw_device_stats');
+  if (raw) {
+    try {
+      const parsed = JSON.parse(raw);
+      // 兼容旧格式：确保三个字段都存在，缺失的默认为0
+      DEVICE_STATS = {
+        simple: Number(parsed.simple) || 0,
+        normal: Number(parsed.normal) || 0,
+        complex: Number(parsed.complex) || 0
+      };
+    } catch(e) {
+      DEVICE_STATS = { simple: 0, normal: 0, complex: 0 };
+    }
+  }
+}
+
+function saveDeviceStats() {
+  localStorage.setItem('hw_device_stats', JSON.stringify(DEVICE_STATS));
+}
+
+function updateDeviceStats(difficulty) {
+  if (difficulty === 'simple') DEVICE_STATS.simple++;
+  else if (difficulty === 'normal') DEVICE_STATS.normal++;
+  else if (difficulty === 'complex') DEVICE_STATS.complex++;
+  else console.warn('updateDeviceStats: unknown difficulty:', difficulty);
+  saveDeviceStats();
+}
+
+function renderDeviceStats() {
+  const el = document.getElementById('dev-stats');
+  if (!el) return;
+  el.textContent = '简单:' + DEVICE_STATS.simple + ' 普通:' + DEVICE_STATS.normal + ' 复杂:' + DEVICE_STATS.complex;
+}
+function updateGroupDisplay(){
+  const el = document.getElementById('group-display');
+  if (!el) return;
+  if (GROUP_IDX >= GROUPS.length) {
+    el.textContent = '已完成全部 ' + GROUPS.length + ' 组';
+    return;
+  }
+  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/10 题';
+}
+
+
+let cp = '', sc = 0, ws = 0, draw = false, lx = 0, ly = 0;
+let C, X;
+
+const $ = id => document.getElementById(id);
+
+// ===== 加载表达式库 =====
+async function loadExprs(){
+  try {
+    const r = await fetch('expression-library/expressions.json?v='+Date.now());
+    EXPRS = await r.json();
+    console.log('✅ 表达式库加载成功：' + EXPRS.length + ' 条');
+
+    DEVICE_ID = getDeviceId();
+    loadDeviceStats();
+
+    GROUPS = createGroups(EXPRS, DEVICE_ID);
+    console.log('✅ 分组完成：' + GROUPS.length + ' 组');
+
+    GROUP_IDX = parseInt(localStorage.getItem('hw_group_idx') || '0') || 0;
+    EXPR_IN_GROUP = parseInt(localStorage.getItem('hw_expr_in_group') || '0') || 0;
+
+    // 已完成全部组 → 显示完成消息，不重置进度
+    if (GROUP_IDX > GROUPS.length) {
+      GROUP_IDX = GROUPS.length;
+    }
+    if (GROUP_IDX === GROUPS.length) {
+      // 全部完成，保留状态供 pickExpr() 显示完成消息
+    } else {
+      // 正常情况：clamp 到合法范围
+      if (GROUP_IDX < 0) GROUP_IDX = 0;
+      if (EXPR_IN_GROUP < 0) EXPR_IN_GROUP = 0;
+      if (EXPR_IN_GROUP >= 10) { EXPR_IN_GROUP = 0; }
+    }
+
+    renderDeviceStats();
+    updateGroupDisplay();
+    pickExpr();
+    initCanvas();
+  } catch(e) {
+    console.error('❌ 加载表达式库失败', e);
+    EXPRS = [
+      {id:1,latex:'2 + 3', difficulty:'simple'},
+      {id:2,latex:'5 \\times 4', difficulty:'simple'},
+      {id:3,latex:'\\sqrt{16}', difficulty:'normal'},
+      {id:4,latex:'\\frac{1}{2} + \\frac{3}{4}', difficulty:'normal'},
+      {id:5,latex:'\\cos(30)', difficulty:'simple'},
+    ];
+    GROUPS = [EXPRS];
+    DEVICE_ID = getDeviceId();
+    loadDeviceStats();
+    GROUP_IDX = 0;
+    EXPR_IN_GROUP = 0;
+    renderDeviceStats();
+    updateGroupDisplay();
+    pickExpr();
+    initCanvas();
+  }
+}
+function pickExpr(){
+  if (GROUP_IDX >= GROUPS.length) {
+    $('pt').textContent = '已全部完成，感谢参与！';
+    cp = '';
+    CURRENT_DIFFICULTY = '';
+    return;
+  }
+  const entry = GROUPS[GROUP_IDX][EXPR_IN_GROUP];
+  cp = entry.latex;
+  CURRENT_DIFFICULTY = entry.difficulty || 'unknown';
+  renderPrompt(cp);
+  updateGroupDisplay();
+}
+
+function renderPrompt(latexStr){
+  const el = $('pt');
+  // 如果 KaTeX 还没加载好，最多等 3 秒
+  if (!(window.katex && typeof katex.renderToString === 'function')) {
+    let attempts = 0;
+    const poll = setInterval(() => {
+      attempts++;
+      if (window.katex && typeof katex.renderToString === 'function') {
+        clearInterval(poll);
+        renderPrompt(latexStr);
+      } else if (attempts > 30) {
+        clearInterval(poll);
+        el.textContent = latexStr;
+      }
+    }, 100);
+    return;
+  }
+  try {
+    el.innerHTML = katex.renderToString(latexStr, {
+      displayMode: false,
+      throwOnError: false,
+      output: 'html',
+      strict: false
+    });
+  } catch(e) {
+    el.textContent = latexStr;
+  }
+}
+
+
+// ===== 画布初始化 =====
+function initCanvas(){
+  C = document.getElementById('cv');
+  X = C.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const rc = C.getBoundingClientRect();
+  C.width = rc.width * dpr;
+  C.height = rc.height * dpr;
+  X.scale(dpr, dpr);
+  C.style.width = rc.width + 'px';
+  C.style.height = rc.height + 'px';
   clr();
 
-  C.addEventListener('touchstart',e=>{e.preventDefault();st(e)},{passive:false});
-  C.addEventListener('touchmove',e=>{e.preventDefault();if(!draw)return;const p=gp(e);ln(lx,ly,p.x,p.y);lx=p.x;ly=p.y;},{passive:false});
-  C.addEventListener('touchend',()=>{draw=false;X.beginPath()});
-  C.addEventListener('mousedown',e=>st(e));
-  C.addEventListener('mousemove',e=>{if(!draw)return;const p=gp(e);ln(lx,ly,p.x,p.y);lx=p.x;ly=p.y;});
-  C.addEventListener('mouseup',()=>{draw=false;X.beginPath()});
-
-  const p=new URLSearchParams(location.search).get('n');
-  if(p){
-    const n=parseInt(p)||0;
-    updateBg(n);
-    setTimeout(()=>$('pg').textContent='✅ 已提交 '+n+' 份，太棒了！',100);
-  }
-  updateCounter();
-}
-
-function updateCounter(){
-  const n=parseInt(new URLSearchParams(location.search).get('n')||'0');
-  const c=$('counter');
-  if(n>0) c.textContent='已提交 '+n+' 份';
-  else c.textContent='';
+  C.addEventListener('touchstart', e => { e.preventDefault(); st(e); }, { passive: false });
+  C.addEventListener('touchmove', e => { e.preventDefault(); if(!draw) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; }, { passive: false });
+  C.addEventListener('touchend', () => { draw = false; X.beginPath(); });
+  C.addEventListener('mousedown', e => st(e));
+  C.addEventListener('mousemove', e => { if(!draw) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; });
+  C.addEventListener('mouseup', () => { draw = false; X.beginPath(); });
 }
 
 function gp(e){
-  const r=C.getBoundingClientRect();
-  return{
-    x:(e.touches?e.touches[0].clientX:e.clientX)-r.left,
-    y:(e.touches?e.touches[0].clientY:e.clientY)-r.top
+  const r = C.getBoundingClientRect();
+  return {
+    x: (e.touches ? e.touches[0].clientX : e.clientX) - r.left,
+    y: (e.touches ? e.touches[0].clientY : e.clientY) - r.top
   };
 }
 
 function st(e){
-  draw=true;
-  const p=gp(e);
-  lx=p.x;ly=p.y;
-  if(!ws) ws=Date.now();
+  draw = true;
+  const p = gp(e);
+  lx = p.x; ly = p.y;
+  if(!ws) ws = Date.now();
   sc++;
+  // 画单点（支持单点输入，如小数点）
+  X.beginPath();
+  X.arc(p.x, p.y, 1.5, 0, Math.PI * 2);
+  X.fillStyle = '#1a1a2e';
+  X.fill();
 }
 
-function ln(x1,y1,x2,y2){
+function ln(x1, y1, x2, y2){
   X.beginPath();
-  X.moveTo(x1,y1);
-  X.lineTo(x2,y2);
-  X.strokeStyle='#1a1a2e';
-  X.lineWidth=3;
-  X.lineCap='round';
-  X.lineJoin='round';
+  X.moveTo(x1, y1);
+  X.lineTo(x2, y2);
+  X.strokeStyle = '#1a1a2e';
+  X.lineWidth = 2.5;
+  X.lineCap = 'round';
+  X.lineJoin = 'round';
   X.stroke();
 }
 
 function clr(){
-  const dpr=window.devicePixelRatio||1;
-  X.clearRect(0,0,C.width/dpr,C.height/dpr);
-  // 浅灰网格线（纸张感）
-  X.strokeStyle='#f0f0f0';
-  X.lineWidth=.5;
-  for(let x=30;x<C.width/dpr;x+=30){X.beginPath();X.moveTo(x,0);X.lineTo(x,C.height/dpr);X.stroke();}
-  for(let y=30;y<C.height/dpr;y+=30){X.beginPath();X.moveTo(0,y);X.lineTo(C.width/dpr,y);X.stroke();}
+  const dpr = window.devicePixelRatio || 1;
+  X.clearRect(0, 0, C.width / dpr, C.height / dpr);
+  // 浅灰网格
+  X.strokeStyle = '#f0f0f0';
+  X.lineWidth = 0.5;
+  for(let x = 30; x < C.width/dpr; x += 30){ X.beginPath(); X.moveTo(x,0); X.lineTo(x, C.height/dpr); X.stroke(); }
+  for(let y = 30; y < C.height/dpr; y += 30){ X.beginPath(); X.moveTo(0,y); X.lineTo(C.width/dpr, y); X.stroke(); }
   X.beginPath();
-  sc=0;ws=0;
+  sc = 0; ws = 0;
 }
 
 function closeModal(){
-  localStorage.setItem('hw_survey_seen','1');
-  $('modal').style.display='none';
+  localStorage.setItem('hw_survey_seen', '1');
+  $('modal').style.display = 'none';
 }
 
-// ========== 提交：立即下一题，后端异步上传 ==========
+// ===== 提交 =====
 async function sub(){
-  const st=$('st'),btn=$('sb');
+  const st = $('st'), btn = $('sb');
 
   // 检测是否有内容
-  const dpr=window.devicePixelRatio||1;
-  const idata=X.getImageData(0,0,C.width,C.height);
-  let ok=false;
-  for(let i=3;i<idata.data.length;i+=4) if(idata.data[i]>0){ok=true;break;}
-  if(!ok){st.className='status error';st.textContent='⚠️ 请先手写再提交';return;}
+  const dpr = window.devicePixelRatio || 1;
+  const idata = X.getImageData(0, 0, C.width, C.height);
+  let ok = false;
+  for(let i = 3; i < idata.data.length; i += 4) if(idata.data[i] > 0){ ok = true; break; }
+  if(!ok){ st.className = 'status error'; st.textContent = '⚠️ 请先手写再提交'; return; }
 
-  st.className='status loading';
-  st.textContent='⏳ 提交中...';
-  btn.disabled=true;
+  st.className = 'status loading';
+  st.textContent = '⏳ 提交中...';  btn.disabled = true;
 
-  const b64=C.toDataURL('image/png');
-  const dur=ws?Date.now()-ws:0;
-  const n=parseInt(new URLSearchParams(location.search).get('n')||'0')+1;
+  // 先读取画布和笔画数据，再清除
+  const b64 = C.toDataURL('image/png');
+  const dur = ws ? Date.now() - ws : 0;
+  const scCopy = sc;
+  const submittedDifficulty = CURRENT_DIFFICULTY;
 
-  // 保存当前数据（clr() 会重置这些变量）
-  const currentPrompt=cp;
-  const strokeCount=sc;
+  // 更新统计
+  updateDeviceStats(submittedDifficulty);
+  renderDeviceStats();
 
-  // 立即清除画布并切换下一题（不等待后端）
+  // 推进组内进度
+  EXPR_IN_GROUP++;
+  if (EXPR_IN_GROUP >= 10) {
+    GROUP_IDX++;
+    EXPR_IN_GROUP = 0;
+    if (GROUP_IDX >= GROUPS.length) {
+      $('pt').textContent = '已全部完成，感谢参与！';
+      st.className = 'status success'; st.textContent = '🎉 全部完成！';
+      btn.disabled = true;
+      return;
+    }
+  }
+  localStorage.setItem('hw_group_idx', GROUP_IDX);
+  localStorage.setItem('hw_expr_in_group', EXPR_IN_GROUP);
+  updateGroupDisplay();
+
+  // 清屏并加载下一题
   clr();
-  cp=pick();
-  $('pt').textContent=cp;
-  updateBg(n);
-  history.replaceState(null,'','?n='+n);
+  pickExpr();
+
+  // 已提交数量
+  const n = parseInt(new URLSearchParams(location.search).get('n') || '0') + 1;
+  history.replaceState(null, '', '?n=' + n);
   updateCounter();
 
-  // 显示正向反馈
-  st.className='status success';
-  st.textContent=randomFeedback();
-  btn.disabled=false;
+  // 显示激励
+  showCelebration(n);
 
-  // 后端异步上传（fire-and-forget，不阻塞UI）
-  fetch('/api/submit',{
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body:JSON.stringify({
-      prompt: currentPrompt,
-      imageBase64: b64,
-      strokeCount: strokeCount,
-      writeDuration: dur
-    })
-   }).then(async r=>{
-    if(!r.ok){
-      const err=await r.json().catch(()=>({}));
-      console.warn('上传失败',r.status,err.error||'未知错误');
-    }
-  }).catch(e=>console.warn('上传失败',e));
+  btn.disabled = false;
 
+  // 后端异步上传
+  fetch('/api/submit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
+  }).then(r => {
+    if(!r.ok) console.warn('上传失败', r.status);
+  }).catch(e => console.warn('上传失败', e));
 
-  // 1.5秒后清除状态提示
-  setTimeout(()=>{st.className='status';st.textContent=''},1500);
+  setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
 }
 
-init();
+
+// ===== 激励弹窗 =====
+function showCelebration(n){
+  // 每 3 次提交显示一次激励
+  if (n % 3 !== 0 && n > 0) return;
+
+  const cel = CELEBRATIONS[Math.floor(Math.random() * CELEBRATIONS.length)];
+  $('cel-emoji').textContent = cel.emoji;
+  $('cel-msg').textContent = cel.msg;
+  $('cel-sub').textContent = cel.sub.replace('__N__', n);
+  $('celebrate').style.display = 'flex';
+
+  setTimeout(() => {
+    $('celebrate').style.display = 'none';
+  }, 2200);
+}
+
+function updateCounter(){
+  const n = parseInt(new URLSearchParams(location.search).get('n') || '0');
+  const c = $('counter');
+  if (n > 0) c.textContent = '已提交 ' + n + ' 份';
+  else c.textContent = '';
+}
+
+// ===== 初始化 =====
+function init(){
+  // 弹窗逻辑
+  if (!localStorage.getItem('hw_survey_seen')) {
+    $('modal').style.display = 'flex';
+  }
+  updateCounter();
+  loadExprs();
+}
+
+// DOMContentLoaded 后初始化，确保 DOM 已就绪
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
 </script>
 </body>
 </html>
