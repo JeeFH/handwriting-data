@@ -211,9 +211,48 @@
       margin-bottom:8px;
       font-weight:600;
     }
+
+    /* 右上角分享按钮 */
+    .share-btn{
+      position:fixed;top:14px;right:14px;z-index:50;
+      background:#fff;border:1px solid var(--border);
+      border-radius:50%;width:38px;height:38px;
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 1.6px 3.6px rgba(0,0,0,.08);
+      cursor:pointer;font-size:18px;
+      transition:background .15s,transform .12s;
+    }
+    .share-btn:hover{background:#f5f5f5;transform:scale(1.08)}
+    .share-btn:active{transform:scale(.95)}
+    .share-toast{
+      position:fixed;top:58px;right:14px;z-index:51;
+      background:#1a1a1a;color:#fff;
+      font-size:12px;font-weight:500;
+      padding:6px 12px;border-radius:8px;
+      opacity:0;transition:opacity .2s;
+      pointer-events:none;
+    }
+    .share-toast.show{opacity:1}
+
+    /* 继续提交按钮 */
+    .btn-continue{
+      background:#0f6efe;color:#fff;
+      border:none;border-radius:8px;
+      font-size:14px;font-weight:600;
+      padding:11px 0;width:100%;
+      cursor:pointer;transition:all .12s;
+      font-family:'Segoe UI',sans-serif;
+      margin-top:10px;
+    }
+    .btn-continue:hover{background:#005a9e}
+    .btn-continue:active{transform:scale(.97)}
   </style>
 </head>
 <body>
+
+<!-- 右上角分享按钮 -->
+<button class="share-btn" id="shareBtn" onclick="copyShareLink()" title="复制分享链接">🔗</button>
+<div class="share-toast" id="shareToast">已复制！</div>
 
 <div class="counter" id="counter"></div>
 <div class="dev-stats" id="dev-stats"></div>
@@ -243,7 +282,7 @@
   <div class="progress" id="pg"></div>
 </div>
 
-<div class="share-hint">💡 邀请朋友一起参与，帮助研究进展更快！<br>点击右上角 ··· 分享到聊天或朋友圈</div>
+<div class="share-hint">💡 邀请朋友一起参与，帮助研究进展更快！<br>点击右上角 🔗 分享给朋友</div>
 <p class="footer">数据仅用于学术研究 · 完全匿名 · 感谢您的参与 🙏</p>
 
 
@@ -306,41 +345,23 @@ function shuffleWithSeed(arr, rng) {
   return a;
 }
 
-function createGroups(allExprs, deviceId) {
-  const pools = { simple: [], normal: [], complex: [] };
-  allExprs.forEach(e => {
-    const d = e.difficulty || '';
-    if (pools[d]) pools[d].push(e);
-  });
-
-  const seed = getSeedFromDeviceId(deviceId);
-  const rng = seededRandom(seed);
-  const shuffledPools = {};
-  for (const k in pools) {
-    shuffledPools[k] = shuffleWithSeed(pools[k], rng);
-  }
+function createGroups(allExprs, deviceId, round) {
+  // 所有表达式按 deviceId + round 确定性打乱，再按 10 个一组分组
+  // round 不同 → seed 不同 → 分组结果不同
+  const baseSeed = getSeedFromDeviceId(deviceId);
+  const seed = baseSeed + (round || 0);
+  const rng = seededRandom(Math.abs(seed));
+  const shuffled = shuffleWithSeed(allExprs, rng);
 
   const groups = [];
-  let idx = { simple: 0, normal: 0, complex: 0 };
-  while (idx.simple + 3 <= shuffledPools.simple.length &&
-         idx.normal + 5 <= shuffledPools.normal.length &&
-         idx.complex + 2 <= shuffledPools.complex.length) {
-    const group = [
-      ...shuffledPools.simple.slice(idx.simple, idx.simple + 3),
-      ...shuffledPools.normal.slice(idx.normal, idx.normal + 5),
-      ...shuffledPools.complex.slice(idx.complex, idx.complex + 2),
-    ];
-    const grng = seededRandom(seed + groups.length);
-    const shuffledGroup = shuffleWithSeed(group, grng);
-    groups.push(shuffledGroup);
-    idx.simple += 3;
-    idx.normal += 5;
-    idx.complex += 2;
+  const GROUP_SIZE = 10;
+  for (let i = 0; i < shuffled.length; i += GROUP_SIZE) {
+    groups.push(shuffled.slice(i, i + GROUP_SIZE));
   }
   return groups;
 }
 
-// ===== 表达式库（从 JSON 加载）=====
+// ===== 表达式库 =====
 let EXPRS = [];
 let GROUPS = [];
 let GROUP_IDX = 0;
@@ -358,7 +379,7 @@ const CELEBRATIONS = [
   { emoji:'💡', msg:'✨ 已记录，感谢您的贡献', sub:'您的参与让 AI 更懂手写数学' },
   { emoji:'🙏', msg:'🙏 感谢支持认知科学研究', sub:'学术研究的每一步都离不开志愿者' },
   { emoji:'👍', msg:'👍 提交成功，辛苦了！', sub:'稍作休息，也可以继续哦' },
-  { emoji:'📊', msg:'📊 数据已保存，谢谢！', sub:'您是第 ' + (()=>Math.floor(Math.random()*1000+500))() + ' 位参与者' },
+  { emoji:'📊', msg:'📊 数据已保存，谢谢！', sub:'您是第 ' + (() => Math.floor(Math.random()*1000+500))() + ' 位参与者' },
   { emoji:'🌺', msg:'🌺 感谢您的耐心书写', sub:'高质量样本对研究非常重要' },
   { emoji:'💖', msg:'💖 您的数据已经安全保存', sub:'继续参与还有更多惊喜哦' },
 ];
@@ -378,7 +399,6 @@ function loadDeviceStats() {
   if (raw) {
     try {
       const parsed = JSON.parse(raw);
-      // 兼容旧格式：确保三个字段都存在，缺失的默认为0
       DEVICE_STATS = {
         simple: Number(parsed.simple) || 0,
         normal: Number(parsed.normal) || 0,
@@ -407,6 +427,7 @@ function renderDeviceStats() {
   if (!el) return;
   el.textContent = '简单:' + DEVICE_STATS.simple + ' 普通:' + DEVICE_STATS.normal + ' 复杂:' + DEVICE_STATS.complex;
 }
+
 function updateGroupDisplay(){
   const el = document.getElementById('group-display');
   if (!el) return;
@@ -414,11 +435,12 @@ function updateGroupDisplay(){
     el.textContent = '已完成全部 ' + GROUPS.length + ' 组';
     return;
   }
-  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/' + GROUPS[GROUP_IDX].length + ' 题';
+  const groupLen = GROUPS[GROUP_IDX] ? GROUPS[GROUP_IDX].length : 0;
+  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/' + groupLen + ' 题';
 }
 
-
-let cp = '', sc = 0, ws = 0, draw = false, lx = 0, ly = 0;
+// ===== Canvas =====
+let cp = '', sc = 0, ws = 0, drawing = false, lx = 0, ly = 0;
 let C, X;
 
 const $ = id => document.getElementById(id);
@@ -433,24 +455,24 @@ async function loadExprs(){
     DEVICE_ID = getDeviceId();
     loadDeviceStats();
 
-    GROUPS = createGroups(EXPRS, DEVICE_ID);
+    const ROUND = parseInt(localStorage.getItem('hw_round') || '0');
+    GROUPS = createGroups(EXPRS, DEVICE_ID, ROUND);
     if (GROUPS.length === 0) {
       console.warn('createGroups 返回 0 组，使用 fallback');
       GROUPS = [EXPRS];
     }
-    console.log('✅ 分组完成：' + GROUPS.length + ' 组');
+    console.log('✅ 分组完成：' + GROUPS.length + ' 组（第 ' + ROUND + ' 轮）');
 
     GROUP_IDX = parseInt(localStorage.getItem('hw_group_idx') || '0') || 0;
     EXPR_IN_GROUP = parseInt(localStorage.getItem('hw_expr_in_group') || '0') || 0;
 
-    // 已完成全部组 → 显示完成消息，不重置进度
+    // 已完成全部组 → 显示完成消息
     if (GROUP_IDX > GROUPS.length) {
       GROUP_IDX = GROUPS.length;
     }
     if (GROUP_IDX === GROUPS.length) {
       // 全部完成，保留状态供 pickExpr() 显示完成消息
     } else {
-      // 正常情况：clamp 到合法范围
       if (GROUP_IDX < 0) GROUP_IDX = 0;
       if (EXPR_IN_GROUP < 0) EXPR_IN_GROUP = 0;
       const gLen = GROUPS[GROUP_IDX] ? GROUPS[GROUP_IDX].length : 0;
@@ -477,9 +499,7 @@ async function loadExprs(){
     ];
     DEVICE_ID = getDeviceId();
     loadDeviceStats();
-    // 不用 createGroups，直接做一组
     GROUPS = [EXPRS];
-    // fallback 数据只有 1 组，不恢复线上进度，直接重置
     GROUP_IDX = 0;
     EXPR_IN_GROUP = 0;
     renderDeviceStats();
@@ -488,11 +508,14 @@ async function loadExprs(){
     initCanvas();
   }
 }
+
 function pickExpr(){
   if (GROUP_IDX >= GROUPS.length) {
-    $('pt').textContent = '已全部完成，感谢参与！';
+    $('pt').innerHTML = '已全部完成，感谢参与！<br><br><button class="btn-continue" onclick="continueSubmit()">继续提交更多样本 →</button>';
     cp = '';
     CURRENT_DIFFICULTY = '';
+    $('sb').disabled = true;
+    $('sb').textContent = '已完成';
     return;
   }
   const entry = GROUPS[GROUP_IDX][EXPR_IN_GROUP];
@@ -500,11 +523,12 @@ function pickExpr(){
   CURRENT_DIFFICULTY = entry.difficulty || 'unknown';
   renderPrompt(cp);
   updateGroupDisplay();
+  $('sb').disabled = false;
+  $('sb').textContent = '提交';
 }
 
 function renderPrompt(latexStr){
   const el = $('pt');
-  // 如果 KaTeX 还没加载好，最多等 3 秒
   if (!(window.katex && typeof katex.renderToString === 'function')) {
     let attempts = 0;
     const poll = setInterval(() => {
@@ -531,7 +555,6 @@ function renderPrompt(latexStr){
   }
 }
 
-
 // ===== 画布初始化 =====
 function initCanvas(){
   C = document.getElementById('cv');
@@ -546,11 +569,11 @@ function initCanvas(){
   clr();
 
   C.addEventListener('touchstart', e => { e.preventDefault(); st(e); }, { passive: false });
-  C.addEventListener('touchmove', e => { e.preventDefault(); if(!draw) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; }, { passive: false });
-  C.addEventListener('touchend', () => { draw = false; X.beginPath(); });
+  C.addEventListener('touchmove', e => { e.preventDefault(); if(!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; }, { passive: false });
+  C.addEventListener('touchend', () => { drawing = false; X.beginPath(); });
   C.addEventListener('mousedown', e => st(e));
-  C.addEventListener('mousemove', e => { if(!draw) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; });
-  C.addEventListener('mouseup', () => { draw = false; X.beginPath(); });
+  C.addEventListener('mousemove', e => { if(!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; });
+  C.addEventListener('mouseup', () => { drawing = false; X.beginPath(); });
 }
 
 function gp(e){
@@ -562,12 +585,11 @@ function gp(e){
 }
 
 function st(e){
-  draw = true;
+  drawing = true;
   const p = gp(e);
   lx = p.x; ly = p.y;
   if(!ws) ws = Date.now();
   sc++;
-  // 画单点（支持单点输入，如小数点）
   X.beginPath();
   X.arc(p.x, p.y, 1.5, 0, Math.PI * 2);
   X.fillStyle = '#1a1a2e';
@@ -588,7 +610,6 @@ function ln(x1, y1, x2, y2){
 function clr(){
   const dpr = window.devicePixelRatio || 1;
   X.clearRect(0, 0, C.width / dpr, C.height / dpr);
-  // 浅灰网格
   X.strokeStyle = '#f0f0f0';
   X.lineWidth = 0.5;
   for(let x = 30; x < C.width/dpr; x += 30){ X.beginPath(); X.moveTo(x,0); X.lineTo(x, C.height/dpr); X.stroke(); }
@@ -606,7 +627,6 @@ function closeModal(){
 async function sub(){
   const st = $('st'), btn = $('sb');
 
-  // 检测是否有内容（两层校验）
   // 第 1 层：笔画数为 0 → 一定没写
   if (sc === 0) {
     st.className = 'status error'; st.textContent = '⚠️ 请先手写再提交'; return;
@@ -618,7 +638,6 @@ async function sub(){
     const a = idata.data[i+3];
     if (a > 0) {
       const r = idata.data[i], g = idata.data[i+1], b = idata.data[i+2];
-      // 忽略网格线颜色（r/g/b 均接近 240 的浅灰）
       if (!(r > 230 && g > 230 && b > 230)) { ok = true; break; }
     }
   }
@@ -644,10 +663,22 @@ async function sub(){
     GROUP_IDX++;
     EXPR_IN_GROUP = 0;
     if (GROUP_IDX >= GROUPS.length) {
-      $('pt').textContent = '已全部完成，感谢参与！';
+      // 全部完成
       st.className = 'status success'; st.textContent = '🎉 全部完成！';
       btn.disabled = true;
+      btn.textContent = '已完成';
       localStorage.setItem('hw_group_idx', GROUP_IDX);
+      // 异步上传最后一份
+      fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
+      }).then(r => {
+        if(!r.ok) console.warn('上传失败', r.status);
+      }).catch(e => console.warn('上传失败', e));
+      // 显示完成界面
+      pickExpr();
+      setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
       return;
     }
   }
@@ -664,7 +695,7 @@ async function sub(){
   history.replaceState(null, '', '?n=' + n);
   updateCounter();
 
-  // 显示激励
+  // 显示激励（每 3 次）
   showCelebration(n);
 
   btn.disabled = false;
@@ -681,16 +712,49 @@ async function sub(){
   setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
 }
 
+// ===== 继续提交（下一轮，不同分组）=====
+function continueSubmit(){
+  const round = parseInt(localStorage.getItem('hw_round') || '0') + 1;
+  localStorage.setItem('hw_round', round);
+  localStorage.removeItem('hw_group_idx');
+  localStorage.removeItem('hw_expr_in_group');
+  // 不清除 hw_device_stats（累计统计）
+  // 不清除 hw_device_id（同一设备）
+  location.reload();
+}
+
+// ===== 复制分享链接 =====
+function copyShareLink(){
+  const url = location.origin + location.pathname;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(() => showShareToast()).catch(() => fallbackCopy(url));
+  } else {
+    fallbackCopy(url);
+  }
+}
+function fallbackCopy(text){
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  try { document.execCommand('copy'); showShareToast(); } catch(e) { prompt('复制此链接：', text); }
+  document.body.removeChild(ta);
+}
+function showShareToast(){
+  const t = $('shareToast');
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}
 
 // ===== 激励弹窗 =====
 function showCelebration(n){
-  // 每 3 次提交显示一次激励
   if (n % 3 !== 0 && n > 0) return;
 
   const cel = CELEBRATIONS[Math.floor(Math.random() * CELEBRATIONS.length)];
   $('cel-emoji').textContent = cel.emoji;
   $('cel-msg').textContent = cel.msg;
-  $('cel-sub').textContent = cel.sub.replace('__N__', n);
+  $('cel-sub').textContent = cel.sub;
   $('celebrate').style.display = 'flex';
 
   setTimeout(() => {
@@ -707,7 +771,6 @@ function updateCounter(){
 
 // ===== 初始化 =====
 function init(){
-  // 弹窗逻辑
   if (!localStorage.getItem('hw_survey_seen')) {
     $('modal').style.display = 'flex';
   }
@@ -715,7 +778,6 @@ function init(){
   loadExprs();
 }
 
-// DOMContentLoaded 后初始化，确保 DOM 已就绪
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
 } else {
