@@ -204,7 +204,7 @@
       margin-bottom:2px;
       font-weight:500;
     }
-    .group-display{
+    .progress-display{
       font-size:12px;
       color:var(--primary);
       text-align:center;
@@ -256,7 +256,7 @@
 
 <div class="counter" id="counter"></div>
 <div class="dev-stats" id="dev-stats"></div>
-<div class="group-display" id="group-display"></div>
+<div class="progress-display" id="progress-display"></div>
 
 <div class="header">
   <h1>数学表达式样本采集</h1>
@@ -316,56 +316,21 @@
 
 
 <script>
-// ===== 分组逻辑 =====
-function seededRandom(seed) {
-  let s = seed | 0;
-  return function() {
-    s = s ^ (s << 13);
-    s = s ^ (s >>> 17);
-    s = s ^ (s << 5);
-    return (s >>> 0) / 4294967296;
-  };
-}
+// ===== 简化逻辑：每次刷新全量打乱，不分租 =====
 
-function getSeedFromDeviceId(deviceId) {
-  let seed = 0;
-  for (let i = 0; i < deviceId.length; i++) {
-    seed = ((seed << 5) - seed) + deviceId.charCodeAt(i);
-    seed = seed | 0;
-  }
-  return Math.abs(seed);
-}
-
-function shuffleWithSeed(arr, rng) {
+function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
+    const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
 }
 
-function createGroups(allExprs, deviceId, round) {
-  // 所有表达式按 deviceId + round 确定性打乱，再按 10 个一组分组
-  // round 不同 → seed 不同 → 分组结果不同
-  const baseSeed = getSeedFromDeviceId(deviceId);
-  const seed = baseSeed + (round || 0);
-  const rng = seededRandom(Math.abs(seed));
-  const shuffled = shuffleWithSeed(allExprs, rng);
-
-  const groups = [];
-  const GROUP_SIZE = 10;
-  for (let i = 0; i < shuffled.length; i += GROUP_SIZE) {
-    groups.push(shuffled.slice(i, i + GROUP_SIZE));
-  }
-  return groups;
-}
-
 // ===== 表达式库 =====
 let EXPRS = [];
-let GROUPS = [];
-let GROUP_IDX = 0;
-let EXPR_IN_GROUP = 0;
+let SHUFFLED = [];       // 当前打乱后的全部表达式
+let CURRENT_INDEX = 0;    // 当前写到第几题（0-based）
 let DEVICE_ID = '';
 let DEVICE_STATS = { simple: 0, normal: 0, complex: 0 };
 let CURRENT_DIFFICULTY = '';
@@ -379,7 +344,7 @@ const CELEBRATIONS = [
   { emoji:'💡', msg:'✨ 已记录，感谢您的贡献', sub:'您的参与让 AI 更懂手写数学' },
   { emoji:'🙏', msg:'🙏 感谢支持认知科学研究', sub:'学术研究的每一步都离不开志愿者' },
   { emoji:'👍', msg:'👍 提交成功，辛苦了！', sub:'稍作休息，也可以继续哦' },
-  { emoji:'📊', msg:'📊 数据已保存，谢谢！', sub:'您是第 ' + (() => Math.floor(Math.random()*1000+500))() + ' 位参与者' },
+  { emoji:'📊', msg:'📊 数据已保存，谢谢！', sub:'您是第 ' + (Math.floor(Math.random()*1000+500)) + ' 位参与者' },
   { emoji:'🌺', msg:'🌺 感谢您的耐心书写', sub:'高质量样本对研究非常重要' },
   { emoji:'💖', msg:'💖 您的数据已经安全保存', sub:'继续参与还有更多惊喜哦' },
 ];
@@ -418,7 +383,6 @@ function updateDeviceStats(difficulty) {
   if (difficulty === 'simple') DEVICE_STATS.simple++;
   else if (difficulty === 'normal') DEVICE_STATS.normal++;
   else if (difficulty === 'complex') DEVICE_STATS.complex++;
-  else console.warn('updateDeviceStats: unknown difficulty:', difficulty);
   saveDeviceStats();
 }
 
@@ -428,15 +392,14 @@ function renderDeviceStats() {
   el.textContent = '简单:' + DEVICE_STATS.simple + ' 普通:' + DEVICE_STATS.normal + ' 复杂:' + DEVICE_STATS.complex;
 }
 
-function updateGroupDisplay(){
-  const el = document.getElementById('group-display');
+function updateProgressDisplay() {
+  const el = document.getElementById('progress-display');
   if (!el) return;
-  if (GROUP_IDX >= GROUPS.length) {
-    el.textContent = '已完成全部 ' + GROUPS.length + ' 组';
+  if (CURRENT_INDEX >= SHUFFLED.length) {
+    el.textContent = '已完成全部 ' + SHUFFLED.length + ' 题';
     return;
   }
-  const groupLen = GROUPS[GROUP_IDX] ? GROUPS[GROUP_IDX].length : 0;
-  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/' + groupLen + ' 题';
+  el.textContent = '第 ' + (CURRENT_INDEX + 1) + '/' + SHUFFLED.length + ' 题';
 }
 
 // ===== Canvas =====
@@ -455,32 +418,18 @@ async function loadExprs(){
     DEVICE_ID = getDeviceId();
     loadDeviceStats();
 
-    const ROUND = parseInt(localStorage.getItem('hw_round') || '0');
-    GROUPS = createGroups(EXPRS, DEVICE_ID, ROUND);
-    if (GROUPS.length === 0) {
-      console.warn('createGroups 返回 0 组，使用 fallback');
-      GROUPS = [EXPRS];
-    }
-    console.log('✅ 分组完成：' + GROUPS.length + ' 组（第 ' + ROUND + ' 轮）');
+    // 每次刷新全量打乱
+    SHUFFLED = shuffle(EXPRS);
+    console.log('✅ 已打乱全部 ' + SHUFFLED.length + ' 题');
 
-    GROUP_IDX = parseInt(localStorage.getItem('hw_group_idx') || '0') || 0;
-    EXPR_IN_GROUP = parseInt(localStorage.getItem('hw_expr_in_group') || '0') || 0;
-
-    // 已完成全部组 → 显示完成消息
-    if (GROUP_IDX > GROUPS.length) {
-      GROUP_IDX = GROUPS.length;
-    }
-    if (GROUP_IDX === GROUPS.length) {
-      // 全部完成，保留状态供 pickExpr() 显示完成消息
-    } else {
-      if (GROUP_IDX < 0) GROUP_IDX = 0;
-      if (EXPR_IN_GROUP < 0) EXPR_IN_GROUP = 0;
-      const gLen = GROUPS[GROUP_IDX] ? GROUPS[GROUP_IDX].length : 0;
-      if (EXPR_IN_GROUP >= gLen) { EXPR_IN_GROUP = 0; }
+    // 读取进度（允许用户继续未完成的）
+    CURRENT_INDEX = parseInt(localStorage.getItem('hw_current_idx') || '0') || 0;
+    if (CURRENT_INDEX >= SHUFFLED.length) {
+      CURRENT_INDEX = SHUFFLED.length;
     }
 
     renderDeviceStats();
-    updateGroupDisplay();
+    updateProgressDisplay();
     pickExpr();
     initCanvas();
   } catch(e) {
@@ -499,30 +448,29 @@ async function loadExprs(){
     ];
     DEVICE_ID = getDeviceId();
     loadDeviceStats();
-    GROUPS = [EXPRS];
-    GROUP_IDX = 0;
-    EXPR_IN_GROUP = 0;
+    SHUFFLED = shuffle(EXPRS);
+    CURRENT_INDEX = 0;
     renderDeviceStats();
-    updateGroupDisplay();
+    updateProgressDisplay();
     pickExpr();
     initCanvas();
   }
 }
 
 function pickExpr(){
-  if (GROUP_IDX >= GROUPS.length) {
-    $('pt').innerHTML = '已全部完成，感谢参与！<br><br><button class="btn-continue" onclick="continueSubmit()">继续提交更多样本 →</button>';
+  if (CURRENT_INDEX >= SHUFFLED.length) {
+    $('pt').innerHTML = '已全部完成，感谢参与！<br><br><button class="btn-continue" onclick="reshuffle()">重新打乱，继续提交 →</button>';
     cp = '';
     CURRENT_DIFFICULTY = '';
     $('sb').disabled = true;
     $('sb').textContent = '已完成';
     return;
   }
-  const entry = GROUPS[GROUP_IDX][EXPR_IN_GROUP];
+  const entry = SHUFFLED[CURRENT_INDEX];
   cp = entry.latex;
   CURRENT_DIFFICULTY = entry.difficulty || 'unknown';
   renderPrompt(cp);
-  updateGroupDisplay();
+  updateProgressDisplay();
   $('sb').disabled = false;
   $('sb').textContent = '提交';
 }
@@ -623,6 +571,12 @@ function closeModal(){
   $('modal').style.display = 'none';
 }
 
+// ===== 重新打乱（完成后点击）=====
+function reshuffle() {
+  localStorage.removeItem('hw_current_idx');
+  location.reload();
+}
+
 // ===== 提交 =====
 async function sub(){
   const st = $('st'), btn = $('sb');
@@ -656,38 +610,32 @@ async function sub(){
   updateDeviceStats(submittedDifficulty);
   renderDeviceStats();
 
-  // 推进组内进度
-  EXPR_IN_GROUP++;
-  const currentGroup = GROUPS[GROUP_IDX];
-  if (!currentGroup || EXPR_IN_GROUP >= currentGroup.length) {
-    GROUP_IDX++;
-    EXPR_IN_GROUP = 0;
-    if (GROUP_IDX >= GROUPS.length) {
-      // 全部完成
-      st.className = 'status success'; st.textContent = '🎉 全部完成！';
-      btn.disabled = true;
-      btn.textContent = '已完成';
-      localStorage.setItem('hw_group_idx', GROUP_IDX);
-      // 异步上传最后一份
-      fetch('/api/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
-      }).then(r => {
-        if(!r.ok) console.warn('上传失败', r.status);
-      }).catch(e => console.warn('上传失败', e));
-      // 显示完成界面
-      pickExpr();
-      setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
-      return;
-    }
-  }
-  localStorage.setItem('hw_group_idx', GROUP_IDX);
-  localStorage.setItem('hw_expr_in_group', EXPR_IN_GROUP);
-  updateGroupDisplay();
+  // 推进进度
+  CURRENT_INDEX++;
+  localStorage.setItem('hw_current_idx', CURRENT_INDEX);
+  updateProgressDisplay();
 
   // 清屏并加载下一题
   clr();
+
+  // 如果已全部完成，显示完成界面
+  if (CURRENT_INDEX >= SHUFFLED.length) {
+    st.className = 'status success'; st.textContent = '🎉 全部完成！';
+    btn.disabled = true;
+    btn.textContent = '已完成';
+    // 异步上传最后一份
+    fetch('/api/submit', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
+    }).then(r => {
+      if(!r.ok) console.warn('上传失败', r.status);
+    }).catch(e => console.warn('上传失败', e));
+    pickExpr();
+    setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
+    return;
+  }
+
   pickExpr();
 
   // 已提交数量
@@ -702,25 +650,14 @@ async function sub(){
 
   // 后端异步上传
   fetch('/api/submit', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
     body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
   }).then(r => {
     if(!r.ok) console.warn('上传失败', r.status);
   }).catch(e => console.warn('上传失败', e));
 
   setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
-}
-
-// ===== 继续提交（下一轮，不同分组）=====
-function continueSubmit(){
-  const round = parseInt(localStorage.getItem('hw_round') || '0') + 1;
-  localStorage.setItem('hw_round', round);
-  localStorage.removeItem('hw_group_idx');
-  localStorage.removeItem('hw_expr_in_group');
-  // 不清除 hw_device_stats（累计统计）
-  // 不清除 hw_device_id（同一设备）
-  location.reload();
 }
 
 // ===== 复制分享链接 =====
@@ -750,16 +687,12 @@ function showShareToast(){
 // ===== 激励弹窗 =====
 function showCelebration(n){
   if (n % 3 !== 0 && n > 0) return;
-
   const cel = CELEBRATIONS[Math.floor(Math.random() * CELEBRATIONS.length)];
   $('cel-emoji').textContent = cel.emoji;
   $('cel-msg').textContent = cel.msg;
   $('cel-sub').textContent = cel.sub;
   $('celebrate').style.display = 'flex';
-
-  setTimeout(() => {
-    $('celebrate').style.display = 'none';
-  }, 2200);
+  setTimeout(() => { $('celebrate').style.display = 'none'; }, 2200);
 }
 
 function updateCounter(){
