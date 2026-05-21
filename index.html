@@ -414,7 +414,7 @@ function updateGroupDisplay(){
     el.textContent = '已完成全部 ' + GROUPS.length + ' 组';
     return;
   }
-  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/10 题';
+  el.textContent = '第 ' + (GROUP_IDX + 1) + '/' + GROUPS.length + ' 组 · 第 ' + (EXPR_IN_GROUP + 1) + '/' + GROUPS[GROUP_IDX].length + ' 题';
 }
 
 
@@ -654,7 +654,7 @@ async function sub(){
   updateCounter();
 
   // 显示激励
-  showCelebrate(n);
+  showCelebration(n);
 
   btn.disabled = false;
 
