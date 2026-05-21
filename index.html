@@ -281,9 +281,13 @@ async function sub(){
       strokeCount: strokeCount,
       writeDuration: dur
     })
-  }).then(r=>{
-    if(!r.ok) console.warn('上传失败',r.status);
+   }).then(async r=>{
+    if(!r.ok){
+      const err=await r.json().catch(()=>({}));
+      console.warn('上传失败',r.status,err.error||'未知错误');
+    }
   }).catch(e=>console.warn('上传失败',e));
+
 
   // 1.5秒后清除状态提示
   setTimeout(()=>{st.className='status';st.textContent=''},1500);
