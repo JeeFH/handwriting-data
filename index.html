@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
   <title>数学表达式样本采集</title>
 
-  <!-- KaTeX -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
           onload="window.__katexReady=true;"></script>
@@ -13,239 +12,74 @@
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     :root{
-      --bg:#f5f5f5;
-      --card:#fff;
-      --primary:#0f6efe;
-      --primary-hover:#005a9e;
-      --text-primary:#1a1a1a;
-      --text-secondary:#666;
-      --border:#e0e0e0;
-      --success:#107c10;
-      --error:#d13438;
-      --warning:#ffb900;
+      --bg:#f5f5f5;--card:#fff;--primary:#0f6efe;--primary-hover:#005a9e;
+      --text-primary:#1a1a1a;--text-secondary:#666;--border:#e0e0e0;
+      --success:#107c10;--error:#d13438;
     }
     body{
       font-family:'Segoe UI','-apple-system',BlinkMacSystemFont,'Helvetica Neue',sans-serif;
-      background:var(--bg);
-      min-height:100vh;display:flex;flex-direction:column;align-items:center;
-      padding:16px 12px;
-      -webkit-font-smoothing:antialiased;
+      background:var(--bg);min-height:100vh;display:flex;flex-direction:column;align-items:center;
+      padding:16px 12px;-webkit-font-smoothing:antialiased;
     }
-
     .header{text-align:center;margin-bottom:16px}
     .header h1{font-size:18px;font-weight:600;color:var(--text-primary);margin-bottom:4px;letter-spacing:-.3px}
     .header .subtitle{font-size:12px;color:var(--text-secondary);line-height:1.5}
-
     .card{
-      background:var(--card);
-      border-radius:12px;
-      box-shadow:0 1.6px 3.6px rgba(0,0,0,.08), 0 0.3px 0.9px rgba(0,0,0,.04);
-      width:100%;max-width:440px;
-      padding:20px 18px;
-      margin-bottom:14px;
-      border:1px solid var(--border);
-      transition:box-shadow .2s;
+      background:var(--card);border-radius:12px;
+      box-shadow:0 1.6px 3.6px rgba(0,0,0,.08),0 0.3px 0.9px rgba(0,0,0,.04);
+      width:100%;max-width:440px;padding:20px 18px;margin-bottom:14px;border:1px solid var(--border);
     }
-    .card:hover{
-      box-shadow:0 3.6px 7.2px rgba(0,0,0,.1), 0 0.9px 1.8px rgba(0,0,0,.05);
-    }
-
-    /* 表达式展示区 */
-    .prompt-box{
-      background:#fafafa;
-      border:1px solid var(--border);
-      border-radius:10px;
-      padding:14px 12px;
-      text-align:center;
-      margin-bottom:14px;
-      min-height:80px;
-      display:flex;flex-direction:column;align-items:center;justify-content:center;
-    }
+    .prompt-box{background:#fafafa;border:1px solid var(--border);border-radius:10px;padding:14px 12px;text-align:center;margin-bottom:14px;min-height:80px;display:flex;flex-direction:column;align-items:center;justify-content:center;}
     .prompt-label{font-size:11px;color:var(--text-secondary);margin-bottom:8px;font-weight:500}
-    .prompt-expr{
-      display:flex;align-items:center;justify-content:center;
-      min-height:48px;
-      font-size:28px;
-      color:var(--text-primary);
-    }
+    .prompt-expr{display:flex;align-items:center;justify-content:center;min-height:48px;font-size:28px;color:var(--text-primary);}
     .prompt-expr .katex{font-size:28px !important}
-
-    /* 手写区域 */
     .canvas-wrap{position:relative;border-radius:10px;overflow:hidden;margin-bottom:12px}
-    canvas{
-      width:100%;aspect-ratio:3/2;
-      background:#fafafa;
-      border:1.5px solid var(--border);
-      border-radius:10px;
-      touch-action:none;cursor:crosshair;display:block;
-      transition:border-color .2s;
-    }
+    canvas{width:100%;aspect-ratio:3/2;background:#fafafa;border:1.5px solid var(--border);border-radius:10px;touch-action:none;cursor:crosshair;display:block;transition:border-color .2s;}
     canvas:active{border-color:var(--primary)}
-
-    /* 按钮 */
     .btn-row{display:flex;gap:8px;margin-bottom:12px}
-    button{
-      flex:1;padding:11px 0;
-      border:none;border-radius:8px;
-      font-size:14px;font-weight:600;
-      cursor:pointer;transition:all .12s;
-      font-family:'Segoe UI',sans-serif;
-      outline:none;
-    }
+    button{flex:1;padding:11px 0;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .12s;font-family:'Segoe UI',sans-serif;outline:none;}
     button:active{transform:scale(.97)}
-    .btn-clear{
-      background:#f0f0f0;color:var(--text-primary);
-      border:1px solid var(--border);
-    }
+    .btn-clear{background:#f0f0f0;color:var(--text-primary);border:1px solid var(--border);}
     .btn-clear:hover{background:#e8e8e8}
-    .btn-submit{
-      background:var(--primary);color:#fff;
-      box-shadow:0 1.6px 3.6px rgba(15,110,254,.25);
-    }
-    .btn-submit:hover{background:var(--primary-hover);box-shadow:0 3.6px 7.2px rgba(15,110,254,.3)}
+    .btn-submit{background:var(--primary);color:#fff;box-shadow:0 1.6px 3.6px rgba(15,110,254,.25);}
+    .btn-submit:hover{background:var(--primary-hover)}
     .btn-submit:active{transform:scale(.97);box-shadow:none}
     .btn-submit:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none}
-
-    /* 状态提示 */
-    .status{
-      text-align:center;font-size:12.5px;
-      padding:9px 14px;border-radius:8px;
-      margin-bottom:10px;min-height:38px;
-      display:flex;align-items:center;justify-content:center;
-      font-weight:500;transition:all .25s;
-    }
+    .status{text-align:center;font-size:12.5px;padding:9px 14px;border-radius:8px;margin-bottom:10px;min-height:38px;display:flex;align-items:center;justify-content:center;font-weight:500;transition:all .25s;}
     .status.success{background:#dff6dd;color:var(--success)}
     .status.error{background:#fde7e9;color:var(--error)}
     .status.loading{background:#dbeafe;color:#0f6efe}
-
     .progress{font-size:11.5px;color:var(--text-secondary);text-align:center;margin-top:8px;font-weight:500}
-    .counter{font-size:11.5px;color:var(--text-secondary);text-align:center;margin-bottom:8px;font-weight:500}
-
     .footer{font-size:11px;color:#999;text-align:center;margin-top:6px}
-    .share-hint{
-      background:rgba(15,110,254,.06);
-      border:1px solid rgba(15,110,254,.12);
-      color:var(--text-secondary);
-      border-radius:10px;padding:12px 14px;
-      font-size:11.5px;text-align:center;line-height:1.6;
-      max-width:440px;margin-bottom:12px;
-    }
+    .share-hint{background:rgba(15,110,254,.06);border:1px solid rgba(15,110,254,.12);color:var(--text-secondary);border-radius:10px;padding:12px 14px;font-size:11.5px;text-align:center;line-height:1.6;max-width:440px;margin-bottom:12px;}
+    .dev-stats{font-size:11px;color:var(--text-secondary);text-align:center;margin-bottom:8px;font-weight:500;}
 
-    /* 弹窗 */
-    .modal-overlay{
-      position:fixed;inset:0;
-      background:rgba(0,0,0,.35);
-      display:flex;align-items:center;justify-content:center;
-      z-index:100;backdrop-filter:blur(4px);
-      animation:fadeIn .2s;
-    }
-    .modal{
-      background:#fff;border-radius:14px;
-      padding:24px 20px;max-width:400px;width:92%;
-      box-shadow:0 16px 48px rgba(0,0,0,.18);
-      animation:slideUp .25s;
-      max-height:85vh;overflow-y:auto;
-    }
-    .modal h2{font-size:17px;font-weight:600;color:var(--text-primary);margin-bottom:12px}
-    .modal p{font-size:13px;color:var(--text-secondary);line-height:1.65;margin-bottom:10px}
-    .modal .example-box{
-      background:#fafafa;border:1px solid var(--border);
-      border-left:3.5px solid var(--primary);
-      border-radius:8px;padding:12px;margin:12px 0;
-    }
-    .modal .example-box .label{font-size:11px;color:var(--text-secondary);margin-bottom:5px;font-weight:500}
-    .modal .example-box .expr{font-size:20px;font-weight:600;color:var(--text-primary)}
-    .modal .tip{
-      font-size:11.5px;color:var(--text-secondary);
-      background:rgba(255,185,0,.1);border:1px solid rgba(255,185,0,.2);
-      padding:9px 12px;border-radius:8px;line-height:1.6;margin-top:10px;
-    }
-    .modal button{
-      width:100%;margin-top:14px;padding:12px;
-      background:var(--primary);color:#fff;
-      border:none;border-radius:8px;font-size:14px;font-weight:600;
-      cursor:pointer;transition:all .12s;font-family:'Segoe UI',sans-serif;
-    }
-    .modal button:hover{background:var(--primary-hover)}
-    .modal button:active{transform:scale(.97)}
+    /* 右上角分享按钮 */
+    .share-btn{position:fixed;top:14px;right:14px;z-index:50;background:#fff;border:1px solid var(--border);border-radius:50%;width:38px;height:38px;display:flex;align-items:center;justify-content:center;box-shadow:0 1.6px 3.6px rgba(0,0,0,.08);cursor:pointer;font-size:18px;transition:background .15s,transform .12s;}
+    .share-btn:hover{background:#f5f5f5;transform:scale(1.08)}
+    .share-btn:active{transform:scale(.95)}
+    .share-toast{position:fixed;top:58px;right:14px;z-index:51;background:#1a1a1a;color:#fff;font-size:12px;font-weight:500;padding:6px 12px;border-radius:8px;opacity:0;transition:opacity .2s;pointer-events:none;}
+    .share-toast.show{opacity:1}
 
-    @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-    @keyframes slideUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-
-    /* 激励弹窗 */
-    .celebrate-overlay{
-      position:fixed;inset:0;
-      background:rgba(0,0,0,.3);
-      display:flex;align-items:center;justify-content:center;
-      z-index:200;backdrop-filter:blur(3px);
-      animation:fadeIn .3s;
-    }
-    .celebrate-box{
-      background:#fff;border-radius:16px;
-      padding:28px 24px;text-align:center;
-      box-shadow:0 20px 60px rgba(0,0,0,.2);
-      animation:popIn .35s;
-      max-width:360px;width:88%;
-    }
+    /* 激励弹窗（每10次）*/
+    .celebrate-overlay{position:fixed;inset:0;background:rgba(0,0,0,.3);display:flex;align-items:center;justify-content:center;z-index:200;backdrop-filter:blur(3px);animation:fadeIn .3s;}
+    .celebrate-box{background:#fff;border-radius:16px;padding:28px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.2);animation:popIn .35s;max-width:360px;width:88%;}
     .celebrate-box .emoji{font-size:48px;margin-bottom:12px}
     .celebrate-box .msg{font-size:15px;font-weight:600;color:var(--text-primary);line-height:1.5}
     .celebrate-box .sub{font-size:12px;color:var(--text-secondary);margin-top:8px}
 
-    @keyframes popIn{
-      0%{opacity:0;transform:scale(.85)}
-      60%{transform:scale(1.03)}
-      100%{opacity:1;transform:scale(1)}
-    }
+    /* 里程碑弹窗 */
+    .milestone-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;z-index:300;backdrop-filter:blur(4px);animation:fadeIn .3s;}
+    .milestone-box{background:#fff;border-radius:16px;padding:32px 28px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.22);animation:popIn .4s;max-width:360px;width:88%;}
+    .milestone-box .icon{font-size:56px;margin-bottom:14px}
+    .milestone-box .num{font-size:32px;font-weight:700;color:var(--primary);margin-bottom:6px}
+    .milestone-box .msg{font-size:15px;font-weight:600;color:var(--text-primary);line-height:1.5;margin-bottom:8px}
+    .milestone-box .sub{font-size:12px;color:var(--text-secondary);line-height:1.5}
+    .milestone-box button{margin-top:18px;padding:11px 32px;background:var(--primary);color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;font-family:'Segoe UI',sans-serif;transition:background .12s;}
+    .milestone-box button:hover{background:var(--primary-hover)}
 
-    .dev-stats{
-      font-size:11px;
-      color:var(--text-secondary);
-      text-align:center;
-      margin-bottom:2px;
-      font-weight:500;
-    }
-    .progress-display{
-      font-size:12px;
-      color:var(--primary);
-      text-align:center;
-      margin-bottom:8px;
-      font-weight:600;
-    }
-
-    /* 右上角分享按钮 */
-    .share-btn{
-      position:fixed;top:14px;right:14px;z-index:50;
-      background:#fff;border:1px solid var(--border);
-      border-radius:50%;width:38px;height:38px;
-      display:flex;align-items:center;justify-content:center;
-      box-shadow:0 1.6px 3.6px rgba(0,0,0,.08);
-      cursor:pointer;font-size:18px;
-      transition:background .15s,transform .12s;
-    }
-    .share-btn:hover{background:#f5f5f5;transform:scale(1.08)}
-    .share-btn:active{transform:scale(.95)}
-    .share-toast{
-      position:fixed;top:58px;right:14px;z-index:51;
-      background:#1a1a1a;color:#fff;
-      font-size:12px;font-weight:500;
-      padding:6px 12px;border-radius:8px;
-      opacity:0;transition:opacity .2s;
-      pointer-events:none;
-    }
-    .share-toast.show{opacity:1}
-
-    /* 继续提交按钮 */
-    .btn-continue{
-      background:#0f6efe;color:#fff;
-      border:none;border-radius:8px;
-      font-size:14px;font-weight:600;
-      padding:11px 0;width:100%;
-      cursor:pointer;transition:all .12s;
-      font-family:'Segoe UI',sans-serif;
-      margin-top:10px;
-    }
-    .btn-continue:hover{background:#005a9e}
-    .btn-continue:active{transform:scale(.97)}
+    @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+    @keyframes popIn{0%{opacity:0;transform:scale(.85)}60%{transform:scale(1.03)}100%{opacity:1;transform:scale(1)}}
   </style>
 </head>
 <body>
@@ -254,9 +88,7 @@
 <button class="share-btn" id="shareBtn" onclick="copyShareLink()" title="复制分享链接">🔗</button>
 <div class="share-toast" id="shareToast">已复制！</div>
 
-<div class="counter" id="counter"></div>
 <div class="dev-stats" id="dev-stats"></div>
-<div class="progress-display" id="progress-display"></div>
 
 <div class="header">
   <h1>数学表达式样本采集</h1>
@@ -279,33 +111,16 @@
   </div>
 
   <div class="status" id="st"></div>
-  <div class="progress" id="pg"></div>
+  <div class="progress" id="pg">
+  <a href="javascript:void(0)" onclick="resetAll()" style="color:#0f6efe;text-decoration:underline;font-size:11px">重置所有进度</a>
+</div>
 </div>
 
 <div class="share-hint">💡 邀请朋友一起参与，帮助研究进展更快！<br>点击右上角 🔗 分享给朋友</div>
 <p class="footer">数据仅用于学术研究 · 完全匿名 · 感谢您的参与 🙏</p>
 
 
-<!-- 书写说明弹窗 -->
-<div class="modal-overlay" id="modal" style="display:none">
-  <div class="modal">
-    <h2>📝 书写说明</h2>
-    <p>请根据上方显示的 LaTeX 表达式，在手写区域<strong>按相同格式</strong>书写。</p>
-    <div class="example-box">
-      <div class="label">LaTeX 示例：</div>
-      <div class="expr">\cos(30) + \sqrt{2}</div>
-    </div>
-    <p>书写时注意：</p>
-    <p>① <strong>等号 =</strong> 需要写（即使示例中显示 <code>=</code>）<br>
-       ② <strong>括号</strong>按示例写，不要省略<br>
-       ③ 尽量清晰书写，与平时手写习惯一致</p>
-    <div class="tip">💡 每份样本约需 10 秒，共 2–3 分钟即可完成。数据完全匿名，仅用于学术研究。</div>
-    <button onclick="closeModal()">开始参与 →</button>
-  </div>
-</div>
-
-
-<!-- 激励弹窗（提交后随机出现）-->
+<!-- 激励弹窗（每10次随机出现）-->
 <div class="celebrate-overlay" id="celebrate" style="display:none">
   <div class="celebrate-box">
     <div class="emoji" id="cel-emoji"></div>
@@ -314,28 +129,23 @@
   </div>
 </div>
 
+<!-- 里程碑弹窗 -->
+<div class="milestone-overlay" id="milestone" style="display:none">
+  <div class="milestone-box">
+    <div class="icon" id="ms-icon"></div>
+    <div class="num" id="ms-num"></div>
+    <div class="msg" id="ms-msg"></div>
+    <div class="sub" id="ms-sub"></div>
+    <button onclick="closeMilestone()">继续提交 →</button>
+  </div>
+</div>
+
 
 <script>
-// ===== 简化逻辑：每次刷新全量打乱，不分租 =====
+// ===== 配置 =====
+const MILESTONES = [25, 50, 100, 500, 1000, 2000];
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-// ===== 表达式库 =====
-let EXPRS = [];
-let SHUFFLED = [];       // 当前打乱后的全部表达式
-let CURRENT_INDEX = 0;    // 当前写到第几题（0-based）
-let DEVICE_ID = '';
-let DEVICE_STATS = { simple: 0, normal: 0, complex: 0 };
-let CURRENT_DIFFICULTY = '';
-
-// ===== 激励语库 =====
+// ===== 普通激励语库（每10次随机展示）=====
 const CELEBRATIONS = [
   { emoji:'🎉', msg:'太棒了！感谢您的贡献！', sub:'已有更多人加入，一起加油～' },
   { emoji:'😊', msg:'提交成功，您真棒！', sub:'每一份样本都很珍贵 💖' },
@@ -349,7 +159,69 @@ const CELEBRATIONS = [
   { emoji:'💖', msg:'💖 您的数据已经安全保存', sub:'继续参与还有更多惊喜哦' },
 ];
 
-// ===== 设备标识与统计 =====
+// ===== 工具 =====
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ===== 状态 =====
+let EXPRS = [];           // 从 JSON 加载的全部表达式
+let POOL = [];            // 当前待写列表（已过滤已提交 + 打乱）
+let IDX = 0;              // POOL 中的当前位置
+let DEVICE_ID = '';
+let TOTAL = 0;            // 累计提交数（跨会话）
+
+let cp = '', sc = 0, ws = 0, drawing = false, lx = 0, ly = 0;
+let C, X;
+const $ = id => document.getElementById(id);
+
+// ===== localStorage helpers =====
+function getSubmittedIds() {
+  try { return new Set(JSON.parse(localStorage.getItem('hw_submitted_ids') || '[]')); }
+  catch(e) { return new Set(); }
+}
+function saveSubmittedIds(set) {
+  localStorage.setItem('hw_submitted_ids', JSON.stringify([...set]));
+}
+function getTotal() {
+  return parseInt(localStorage.getItem('hw_total') || '0') || 0;
+}
+function saveTotal(n) {
+  localStorage.setItem('hw_total', String(n));
+}
+
+// ===== 构建 POOL（过滤已提交，打乱）=====
+function buildPool() {
+  const done = getSubmittedIds();
+  let remaining = EXPRS.filter(e => !done.has(e.id));
+  // 如果全部写完了，清空记录，从头再来
+  if (remaining.length === 0) {
+    saveSubmittedIds(new Set());
+    remaining = EXPRS;
+  }
+  POOL = shuffle(remaining);
+  IDX = 0;
+  console.log('✅ POOL 构建完成：' + POOL.length + ' 题待写（已提交 ' + getTotal() + ' 份，done.size=' + done.size + '）');
+  // 池子太小时提示用户
+  const pg = $('pg');
+  if (POOL.length <= 10 && POOL.length > 0) {
+    pg.innerHTML = '⚠️ 待写题目仅剩 ' + POOL.length + ' 道，可能含有旧提交记录。<a href="javascript:void(0)" onclick="resetAll()" style="color:#d13438;text-decoration:underline">点击重置进度</a>';
+    pg.style.color = '#d13438';
+  } else if (POOL.length === 0) {
+    pg.innerHTML = '⚠️ 所有题目已提交！<a href="javascript:void(0)" onclick="resetAll()" style="color:#0f6efe;text-decoration:underline">点击重置进度</a>';
+    pg.style.color = '#d13438';
+  } else {
+    pg.innerHTML = '待写 ' + POOL.length + ' 题 | <a href="javascript:void(0)" onclick="resetAll()" style="color:#0f6efe;text-decoration:underline;font-size:11px">重置所有进度</a>';
+    pg.style.color = '';
+  }
+}
+
+// ===== 设备 ID =====
 function getDeviceId() {
   let id = localStorage.getItem('hw_device_id');
   if (!id) {
@@ -359,132 +231,30 @@ function getDeviceId() {
   return id;
 }
 
-function loadDeviceStats() {
-  const raw = localStorage.getItem('hw_device_stats');
-  if (raw) {
-    try {
-      const parsed = JSON.parse(raw);
-      DEVICE_STATS = {
-        simple: Number(parsed.simple) || 0,
-        normal: Number(parsed.normal) || 0,
-        complex: Number(parsed.complex) || 0
-      };
-    } catch(e) {
-      DEVICE_STATS = { simple: 0, normal: 0, complex: 0 };
-    }
-  }
-}
-
-function saveDeviceStats() {
-  localStorage.setItem('hw_device_stats', JSON.stringify(DEVICE_STATS));
-}
-
-function updateDeviceStats(difficulty) {
-  if (difficulty === 'simple') DEVICE_STATS.simple++;
-  else if (difficulty === 'normal') DEVICE_STATS.normal++;
-  else if (difficulty === 'complex') DEVICE_STATS.complex++;
-  saveDeviceStats();
-}
-
-function renderDeviceStats() {
-  const el = document.getElementById('dev-stats');
-  if (!el) return;
-  el.textContent = '简单:' + DEVICE_STATS.simple + ' 普通:' + DEVICE_STATS.normal + ' 复杂:' + DEVICE_STATS.complex;
-}
-
-function updateProgressDisplay() {
-  const el = document.getElementById('progress-display');
-  if (!el) return;
-  if (CURRENT_INDEX >= SHUFFLED.length) {
-    el.textContent = '已完成全部 ' + SHUFFLED.length + ' 题';
-    return;
-  }
-  el.textContent = '第 ' + (CURRENT_INDEX + 1) + '/' + SHUFFLED.length + ' 题';
-}
-
-// ===== Canvas =====
-let cp = '', sc = 0, ws = 0, drawing = false, lx = 0, ly = 0;
-let C, X;
-
-const $ = id => document.getElementById(id);
-
-// ===== 加载表达式库 =====
-async function loadExprs(){
-  try {
-    const r = await fetch('expression-library/expressions.json?v='+Date.now());
-    EXPRS = await r.json();
-    console.log('✅ 表达式库加载成功：' + EXPRS.length + ' 条');
-
-    DEVICE_ID = getDeviceId();
-    loadDeviceStats();
-
-    // 每次刷新全量打乱
-    SHUFFLED = shuffle(EXPRS);
-    console.log('✅ 已打乱全部 ' + SHUFFLED.length + ' 题');
-
-    // 读取进度（允许用户继续未完成的）
-    CURRENT_INDEX = parseInt(localStorage.getItem('hw_current_idx') || '0') || 0;
-    if (CURRENT_INDEX >= SHUFFLED.length) {
-      CURRENT_INDEX = SHUFFLED.length;
-    }
-
-    renderDeviceStats();
-    updateProgressDisplay();
-    pickExpr();
-    initCanvas();
-  } catch(e) {
-    console.error('❌ 加载表达式库失败，使用内置数据', e);
-    EXPRS = [
-      {id:1, latex:'2 + 3', difficulty:'simple'},
-      {id:2, latex:'5 \\times 4', difficulty:'simple'},
-      {id:3, latex:'\\sqrt{16}', difficulty:'normal'},
-      {id:4, latex:'\\frac{1}{2} + \\frac{3}{4}', difficulty:'normal'},
-      {id:5, latex:'\\cos(30)', difficulty:'simple'},
-      {id:6, latex:'12 - 5', difficulty:'simple'},
-      {id:7, latex:'\\sin(45)', difficulty:'normal'},
-      {id:8, latex:'3 \\times 7 + 2', difficulty:'normal'},
-      {id:9, latex:'\\sqrt{25} + 10', difficulty:'normal'},
-      {id:10, latex:'\\frac{2}{3} - \\frac{1}{6}', difficulty:'complex'},
-    ];
-    DEVICE_ID = getDeviceId();
-    loadDeviceStats();
-    SHUFFLED = shuffle(EXPRS);
-    CURRENT_INDEX = 0;
-    renderDeviceStats();
-    updateProgressDisplay();
-    pickExpr();
-    initCanvas();
-  }
-}
-
-function pickExpr(){
-  if (CURRENT_INDEX >= SHUFFLED.length) {
-    $('pt').innerHTML = '已全部完成，感谢参与！<br><br><button class="btn-continue" onclick="reshuffle()">重新打乱，继续提交 →</button>';
-    cp = '';
-    CURRENT_DIFFICULTY = '';
-    $('sb').disabled = true;
-    $('sb').textContent = '已完成';
-    return;
-  }
-  const entry = SHUFFLED[CURRENT_INDEX];
+// ===== 渲染表达式 =====
+function pickExpr() {
+  console.log('pickExpr: IDX=' + IDX + ' POOL.length=' + POOL.length);
+  if (IDX >= POOL.length) buildPool();
+  const entry = POOL[IDX];
   cp = entry.latex;
   CURRENT_DIFFICULTY = entry.difficulty || 'unknown';
   renderPrompt(cp);
-  updateProgressDisplay();
   $('sb').disabled = false;
   $('sb').textContent = '提交';
 }
 
-function renderPrompt(latexStr){
+let CURRENT_DIFFICULTY = '';
+
+function renderPrompt(latexStr) {
   const el = $('pt');
   if (!(window.katex && typeof katex.renderToString === 'function')) {
-    let attempts = 0;
+    let t = 0;
     const poll = setInterval(() => {
-      attempts++;
+      t++;
       if (window.katex && typeof katex.renderToString === 'function') {
         clearInterval(poll);
         renderPrompt(latexStr);
-      } else if (attempts > 30) {
+      } else if (t > 30) {
         clearInterval(poll);
         el.textContent = latexStr;
       }
@@ -492,20 +262,15 @@ function renderPrompt(latexStr){
     return;
   }
   try {
-    el.innerHTML = katex.renderToString(latexStr, {
-      displayMode: false,
-      throwOnError: false,
-      output: 'html',
-      strict: false
-    });
+    el.innerHTML = katex.renderToString(latexStr, { displayMode: false, throwOnError: false, output: 'html', strict: false });
   } catch(e) {
     el.textContent = latexStr;
   }
 }
 
-// ===== 画布初始化 =====
-function initCanvas(){
-  C = document.getElementById('cv');
+// ===== Canvas =====
+function initCanvas() {
+  C = $('cv');
   X = C.getContext('2d');
   const dpr = window.devicePixelRatio || 1;
   const rc = C.getBoundingClientRect();
@@ -517,204 +282,217 @@ function initCanvas(){
   clr();
 
   C.addEventListener('touchstart', e => { e.preventDefault(); st(e); }, { passive: false });
-  C.addEventListener('touchmove', e => { e.preventDefault(); if(!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; }, { passive: false });
+  C.addEventListener('touchmove', e => { e.preventDefault(); if (!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; }, { passive: false });
   C.addEventListener('touchend', () => { drawing = false; X.beginPath(); });
   C.addEventListener('mousedown', e => st(e));
-  C.addEventListener('mousemove', e => { if(!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; });
+  C.addEventListener('mousemove', e => { if (!drawing) return; const p = gp(e); ln(lx, ly, p.x, p.y); lx = p.x; ly = p.y; });
   C.addEventListener('mouseup', () => { drawing = false; X.beginPath(); });
 }
 
-function gp(e){
+function gp(e) {
   const r = C.getBoundingClientRect();
-  return {
-    x: (e.touches ? e.touches[0].clientX : e.clientX) - r.left,
-    y: (e.touches ? e.touches[0].clientY : e.clientY) - r.top
-  };
+  const t = e.touches ? e.touches[0] : e;
+  return { x: t.clientX - r.left, y: t.clientY - r.top };
 }
-
-function st(e){
+function st(e) {
   drawing = true;
-  const p = gp(e);
-  lx = p.x; ly = p.y;
-  if(!ws) ws = Date.now();
+  const p = gp(e); lx = p.x; ly = p.y;
+  if (!ws) ws = Date.now();
   sc++;
   X.beginPath();
   X.arc(p.x, p.y, 1.5, 0, Math.PI * 2);
   X.fillStyle = '#1a1a2e';
   X.fill();
 }
-
-function ln(x1, y1, x2, y2){
-  X.beginPath();
-  X.moveTo(x1, y1);
-  X.lineTo(x2, y2);
-  X.strokeStyle = '#1a1a2e';
-  X.lineWidth = 2.5;
-  X.lineCap = 'round';
-  X.lineJoin = 'round';
-  X.stroke();
+function ln(x1, y1, x2, y2) {
+  X.beginPath(); X.moveTo(x1, y1); X.lineTo(x2, y2);
+  X.strokeStyle = '#1a1a2e'; X.lineWidth = 2.5; X.lineCap = 'round'; X.lineJoin = 'round'; X.stroke();
 }
-
-function clr(){
+function clr() {
   const dpr = window.devicePixelRatio || 1;
   X.clearRect(0, 0, C.width / dpr, C.height / dpr);
-  X.strokeStyle = '#f0f0f0';
-  X.lineWidth = 0.5;
-  for(let x = 30; x < C.width/dpr; x += 30){ X.beginPath(); X.moveTo(x,0); X.lineTo(x, C.height/dpr); X.stroke(); }
-  for(let y = 30; y < C.height/dpr; y += 30){ X.beginPath(); X.moveTo(0,y); X.lineTo(C.width/dpr, y); X.stroke(); }
+  X.strokeStyle = '#f0f0f0'; X.lineWidth = 0.5;
+  for (let x = 30; x < C.width/dpr; x += 30) { X.beginPath(); X.moveTo(x, 0); X.lineTo(x, C.height/dpr); X.stroke(); }
+  for (let y = 30; y < C.height/dpr; y += 30) { X.beginPath(); X.moveTo(0, y); X.lineTo(C.width/dpr, y); X.stroke(); }
   X.beginPath();
   sc = 0; ws = 0;
 }
 
-function closeModal(){
-  localStorage.setItem('hw_survey_seen', '1');
-  $('modal').style.display = 'none';
-}
-
-// ===== 重新打乱（完成后点击）=====
-function reshuffle() {
-  localStorage.removeItem('hw_current_idx');
-  location.reload();
-}
-
 // ===== 提交 =====
-async function sub(){
+async function sub() {
   const st = $('st'), btn = $('sb');
 
-  // 第 1 层：笔画数为 0 → 一定没写
-  if (sc === 0) {
-    st.className = 'status error'; st.textContent = '⚠️ 请先手写再提交'; return;
-  }
-  // 第 2 层：像素扫描，忽略浅灰网格线（#f0f0f0 ≈ 240,240,240）
+  // 防空白提交：笔画数
+  if (sc === 0) { st.className = 'status error'; st.textContent = '⚠️ 请先手写再提交'; return; }
+  // 防空白提交：像素扫描（忽略浅灰网格线 #f0f0f0）
   const idata = X.getImageData(0, 0, C.width, C.height);
   let ok = false;
   for (let i = 0; i < idata.data.length; i += 4) {
-    const a = idata.data[i+3];
-    if (a > 0) {
-      const r = idata.data[i], g = idata.data[i+1], b = idata.data[i+2];
+    if (idata.data[i+3] > 0) {
+      const [r, g, b] = [idata.data[i], idata.data[i+1], idata.data[i+2]];
       if (!(r > 230 && g > 230 && b > 230)) { ok = true; break; }
     }
   }
   if (!ok) { st.className = 'status error'; st.textContent = '⚠️ 请先手写再提交'; return; }
 
   st.className = 'status loading';
-  st.textContent = '⏳ 提交中...';  btn.disabled = true;
+  st.textContent = '⏳ 提交中...';
+  btn.disabled = true;
 
-  // 先读取画布和笔画数据，再清除
   const b64 = C.toDataURL('image/png');
   const dur = ws ? Date.now() - ws : 0;
   const scCopy = sc;
-  const submittedDifficulty = CURRENT_DIFFICULTY;
+  const diff = CURRENT_DIFFICULTY;
+  const exprId = POOL[IDX] ? POOL[IDX].id : 0;
 
-  // 更新统计
-  updateDeviceStats(submittedDifficulty);
-  renderDeviceStats();
+  // 更新累计数 + 已提交 ID
+  TOTAL = getTotal() + 1;
+  saveTotal(TOTAL);
+  const done = getSubmittedIds();
+  done.add(exprId);
+  saveSubmittedIds(done);
 
-  // 推进进度
-  CURRENT_INDEX++;
-  localStorage.setItem('hw_current_idx', CURRENT_INDEX);
-  updateProgressDisplay();
+  // 更新难度统计
+  if (diff === 'simple') { let s = JSON.parse(localStorage.getItem('hw_stats')||'{}'); s.simple=(s.simple||0)+1; localStorage.setItem('hw_stats', JSON.stringify(s)); }
+  else if (diff === 'normal') { let s = JSON.parse(localStorage.getItem('hw_stats')||'{}'); s.normal=(s.normal||0)+1; localStorage.setItem('hw_stats', JSON.stringify(s)); }
+  else if (diff === 'complex') { let s = JSON.parse(localStorage.getItem('hw_stats')||'{}'); s.complex=(s.complex||0)+1; localStorage.setItem('hw_stats', JSON.stringify(s)); }
+  updateDevStats();
 
-  // 清屏并加载下一题
+  // 推进
+  IDX++;
   clr();
 
-  // 如果已全部完成，显示完成界面
-  if (CURRENT_INDEX >= SHUFFLED.length) {
-    st.className = 'status success'; st.textContent = '🎉 全部完成！';
-    btn.disabled = true;
-    btn.textContent = '已完成';
-    // 异步上传最后一份
-    fetch('/api/submit', {
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
-    }).then(r => {
-      if(!r.ok) console.warn('上传失败', r.status);
-    }).catch(e => console.warn('上传失败', e));
-    pickExpr();
-    setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
+  // 异步上传（放前面，确保里程碑时也上传）
+  fetch('/api/submit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: diff })
+  }).then(r => { if (!r.ok) console.warn('上传失败', r.status); })
+    .catch(e => console.warn('上传失败', e));
+
+  // 里程碑检查（额外弹窗，不阻塞上传）
+  if (MILESTONES.includes(TOTAL)) {
+    showMilestone(TOTAL);
     return;
   }
 
+  // 普通流程：显示随机激励弹窗（每10次）
+  showCelebration(TOTAL);
+
+  // 加载下一题
   pickExpr();
-
-  // 已提交数量
-  const n = parseInt(new URLSearchParams(location.search).get('n') || '0') + 1;
-  history.replaceState(null, '', '?n=' + n);
-  updateCounter();
-
-  // 显示激励（每 3 次）
-  showCelebration(n);
-
   btn.disabled = false;
-
-  // 后端异步上传
-  fetch('/api/submit', {
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({ prompt: cp, imageBase64: b64, strokeCount: scCopy, writeDuration: dur, deviceId: DEVICE_ID, difficulty: submittedDifficulty })
-  }).then(r => {
-    if(!r.ok) console.warn('上传失败', r.status);
-  }).catch(e => console.warn('上传失败', e));
-
-  setTimeout(() => { st.className = 'status'; st.textContent = ''; }, 1500);
+  st.className = 'status'; st.textContent = '';
 }
 
-// ===== 复制分享链接 =====
-function copyShareLink(){
-  const url = location.origin + location.pathname;
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(url).then(() => showShareToast()).catch(() => fallbackCopy(url));
-  } else {
-    fallbackCopy(url);
-  }
-}
-function fallbackCopy(text){
-  const ta = document.createElement('textarea');
-  ta.value = text;
-  ta.style.position = 'fixed'; ta.style.opacity = '0';
-  document.body.appendChild(ta);
-  ta.select();
-  try { document.execCommand('copy'); showShareToast(); } catch(e) { prompt('复制此链接：', text); }
-  document.body.removeChild(ta);
-}
-function showShareToast(){
-  const t = $('shareToast');
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 1600);
-}
-
-// ===== 激励弹窗 =====
-function showCelebration(n){
-  if (n % 3 !== 0 && n > 0) return;
+// ===== 普通激励弹窗（每10次）=====
+function showCelebration(n) {
+  if (n % 10 !== 0) return;
   const cel = CELEBRATIONS[Math.floor(Math.random() * CELEBRATIONS.length)];
   $('cel-emoji').textContent = cel.emoji;
   $('cel-msg').textContent = cel.msg;
   $('cel-sub').textContent = cel.sub;
   $('celebrate').style.display = 'flex';
-  setTimeout(() => { $('celebrate').style.display = 'none'; }, 2200);
+  setTimeout(() => { $('celebrate').style.display = 'none'; }, 1000);
 }
 
-function updateCounter(){
-  const n = parseInt(new URLSearchParams(location.search).get('n') || '0');
-  const c = $('counter');
-  if (n > 0) c.textContent = '已提交 ' + n + ' 份';
-  else c.textContent = '';
+// ===== 里程碑弹窗 =====
+function showMilestone(n) {
+  const msgs = {
+    25:  { icon: '🎉', msg: '已提交 25 份！太棒了！', sub: '已经积累了第一批珍贵数据，继续加油～' },
+    50:  { icon: '🌟', msg: '50 份里程碑！', sub: '你的贡献让模型训练更稳健' },
+    100: { icon: '🏆', msg: '100 份！你是超级贡献者！', sub: '研究进度因你大幅推进 🚀' },
+    500: { icon: '💎', msg: '500 份！难以置信！', sub: '你已经是顶级贡献者了，谢谢！' },
+    1000:{ icon: '🏅', msg: '1000 份！传奇级贡献！', sub: '手写数学表达式数据集因你而诞生 🎊' },
+    2000:{ icon: '🏅', msg: '2000 份！你创造了纪录！', sub: '请务必联系我们，有惊喜给你 🎁' },
+  };
+  const m = msgs[n] || { icon: '🎉', msg: '里程碑 ' + n, sub: '感谢你的坚持！' };
+  $('ms-icon').textContent = m.icon;
+  $('ms-num').textContent = n + ' 份';
+  $('ms-msg').textContent = m.msg;
+  $('ms-sub').textContent = m.sub;
+  $('milestone').style.display = 'flex';
+}
+
+function closeMilestone() {
+  $('milestone').style.display = 'none';
+  // 里程碑弹窗关闭后，显示普通激励（如果这次提交也满足每10次条件）
+  showCelebration(TOTAL);
+  // 异步上传
+  pickExpr();
+  $('st').className = 'status'; $('st').textContent = '';
+  $('sb').disabled = false;
+}
+
+function updateDevStats() {
+  const el = $('dev-stats');
+  if (!el) return;
+  try {
+    const s = JSON.parse(localStorage.getItem('hw_stats') || '{}');
+    el.textContent = '简单:' + (s.simple||0) + ' 普通:' + (s.normal||0) + ' 复杂:' + (s.complex||0) + '  |  累计:' + getTotal();
+  } catch(e) {
+    el.textContent = '累计:' + getTotal();
+  }
+}
+
+// ===== 重置所有进度 =====
+function resetAll() {
+  if (!confirm('确定要重置所有进度吗？\n\n将清空：提交记录、累计计数、设备ID\n\n此操作不可撤销！')) return;
+  localStorage.removeItem('hw_submitted_ids');
+  localStorage.removeItem('hw_total');
+  localStorage.removeItem('hw_device_id');
+  localStorage.removeItem('hw_stats');
+  location.reload();
+}
+
+// ===== 分享 =====
+function copyShareLink() {
+  const url = location.origin + location.pathname;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(() => showShareToast()).catch(() => fallbackCopy(url));
+  } else { fallbackCopy(url); }
+}
+function fallbackCopy(text) {
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); showShareToast(); } catch(e) { prompt('复制此链接：', text); }
+  document.body.removeChild(ta);
+}
+function showShareToast() {
+  const t = $('shareToast'); t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}
+
+// ===== 加载表达式库 =====
+async function loadExprs() {
+  try {
+    const r = await fetch('expression-library/expressions.json?v='+Date.now());
+    EXPRS = await r.json();
+    console.log('✅ 表达式库加载：' + EXPRS.length + ' 条');
+  } catch(e) {
+    console.warn('使用内置表达式', e);
+    EXPRS = [
+      {id:1, latex:'2 + 3', difficulty:'simple'},
+      {id:2, latex:'5 \\times 4', difficulty:'simple'},
+      {id:3, latex:'\\sqrt{16}', difficulty:'normal'},
+      {id:4, latex:'\\frac{1}{2} + \\frac{3}{4}', difficulty:'normal'},
+      {id:5, latex:'\\cos(30)', difficulty:'simple'},
+    ];
+  }
+  DEVICE_ID = getDeviceId();
+  TOTAL = getTotal();
+  updateDevStats();
+  buildPool();
+  pickExpr();
+  initCanvas();
 }
 
 // ===== 初始化 =====
-function init(){
-  if (!localStorage.getItem('hw_survey_seen')) {
-    $('modal').style.display = 'flex';
-  }
-  updateCounter();
-  loadExprs();
-}
-
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
+  document.addEventListener('DOMContentLoaded', () => loadExprs());
 } else {
-  init();
+  loadExprs();
 }
 </script>
 </body>
