@@ -40,7 +40,7 @@ function validateImage(base64Str) {
   const data = base64Str.replace(/^data:image\/\w+;base64,/, '');
   const sizeBytes = Buffer.from(data, 'base64').length;
   // 手写图正常范围：20KB ~ 1.5MB
-  if (sizeBytes < 20 * 1024) return { ok: false, reason: '图片太小，可能为空白' };
+  if (sizeBytes < 1 * 1024) return { ok: false, reason: '图片太小，可能为空白' };
   if (sizeBytes > 2 * 1024 * 1024) return { ok: false, reason: '图片超过 2MB' };
   return { ok: true, sizeBytes };
 }
@@ -65,16 +65,23 @@ export default async function handler(req, res) {
     const imgCheck = validateImage(imageBase64);
     if (!imgCheck.ok) {
       return res.status(400).json({ error: imgCheck.reason });
+      const imgCheck = validateImage(imageBase64);
+    if (!imgCheck.ok) {
+      console.log('图片校验失败:', imgCheck.reason, '大小:', imgCheck.sizeBytes); // 加这行
+      return res.status(400).json({ error: imgCheck.reason });
+    }
     }
 
     // 2. 行为校验（笔画数、书写时长）——可被绕过，但增加脚本攻击成本
     // 注：测试阶段放宽限制
+    console.log('校验数据:', { strokeCount, writeDuration, prompt }); // 加这行
     if (strokeCount < 1) {
       return res.status(400).json({ error: '笔画太少，请完整手写表达式' });
     }
-    if (writeDuration < 500) {
+    if (writeDuration < 200) {
       return res.status(400).json({ error: '书写太快，请认真手写' });
     }
+
 
     // 3. 速率限制（基于 X-Forwarded-For 或 socket IP）
     const clientIp = (req.headers['x-forwarded-for'] || req.socket.remoteAddress || 'unknown').split(',')[0].trim();
