@@ -1,0 +1,10002 @@
+[
+  {
+    "id": 7,
+    "latex": "64 \\div 9",
+    "difficulty": "simple"
+  },
+  {
+    "id": 10,
+    "latex": "23 = 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 12,
+    "latex": "27 = 32",
+    "difficulty": "simple"
+  },
+  {
+    "id": 16,
+    "latex": "61!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 18,
+    "latex": "83 - 49",
+    "difficulty": "simple"
+  },
+  {
+    "id": 24,
+    "latex": "-63",
+    "difficulty": "simple"
+  },
+  {
+    "id": 28,
+    "latex": "81 - 15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 29,
+    "latex": "33 + 89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 31,
+    "latex": "(61)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 34,
+    "latex": "74 = 72",
+    "difficulty": "simple"
+  },
+  {
+    "id": 38,
+    "latex": "9 \\times 73",
+    "difficulty": "simple"
+  },
+  {
+    "id": 41,
+    "latex": "-99",
+    "difficulty": "simple"
+  },
+  {
+    "id": 45,
+    "latex": "59 \\times 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 50,
+    "latex": "(79)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 53,
+    "latex": "37 - 88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 58,
+    "latex": "49 + 58",
+    "difficulty": "simple"
+  },
+  {
+    "id": 67,
+    "latex": "(73)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 70,
+    "latex": "-8",
+    "difficulty": "simple"
+  },
+  {
+    "id": 76,
+    "latex": "84 = 50",
+    "difficulty": "simple"
+  },
+  {
+    "id": 77,
+    "latex": "-33",
+    "difficulty": "simple"
+  },
+  {
+    "id": 78,
+    "latex": "-97",
+    "difficulty": "simple"
+  },
+  {
+    "id": 79,
+    "latex": "39 = 43",
+    "difficulty": "simple"
+  },
+  {
+    "id": 81,
+    "latex": "69",
+    "difficulty": "simple"
+  },
+  {
+    "id": 84,
+    "latex": "76%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 88,
+    "latex": "11 + 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 90,
+    "latex": "1 - 60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 93,
+    "latex": "50 + 65",
+    "difficulty": "simple"
+  },
+  {
+    "id": 97,
+    "latex": "(3)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 98,
+    "latex": "54 - 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 105,
+    "latex": "61 - 59",
+    "difficulty": "simple"
+  },
+  {
+    "id": 116,
+    "latex": "-37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 122,
+    "latex": "59!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 128,
+    "latex": "38 = 36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 129,
+    "latex": "76 = 6",
+    "difficulty": "simple"
+  },
+  {
+    "id": 131,
+    "latex": "99%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 145,
+    "latex": "76 \\times 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 149,
+    "latex": "70!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 151,
+    "latex": "46",
+    "difficulty": "simple"
+  },
+  {
+    "id": 152,
+    "latex": "-62",
+    "difficulty": "simple"
+  },
+  {
+    "id": 153,
+    "latex": "20 \\times 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 154,
+    "latex": "86 \\times 98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 158,
+    "latex": "55 - 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 160,
+    "latex": "48!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 165,
+    "latex": "26 \\div 69",
+    "difficulty": "simple"
+  },
+  {
+    "id": 173,
+    "latex": "28%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 181,
+    "latex": "-10",
+    "difficulty": "simple"
+  },
+  {
+    "id": 182,
+    "latex": "-21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 185,
+    "latex": "85 = 26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 192,
+    "latex": "62 + 93",
+    "difficulty": "simple"
+  },
+  {
+    "id": 193,
+    "latex": "(49)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 196,
+    "latex": "93 + 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 202,
+    "latex": "83 - 41",
+    "difficulty": "simple"
+  },
+  {
+    "id": 205,
+    "latex": "10%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 212,
+    "latex": "(86)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 224,
+    "latex": "(40)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 225,
+    "latex": "(62)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 227,
+    "latex": "14 = 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 229,
+    "latex": "97%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 231,
+    "latex": "-64",
+    "difficulty": "simple"
+  },
+  {
+    "id": 233,
+    "latex": "87 + 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 234,
+    "latex": "34 - 8",
+    "difficulty": "simple"
+  },
+  {
+    "id": 235,
+    "latex": "32 = 64",
+    "difficulty": "simple"
+  },
+  {
+    "id": 240,
+    "latex": "(19)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 244,
+    "latex": "63%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 245,
+    "latex": "3 \\div 22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 249,
+    "latex": "74 = 75",
+    "difficulty": "simple"
+  },
+  {
+    "id": 250,
+    "latex": "79",
+    "difficulty": "simple"
+  },
+  {
+    "id": 252,
+    "latex": "(2)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 259,
+    "latex": "58!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 262,
+    "latex": "48 + 81",
+    "difficulty": "simple"
+  },
+  {
+    "id": 264,
+    "latex": "(46)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 265,
+    "latex": "91 \\div 25",
+    "difficulty": "simple"
+  },
+  {
+    "id": 268,
+    "latex": "95 \\div 30",
+    "difficulty": "simple"
+  },
+  {
+    "id": 275,
+    "latex": "3%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 276,
+    "latex": "72 \\times 55",
+    "difficulty": "simple"
+  },
+  {
+    "id": 281,
+    "latex": "38 - 34",
+    "difficulty": "simple"
+  },
+  {
+    "id": 284,
+    "latex": "59 \\div 22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 285,
+    "latex": "71!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 288,
+    "latex": "82 - 90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 292,
+    "latex": "80 - 39",
+    "difficulty": "simple"
+  },
+  {
+    "id": 300,
+    "latex": "8 \\div 31",
+    "difficulty": "simple"
+  },
+  {
+    "id": 302,
+    "latex": "55 \\times 72",
+    "difficulty": "simple"
+  },
+  {
+    "id": 304,
+    "latex": "-83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 305,
+    "latex": "7 \\times 95",
+    "difficulty": "simple"
+  },
+  {
+    "id": 314,
+    "latex": "62 \\div 15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 315,
+    "latex": "32 \\times 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 318,
+    "latex": "84 = 62",
+    "difficulty": "simple"
+  },
+  {
+    "id": 319,
+    "latex": "91!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 330,
+    "latex": "19 = 42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 332,
+    "latex": "(69)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 334,
+    "latex": "98 - 80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 335,
+    "latex": "60%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 336,
+    "latex": "(81)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 345,
+    "latex": "48 = 68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 348,
+    "latex": "49%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 351,
+    "latex": "68 = 64",
+    "difficulty": "simple"
+  },
+  {
+    "id": 352,
+    "latex": "(65)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 357,
+    "latex": "87 \\div 15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 359,
+    "latex": "27",
+    "difficulty": "simple"
+  },
+  {
+    "id": 362,
+    "latex": "71 + 78",
+    "difficulty": "simple"
+  },
+  {
+    "id": 363,
+    "latex": "47!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 366,
+    "latex": "82 \\times 11",
+    "difficulty": "simple"
+  },
+  {
+    "id": 368,
+    "latex": "72 = 1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 374,
+    "latex": "93!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 377,
+    "latex": "48%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 381,
+    "latex": "80%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 382,
+    "latex": "98 \\div 79",
+    "difficulty": "simple"
+  },
+  {
+    "id": 386,
+    "latex": "46 = 4",
+    "difficulty": "simple"
+  },
+  {
+    "id": 387,
+    "latex": "89 \\div 29",
+    "difficulty": "simple"
+  },
+  {
+    "id": 398,
+    "latex": "91 - 4",
+    "difficulty": "simple"
+  },
+  {
+    "id": 401,
+    "latex": "70 \\times 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 404,
+    "latex": "20%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 406,
+    "latex": "-18",
+    "difficulty": "simple"
+  },
+  {
+    "id": 408,
+    "latex": "73 - 1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 412,
+    "latex": "(5)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 421,
+    "latex": "31 + 21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 424,
+    "latex": "97 - 38",
+    "difficulty": "simple"
+  },
+  {
+    "id": 425,
+    "latex": "73 \\div 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 426,
+    "latex": "26%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 427,
+    "latex": "83%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 428,
+    "latex": "12!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 434,
+    "latex": "63!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 436,
+    "latex": "38 - 52",
+    "difficulty": "simple"
+  },
+  {
+    "id": 442,
+    "latex": "81!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 443,
+    "latex": "11 = 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 444,
+    "latex": "56 - 18",
+    "difficulty": "simple"
+  },
+  {
+    "id": 447,
+    "latex": "70 \\times 33",
+    "difficulty": "simple"
+  },
+  {
+    "id": 454,
+    "latex": "-90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 456,
+    "latex": "34%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 458,
+    "latex": "12 \\times 25",
+    "difficulty": "simple"
+  },
+  {
+    "id": 460,
+    "latex": "42 = 45",
+    "difficulty": "simple"
+  },
+  {
+    "id": 462,
+    "latex": "84 \\div 71",
+    "difficulty": "simple"
+  },
+  {
+    "id": 468,
+    "latex": "10 + 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 471,
+    "latex": "97 + 48",
+    "difficulty": "simple"
+  },
+  {
+    "id": 478,
+    "latex": "21 \\div 10",
+    "difficulty": "simple"
+  },
+  {
+    "id": 489,
+    "latex": "16%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 492,
+    "latex": "5!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 493,
+    "latex": "99 = 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 495,
+    "latex": "74",
+    "difficulty": "simple"
+  },
+  {
+    "id": 498,
+    "latex": "(95)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 501,
+    "latex": "93 - 30",
+    "difficulty": "simple"
+  },
+  {
+    "id": 505,
+    "latex": "95 = 73",
+    "difficulty": "simple"
+  },
+  {
+    "id": 507,
+    "latex": "7 - 90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 510,
+    "latex": "22!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 512,
+    "latex": "79!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 513,
+    "latex": "95 + 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 514,
+    "latex": "82 \\div 49",
+    "difficulty": "simple"
+  },
+  {
+    "id": 518,
+    "latex": "8 + 70",
+    "difficulty": "simple"
+  },
+  {
+    "id": 520,
+    "latex": "25%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 532,
+    "latex": "49 \\times 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 534,
+    "latex": "62 = 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 535,
+    "latex": "72!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 536,
+    "latex": "68 + 87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 537,
+    "latex": "82%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 539,
+    "latex": "97 \\div 9",
+    "difficulty": "simple"
+  },
+  {
+    "id": 540,
+    "latex": "-46",
+    "difficulty": "simple"
+  },
+  {
+    "id": 542,
+    "latex": "45",
+    "difficulty": "simple"
+  },
+  {
+    "id": 543,
+    "latex": "-95",
+    "difficulty": "simple"
+  },
+  {
+    "id": 545,
+    "latex": "-32",
+    "difficulty": "simple"
+  },
+  {
+    "id": 546,
+    "latex": "(10)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 553,
+    "latex": "(53)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 563,
+    "latex": "64 \\div 58",
+    "difficulty": "simple"
+  },
+  {
+    "id": 564,
+    "latex": "31 - 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 565,
+    "latex": "55 \\div 14",
+    "difficulty": "simple"
+  },
+  {
+    "id": 567,
+    "latex": "84 = 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 571,
+    "latex": "6 = 33",
+    "difficulty": "simple"
+  },
+  {
+    "id": 574,
+    "latex": "(74)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 577,
+    "latex": "59 + 89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 581,
+    "latex": "63 \\div 17",
+    "difficulty": "simple"
+  },
+  {
+    "id": 584,
+    "latex": "-85",
+    "difficulty": "simple"
+  },
+  {
+    "id": 588,
+    "latex": "42!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 589,
+    "latex": "-80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 594,
+    "latex": "58 \\div 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 596,
+    "latex": "89 = 21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 598,
+    "latex": "(63)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 599,
+    "latex": "14 - 81",
+    "difficulty": "simple"
+  },
+  {
+    "id": 602,
+    "latex": "(0)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 603,
+    "latex": "-67",
+    "difficulty": "simple"
+  },
+  {
+    "id": 605,
+    "latex": "52 = 42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 610,
+    "latex": "(32)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 615,
+    "latex": "4!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 620,
+    "latex": "54 \\times 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 621,
+    "latex": "13%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 628,
+    "latex": "35%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 636,
+    "latex": "96 \\times 5",
+    "difficulty": "simple"
+  },
+  {
+    "id": 639,
+    "latex": "74 - 69",
+    "difficulty": "simple"
+  },
+  {
+    "id": 640,
+    "latex": "76 = 13",
+    "difficulty": "simple"
+  },
+  {
+    "id": 646,
+    "latex": "63 \\times 69",
+    "difficulty": "simple"
+  },
+  {
+    "id": 648,
+    "latex": "42 = 59",
+    "difficulty": "simple"
+  },
+  {
+    "id": 652,
+    "latex": "93 + 42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 653,
+    "latex": "20!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 655,
+    "latex": "27%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 657,
+    "latex": "24%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 661,
+    "latex": "17 \\times 91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 664,
+    "latex": "43%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 668,
+    "latex": "7",
+    "difficulty": "simple"
+  },
+  {
+    "id": 669,
+    "latex": "28",
+    "difficulty": "simple"
+  },
+  {
+    "id": 670,
+    "latex": "74 = 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 671,
+    "latex": "53 + 38",
+    "difficulty": "simple"
+  },
+  {
+    "id": 674,
+    "latex": "84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 676,
+    "latex": "64 \\div 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 686,
+    "latex": "-15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 687,
+    "latex": "65 - 78",
+    "difficulty": "simple"
+  },
+  {
+    "id": 694,
+    "latex": "(35)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 695,
+    "latex": "95 \\times 6",
+    "difficulty": "simple"
+  },
+  {
+    "id": 697,
+    "latex": "39 = 52",
+    "difficulty": "simple"
+  },
+  {
+    "id": 703,
+    "latex": "33 - 80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 706,
+    "latex": "-25",
+    "difficulty": "simple"
+  },
+  {
+    "id": 707,
+    "latex": "99 \\div 51",
+    "difficulty": "simple"
+  },
+  {
+    "id": 708,
+    "latex": "38 \\times 8",
+    "difficulty": "simple"
+  },
+  {
+    "id": 714,
+    "latex": "23 \\times 56",
+    "difficulty": "simple"
+  },
+  {
+    "id": 717,
+    "latex": "96!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 718,
+    "latex": "3 = 16",
+    "difficulty": "simple"
+  },
+  {
+    "id": 719,
+    "latex": "74 \\div 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 721,
+    "latex": "54%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 723,
+    "latex": "-98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 725,
+    "latex": "38!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 732,
+    "latex": "26 \\times 75",
+    "difficulty": "simple"
+  },
+  {
+    "id": 733,
+    "latex": "57 + 62",
+    "difficulty": "simple"
+  },
+  {
+    "id": 736,
+    "latex": "53 + 21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 739,
+    "latex": "66%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 742,
+    "latex": "-16",
+    "difficulty": "simple"
+  },
+  {
+    "id": 743,
+    "latex": "38%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 747,
+    "latex": "23 \\div 62",
+    "difficulty": "simple"
+  },
+  {
+    "id": 749,
+    "latex": "(89)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 768,
+    "latex": "30 + 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 770,
+    "latex": "66 = 87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 773,
+    "latex": "(14)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 775,
+    "latex": "23 \\div 48",
+    "difficulty": "simple"
+  },
+  {
+    "id": 782,
+    "latex": "1%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 789,
+    "latex": "5 \\times 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 791,
+    "latex": "2 \\times 16",
+    "difficulty": "simple"
+  },
+  {
+    "id": 793,
+    "latex": "1 - 85",
+    "difficulty": "simple"
+  },
+  {
+    "id": 795,
+    "latex": "(28)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 802,
+    "latex": "53",
+    "difficulty": "simple"
+  },
+  {
+    "id": 805,
+    "latex": "36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 808,
+    "latex": "57",
+    "difficulty": "simple"
+  },
+  {
+    "id": 809,
+    "latex": "-60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 811,
+    "latex": "12 - 57",
+    "difficulty": "simple"
+  },
+  {
+    "id": 812,
+    "latex": "93",
+    "difficulty": "simple"
+  },
+  {
+    "id": 813,
+    "latex": "1 = 33",
+    "difficulty": "simple"
+  },
+  {
+    "id": 820,
+    "latex": "47 \\times 57",
+    "difficulty": "simple"
+  },
+  {
+    "id": 825,
+    "latex": "74 \\div 5",
+    "difficulty": "simple"
+  },
+  {
+    "id": 829,
+    "latex": "44 \\div 11",
+    "difficulty": "simple"
+  },
+  {
+    "id": 830,
+    "latex": "(59)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 835,
+    "latex": "71",
+    "difficulty": "simple"
+  },
+  {
+    "id": 837,
+    "latex": "87 - 29",
+    "difficulty": "simple"
+  },
+  {
+    "id": 841,
+    "latex": "75 \\div 14",
+    "difficulty": "simple"
+  },
+  {
+    "id": 842,
+    "latex": "95 + 70",
+    "difficulty": "simple"
+  },
+  {
+    "id": 847,
+    "latex": "33 \\times 95",
+    "difficulty": "simple"
+  },
+  {
+    "id": 848,
+    "latex": "0 - 22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 850,
+    "latex": "21 - 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 856,
+    "latex": "89 - 97",
+    "difficulty": "simple"
+  },
+  {
+    "id": 857,
+    "latex": "48 = 10",
+    "difficulty": "simple"
+  },
+  {
+    "id": 859,
+    "latex": "21%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 863,
+    "latex": "12 - 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 866,
+    "latex": "-1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 867,
+    "latex": "38 \\times 90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 869,
+    "latex": "23",
+    "difficulty": "simple"
+  },
+  {
+    "id": 872,
+    "latex": "48",
+    "difficulty": "simple"
+  },
+  {
+    "id": 873,
+    "latex": "-2",
+    "difficulty": "simple"
+  },
+  {
+    "id": 876,
+    "latex": "1 = 17",
+    "difficulty": "simple"
+  },
+  {
+    "id": 877,
+    "latex": "47 = 70",
+    "difficulty": "simple"
+  },
+  {
+    "id": 880,
+    "latex": "99",
+    "difficulty": "simple"
+  },
+  {
+    "id": 883,
+    "latex": "46!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 889,
+    "latex": "26!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 891,
+    "latex": "91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 893,
+    "latex": "33 + 50",
+    "difficulty": "simple"
+  },
+  {
+    "id": 897,
+    "latex": "46 \\times 2",
+    "difficulty": "simple"
+  },
+  {
+    "id": 898,
+    "latex": "74 + 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 899,
+    "latex": "50",
+    "difficulty": "simple"
+  },
+  {
+    "id": 904,
+    "latex": "(31)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 905,
+    "latex": "(99)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 908,
+    "latex": "87 + 52",
+    "difficulty": "simple"
+  },
+  {
+    "id": 909,
+    "latex": "(17)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 912,
+    "latex": "(18)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 913,
+    "latex": "27 - 97",
+    "difficulty": "simple"
+  },
+  {
+    "id": 914,
+    "latex": "33 = 49",
+    "difficulty": "simple"
+  },
+  {
+    "id": 915,
+    "latex": "-14",
+    "difficulty": "simple"
+  },
+  {
+    "id": 919,
+    "latex": "88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 924,
+    "latex": "93 \\div 80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 929,
+    "latex": "30 = 49",
+    "difficulty": "simple"
+  },
+  {
+    "id": 933,
+    "latex": "87!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 935,
+    "latex": "6 \\div 3",
+    "difficulty": "simple"
+  },
+  {
+    "id": 938,
+    "latex": "3 = 51",
+    "difficulty": "simple"
+  },
+  {
+    "id": 939,
+    "latex": "39 \\div 41",
+    "difficulty": "simple"
+  },
+  {
+    "id": 941,
+    "latex": "76 \\div 18",
+    "difficulty": "simple"
+  },
+  {
+    "id": 945,
+    "latex": "(71)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 954,
+    "latex": "52!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 955,
+    "latex": "19 + 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 956,
+    "latex": "78!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 958,
+    "latex": "16 \\div 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 967,
+    "latex": "94 = 88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 972,
+    "latex": "12 \\div 97",
+    "difficulty": "simple"
+  },
+  {
+    "id": 975,
+    "latex": "51%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 982,
+    "latex": "58 = 43",
+    "difficulty": "simple"
+  },
+  {
+    "id": 983,
+    "latex": "76 \\div 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 987,
+    "latex": "48 = 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 990,
+    "latex": "(30)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 995,
+    "latex": "85!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 996,
+    "latex": "(78)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1000,
+    "latex": "67 \\times 60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1003,
+    "latex": "-9",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1008,
+    "latex": "3 \\div 84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1009,
+    "latex": "24 + 8",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1013,
+    "latex": "73%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1014,
+    "latex": "87 \\div 5",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1015,
+    "latex": "73 \\times 87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1018,
+    "latex": "59 \\div 15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1020,
+    "latex": "-39",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1022,
+    "latex": "99!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1023,
+    "latex": "75 + 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1026,
+    "latex": "61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1032,
+    "latex": "35 + 36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1034,
+    "latex": "-54",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1037,
+    "latex": "25 - 24",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1041,
+    "latex": "66 + 57",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1043,
+    "latex": "8%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1045,
+    "latex": "93 = 88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1046,
+    "latex": "74 + 70",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1050,
+    "latex": "-91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1053,
+    "latex": "86 = 26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1055,
+    "latex": "56!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1056,
+    "latex": "-89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1059,
+    "latex": "12 + 56",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1060,
+    "latex": "63 \\div 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1064,
+    "latex": "27 + 24",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1065,
+    "latex": "32 \\times 1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1074,
+    "latex": "48 + 15",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1077,
+    "latex": "11 + 96",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1080,
+    "latex": "50 \\div 1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1085,
+    "latex": "(50)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1087,
+    "latex": "17%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1088,
+    "latex": "49",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1090,
+    "latex": "-73",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1099,
+    "latex": "17 \\div 38",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1101,
+    "latex": "64 = 87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1104,
+    "latex": "-87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1105,
+    "latex": "56",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1106,
+    "latex": "72 \\div 16",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1108,
+    "latex": "67 \\div 19",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1109,
+    "latex": "6 + 23",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1123,
+    "latex": "28!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1124,
+    "latex": "94 \\div 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1127,
+    "latex": "40!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1131,
+    "latex": "49 \\times 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1135,
+    "latex": "-81",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1138,
+    "latex": "(76)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1139,
+    "latex": "59 = 68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1144,
+    "latex": "42 - 80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1145,
+    "latex": "2!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1150,
+    "latex": "20 + 99",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1151,
+    "latex": "(26)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1152,
+    "latex": "19 \\div 33",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1155,
+    "latex": "36!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1157,
+    "latex": "63 \\div 74",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1160,
+    "latex": "74 - 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1162,
+    "latex": "2 - 31",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1163,
+    "latex": "84 = 74",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1169,
+    "latex": "56 - 14",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1172,
+    "latex": "17",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1173,
+    "latex": "85 + 5",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1175,
+    "latex": "72 \\div 91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1178,
+    "latex": "31!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1186,
+    "latex": "82 \\div 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1187,
+    "latex": "70%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1197,
+    "latex": "40 = 38",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1199,
+    "latex": "42 = 55",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1203,
+    "latex": "-44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1210,
+    "latex": "43 \\div 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1211,
+    "latex": "-94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1212,
+    "latex": "35 + 6",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1213,
+    "latex": "60 = 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1218,
+    "latex": "26 = 71",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1220,
+    "latex": "(38)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1222,
+    "latex": "84 \\times 38",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1225,
+    "latex": "26 = 52",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1227,
+    "latex": "95 + 77",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1229,
+    "latex": "(55)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1236,
+    "latex": "25 + 78",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1237,
+    "latex": "10 = 55",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1244,
+    "latex": "-26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1250,
+    "latex": "67 - 90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1252,
+    "latex": "81 \\div 88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1262,
+    "latex": "-30",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1269,
+    "latex": "43 - 32",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1272,
+    "latex": "94 \\times 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1277,
+    "latex": "25",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1279,
+    "latex": "1!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1287,
+    "latex": "80 - 18",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1290,
+    "latex": "21!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1293,
+    "latex": "13 + 17",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1295,
+    "latex": "88 \\div 76",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1297,
+    "latex": "65 - 86",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1300,
+    "latex": "9 = 30",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1302,
+    "latex": "11",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1314,
+    "latex": "18 + 22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1321,
+    "latex": "-47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1322,
+    "latex": "(92)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1328,
+    "latex": "44 = 68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1329,
+    "latex": "31 \\times 9",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1330,
+    "latex": "99 \\times 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1331,
+    "latex": "-19",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1333,
+    "latex": "-42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1335,
+    "latex": "34!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1339,
+    "latex": "-3",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1340,
+    "latex": "55 = 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1341,
+    "latex": "78 = 0",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1355,
+    "latex": "61 + 73",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1358,
+    "latex": "55 \\div 26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1362,
+    "latex": "34 = 2",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1365,
+    "latex": "82 + 26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1368,
+    "latex": "8 = 11",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1373,
+    "latex": "37 + 84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1381,
+    "latex": "80 = 48",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1391,
+    "latex": "-78",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1392,
+    "latex": "37 \\div 83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1394,
+    "latex": "(22)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1397,
+    "latex": "91 \\div 19",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1398,
+    "latex": "(33)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1402,
+    "latex": "24 + 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1405,
+    "latex": "37 - 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1407,
+    "latex": "(51)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1409,
+    "latex": "71 \\times 59",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1412,
+    "latex": "33 \\div 7",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1416,
+    "latex": "54 - 21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1419,
+    "latex": "29 + 10",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1424,
+    "latex": "6",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1436,
+    "latex": "35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1438,
+    "latex": "66!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1441,
+    "latex": "3 \\times 22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1442,
+    "latex": "-40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1443,
+    "latex": "31 - 85",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1449,
+    "latex": "73 \\div 36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1451,
+    "latex": "92!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1455,
+    "latex": "42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1458,
+    "latex": "17 - 89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1459,
+    "latex": "-12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1463,
+    "latex": "-28",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1470,
+    "latex": "(57)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1472,
+    "latex": "95 + 60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1479,
+    "latex": "44 \\div 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1481,
+    "latex": "-13",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1482,
+    "latex": "84 + 74",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1484,
+    "latex": "10 - 50",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1486,
+    "latex": "13",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1494,
+    "latex": "61 \\times 21",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1495,
+    "latex": "6%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1496,
+    "latex": "86!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1498,
+    "latex": "72",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1499,
+    "latex": "29 - 8",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1504,
+    "latex": "90%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1506,
+    "latex": "7!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1511,
+    "latex": "69%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1512,
+    "latex": "49 + 84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1513,
+    "latex": "73 - 34",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1514,
+    "latex": "64 \\times 77",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1518,
+    "latex": "(75)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1521,
+    "latex": "66 + 34",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1534,
+    "latex": "-68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1539,
+    "latex": "25 + 91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1544,
+    "latex": "67 - 42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1545,
+    "latex": "49 + 71",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1547,
+    "latex": "87 + 53",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1550,
+    "latex": "-88",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1558,
+    "latex": "86",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1562,
+    "latex": "(84)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1565,
+    "latex": "1 \\div 90",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1567,
+    "latex": "59 \\div 89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1568,
+    "latex": "(66)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1570,
+    "latex": "-65",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1576,
+    "latex": "5 + 62",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1581,
+    "latex": "48 \\div 87",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1582,
+    "latex": "56 + 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1593,
+    "latex": "52 \\div 46",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1595,
+    "latex": "5%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1602,
+    "latex": "(67)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1608,
+    "latex": "52",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1609,
+    "latex": "19 \\times 12",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1611,
+    "latex": "68 + 36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1615,
+    "latex": "47 = 23",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1616,
+    "latex": "(15)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1624,
+    "latex": "47 \\times 39",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1633,
+    "latex": "40 \\times 34",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1640,
+    "latex": "3",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1654,
+    "latex": "73 \\times 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1663,
+    "latex": "-57",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1664,
+    "latex": "58 = 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1668,
+    "latex": "25!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1669,
+    "latex": "88 \\times 98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1671,
+    "latex": "53 + 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1673,
+    "latex": "61 + 64",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1678,
+    "latex": "9 \\div 70",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1679,
+    "latex": "72 = 84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1682,
+    "latex": "46 - 60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1693,
+    "latex": "89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1695,
+    "latex": "89 = 45",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1699,
+    "latex": "76",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1701,
+    "latex": "78",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1703,
+    "latex": "55",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1704,
+    "latex": "57 + 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1707,
+    "latex": "19",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1709,
+    "latex": "35 = 11",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1713,
+    "latex": "(47)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1718,
+    "latex": "16 = 83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1719,
+    "latex": "33%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1722,
+    "latex": "45 - 36",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1723,
+    "latex": "3 - 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1725,
+    "latex": "39!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1728,
+    "latex": "58 = 9",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1731,
+    "latex": "51 \\times 76",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1732,
+    "latex": "12%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1740,
+    "latex": "83 + 98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1743,
+    "latex": "73 + 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1747,
+    "latex": "92%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1752,
+    "latex": "64 - 59",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1754,
+    "latex": "38 \\times 89",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1756,
+    "latex": "60",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1758,
+    "latex": "91 + 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1768,
+    "latex": "38 + 85",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1771,
+    "latex": "49 - 53",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1773,
+    "latex": "53 + 80",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1775,
+    "latex": "32%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1776,
+    "latex": "58%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1777,
+    "latex": "47 \\times 1",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1780,
+    "latex": "99 + 34",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1786,
+    "latex": "19 = 96",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1788,
+    "latex": "65 \\times 35",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1793,
+    "latex": "61%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1797,
+    "latex": "15%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1799,
+    "latex": "(7)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1804,
+    "latex": "52%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1805,
+    "latex": "(64)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1808,
+    "latex": "64 = 13",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1809,
+    "latex": "22%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1812,
+    "latex": "93 \\div 77",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1821,
+    "latex": "87 \\div 68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1822,
+    "latex": "(44)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1825,
+    "latex": "93 \\div 86",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1827,
+    "latex": "-41",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1831,
+    "latex": "6 - 83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1835,
+    "latex": "83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1837,
+    "latex": "58 + 65",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1838,
+    "latex": "65",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1841,
+    "latex": "(85)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1843,
+    "latex": "9 \\div 56",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1846,
+    "latex": "76 \\div 75",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1852,
+    "latex": "16 - 61",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1854,
+    "latex": "18 = 42",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1855,
+    "latex": "86 - 26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1857,
+    "latex": "19!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1858,
+    "latex": "0 = 76",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1859,
+    "latex": "55 \\times 23",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1860,
+    "latex": "64 \\div 54",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1862,
+    "latex": "47%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1864,
+    "latex": "98%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1865,
+    "latex": "7 - 37",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1868,
+    "latex": "26",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1873,
+    "latex": "34 \\times 81",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1874,
+    "latex": "12 - 92",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1876,
+    "latex": "45%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1878,
+    "latex": "22 = 91",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1888,
+    "latex": "22",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1889,
+    "latex": "98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1891,
+    "latex": "70 + 13",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1892,
+    "latex": "76 \\div 7",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1896,
+    "latex": "(37)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1897,
+    "latex": "16",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1898,
+    "latex": "48 + 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1907,
+    "latex": "(13)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1908,
+    "latex": "81",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1909,
+    "latex": "94 + 43",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1910,
+    "latex": "82",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1915,
+    "latex": "64 - 17",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1919,
+    "latex": "45 = 28",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1924,
+    "latex": "95!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1926,
+    "latex": "66 \\div 98",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1928,
+    "latex": "89 + 83",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1934,
+    "latex": "44 - 44",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1939,
+    "latex": "62 \\times 68",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1941,
+    "latex": "56 + 46",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1944,
+    "latex": "88%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1948,
+    "latex": "53 - 56",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1950,
+    "latex": "10 \\times 76",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1952,
+    "latex": "91%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1954,
+    "latex": "(41)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1956,
+    "latex": "-48",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1958,
+    "latex": "48 \\times 40",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1959,
+    "latex": "94 - 41",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1968,
+    "latex": "82 \\times 20",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1969,
+    "latex": "18%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1974,
+    "latex": "14",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1980,
+    "latex": "41 \\div 47",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1981,
+    "latex": "(87)",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1983,
+    "latex": "63 \\times 66",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1984,
+    "latex": "85",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1989,
+    "latex": "54!",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1993,
+    "latex": "3 \\times 94",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1996,
+    "latex": "76 - 84",
+    "difficulty": "simple"
+  },
+  {
+    "id": 2000,
+    "latex": "81%",
+    "difficulty": "simple"
+  },
+  {
+    "id": 1,
+    "latex": "\\sqrt{89} + 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 2,
+    "latex": "π \\times 90",
+    "difficulty": "normal"
+  },
+  {
+    "id": 3,
+    "latex": "(4 + 10) \\times 1",
+    "difficulty": "normal"
+  },
+  {
+    "id": 5,
+    "latex": "92^{2} + 9",
+    "difficulty": "normal"
+  },
+  {
+    "id": 6,
+    "latex": "\\frac{7}{18} + \\frac{7}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 8,
+    "latex": "\\frac{10}{17} - \\frac{16}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 14,
+    "latex": "\\sqrt{76} \\times 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 19,
+    "latex": "(28 + 83) \\times 60",
+    "difficulty": "normal"
+  },
+  {
+    "id": 20,
+    "latex": "53^{4} + 99",
+    "difficulty": "normal"
+  },
+  {
+    "id": 21,
+    "latex": "\\frac{19}{11} + \\frac{18}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 22,
+    "latex": "(91+19)^{2} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 26,
+    "latex": "\\tan{88}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 27,
+    "latex": "\\sqrt{60} \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 33,
+    "latex": "\\sqrt{54} \\times 90",
+    "difficulty": "normal"
+  },
+  {
+    "id": 39,
+    "latex": "\\cot{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 43,
+    "latex": "\\sqrt{39} + 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 44,
+    "latex": "\\sqrt{7} \\times 33",
+    "difficulty": "normal"
+  },
+  {
+    "id": 46,
+    "latex": "\\frac{8}{4} + \\frac{7}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 48,
+    "latex": "\\frac{16}{8} + \\frac{10}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 49,
+    "latex": "(79 + 25) \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 55,
+    "latex": "(79+43)^{4} + 60",
+    "difficulty": "normal"
+  },
+  {
+    "id": 56,
+    "latex": "π \\times 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 59,
+    "latex": "\\frac{13}{5} - \\frac{16}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 62,
+    "latex": "(9 + 4) \\times 7",
+    "difficulty": "normal"
+  },
+  {
+    "id": 64,
+    "latex": "24 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 65,
+    "latex": "(78 + 36) \\times 17",
+    "difficulty": "normal"
+  },
+  {
+    "id": 66,
+    "latex": "\\ln{72}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 68,
+    "latex": "(66+83)^{4} + 69",
+    "difficulty": "normal"
+  },
+  {
+    "id": 69,
+    "latex": "\\ln{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 71,
+    "latex": "π \\times 84",
+    "difficulty": "normal"
+  },
+  {
+    "id": 72,
+    "latex": "\\sin{90}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 74,
+    "latex": "(94 + 70) \\times 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 82,
+    "latex": "e \\times 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 85,
+    "latex": "40 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 86,
+    "latex": "\\cos{50}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 87,
+    "latex": "27 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 89,
+    "latex": "\\sqrt{12} + 12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 91,
+    "latex": "\\sqrt{71} \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 92,
+    "latex": "\\frac{2}{11} - \\frac{18}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 94,
+    "latex": "π \\times 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 96,
+    "latex": "\\frac{11}{18} - \\frac{10}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 99,
+    "latex": "π \\times 44",
+    "difficulty": "normal"
+  },
+  {
+    "id": 100,
+    "latex": "\\sqrt{15} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 102,
+    "latex": "e^{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 103,
+    "latex": "e \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 106,
+    "latex": "\\sqrt{31} \\times 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 107,
+    "latex": "e \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 108,
+    "latex": "\\frac{5}{3} - \\frac{8}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 111,
+    "latex": "(45 + 61) \\times 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 112,
+    "latex": "\\cot{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 114,
+    "latex": "\\cos{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 117,
+    "latex": "\\sqrt{83} + 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 119,
+    "latex": "\\sqrt{66} \\times 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 120,
+    "latex": "(75+81)^{4} + 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 123,
+    "latex": "(15+62)^{3} + 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 124,
+    "latex": "\\sqrt{12} \\times 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 125,
+    "latex": "\\sqrt{73} + 57",
+    "difficulty": "normal"
+  },
+  {
+    "id": 126,
+    "latex": "π \\times 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 127,
+    "latex": "\\frac{19}{4} + \\frac{7}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 132,
+    "latex": "(69 + 54) \\times 78",
+    "difficulty": "normal"
+  },
+  {
+    "id": 134,
+    "latex": "\\ln{46}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 135,
+    "latex": "1^{4} + 15",
+    "difficulty": "normal"
+  },
+  {
+    "id": 138,
+    "latex": "\\sqrt{36} \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 140,
+    "latex": "\\tan{49}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 141,
+    "latex": "\\sin{53}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 142,
+    "latex": "\\sqrt{59} \\times 22",
+    "difficulty": "normal"
+  },
+  {
+    "id": 144,
+    "latex": "\\sqrt{74} + 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 146,
+    "latex": "\\ln{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 147,
+    "latex": "\\frac{14}{16} + \\frac{19}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 148,
+    "latex": "(45 + 70) \\times 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 155,
+    "latex": "\\cos{62}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 156,
+    "latex": "\\frac{19}{13} - \\frac{3}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 157,
+    "latex": "\\frac{10}{5} + \\frac{20}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 162,
+    "latex": "42^{3} + 74",
+    "difficulty": "normal"
+  },
+  {
+    "id": 163,
+    "latex": "\\sqrt{79} \\times 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 167,
+    "latex": "\\sqrt{92} \\times 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 169,
+    "latex": "π \\times 79",
+    "difficulty": "normal"
+  },
+  {
+    "id": 170,
+    "latex": "\\ln{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 171,
+    "latex": "\\frac{11}{16} - \\frac{19}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 174,
+    "latex": "(22 + 97) \\times 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 175,
+    "latex": "e \\times 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 176,
+    "latex": "π \\times 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 177,
+    "latex": "(55 + 35) \\times 44",
+    "difficulty": "normal"
+  },
+  {
+    "id": 178,
+    "latex": "(32 + 80) \\times 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 179,
+    "latex": "e \\times 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 180,
+    "latex": "\\frac{10}{5} + \\frac{15}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 183,
+    "latex": "9 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 186,
+    "latex": "\\sqrt{74} \\times 2",
+    "difficulty": "normal"
+  },
+  {
+    "id": 187,
+    "latex": "\\frac{16}{16} + \\frac{20}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 191,
+    "latex": "\\frac{1}{17} - \\frac{1}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 194,
+    "latex": "(97 + 83) \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 198,
+    "latex": "\\frac{1}{16} + \\frac{8}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 199,
+    "latex": "\\frac{18}{2} + \\frac{4}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 200,
+    "latex": "85^{3} + 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 201,
+    "latex": "\\sqrt{36} \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 203,
+    "latex": "(19+18)^{3} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 204,
+    "latex": "\\frac{18}{14} - \\frac{20}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 206,
+    "latex": "\\sin{28}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 207,
+    "latex": "\\sqrt{69} \\times 17",
+    "difficulty": "normal"
+  },
+  {
+    "id": 208,
+    "latex": "(5 + 8) \\times 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 210,
+    "latex": "\\tan{41}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 211,
+    "latex": "\\ln{36}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 214,
+    "latex": "80 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 215,
+    "latex": "\\frac{3}{9} - \\frac{1}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 218,
+    "latex": "71^{3} + 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 220,
+    "latex": "\\sqrt{99} + 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 221,
+    "latex": "\\sqrt{96} \\times 1",
+    "difficulty": "normal"
+  },
+  {
+    "id": 222,
+    "latex": "\\frac{11}{10} + \\frac{19}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 223,
+    "latex": "8 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 226,
+    "latex": "\\ln{90}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 230,
+    "latex": "26^{2} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 236,
+    "latex": "π \\times 36",
+    "difficulty": "normal"
+  },
+  {
+    "id": 237,
+    "latex": "π \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 238,
+    "latex": "\\sqrt{13} \\times 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 241,
+    "latex": "53 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 247,
+    "latex": "\\frac{1}{12} + \\frac{20}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 248,
+    "latex": "(76 + 55) \\times 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 251,
+    "latex": "(87+69)^{3} + 94",
+    "difficulty": "normal"
+  },
+  {
+    "id": 253,
+    "latex": "\\sqrt{7} \\times 83",
+    "difficulty": "normal"
+  },
+  {
+    "id": 254,
+    "latex": "\\sin{87}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 256,
+    "latex": "\\sqrt{7} + 69",
+    "difficulty": "normal"
+  },
+  {
+    "id": 257,
+    "latex": "63 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 258,
+    "latex": "\\sqrt{65} + 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 260,
+    "latex": "\\cot{81}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 263,
+    "latex": "\\tan{76}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 267,
+    "latex": "\\frac{13}{6} - \\frac{14}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 269,
+    "latex": "\\frac{15}{8} + \\frac{9}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 271,
+    "latex": "\\sqrt{88} + 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 273,
+    "latex": "π \\times 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 274,
+    "latex": "\\ln{91}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 277,
+    "latex": "\\frac{12}{18} - \\frac{6}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 279,
+    "latex": "\\ln{58}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 280,
+    "latex": "\\frac{17}{15} - \\frac{2}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 282,
+    "latex": "\\sqrt{31} \\times 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 283,
+    "latex": "\\frac{4}{9} - \\frac{5}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 286,
+    "latex": "(21 + 0) \\times 29",
+    "difficulty": "normal"
+  },
+  {
+    "id": 287,
+    "latex": "\\sqrt{6} + 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 289,
+    "latex": "π \\times 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 290,
+    "latex": "\\sqrt{45} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 293,
+    "latex": "(94 + 43) \\times 79",
+    "difficulty": "normal"
+  },
+  {
+    "id": 294,
+    "latex": "\\frac{7}{3} - \\frac{6}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 296,
+    "latex": "π \\times 43",
+    "difficulty": "normal"
+  },
+  {
+    "id": 298,
+    "latex": "\\cot{71}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 299,
+    "latex": "e \\times 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 301,
+    "latex": "71^{4} + 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 303,
+    "latex": "61^{4} + 29",
+    "difficulty": "normal"
+  },
+  {
+    "id": 307,
+    "latex": "\\ln{49}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 309,
+    "latex": "\\ln{85}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 310,
+    "latex": "\\ln{70}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 312,
+    "latex": "\\frac{7}{13} - \\frac{12}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 313,
+    "latex": "\\sqrt{60} + 48",
+    "difficulty": "normal"
+  },
+  {
+    "id": 316,
+    "latex": "(54 + 75) \\times 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 317,
+    "latex": "\\sqrt{62} \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 320,
+    "latex": "14^{2} + 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 321,
+    "latex": "\\sqrt{62} + 22",
+    "difficulty": "normal"
+  },
+  {
+    "id": 322,
+    "latex": "\\sqrt{32} + 42",
+    "difficulty": "normal"
+  },
+  {
+    "id": 324,
+    "latex": "19^{4} + 92",
+    "difficulty": "normal"
+  },
+  {
+    "id": 325,
+    "latex": "\\sqrt{66} \\times 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 326,
+    "latex": "\\frac{9}{19} + \\frac{10}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 327,
+    "latex": "\\frac{13}{7} + \\frac{13}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 329,
+    "latex": "\\frac{20}{6} + \\frac{8}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 331,
+    "latex": "\\cos{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 333,
+    "latex": "\\frac{13}{15} + \\frac{4}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 339,
+    "latex": "\\frac{6}{4} + \\frac{3}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 340,
+    "latex": "\\sqrt{54} + 1",
+    "difficulty": "normal"
+  },
+  {
+    "id": 342,
+    "latex": "\\tan{36}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 343,
+    "latex": "\\frac{2}{18} - \\frac{19}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 344,
+    "latex": "47 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 346,
+    "latex": "\\frac{15}{14} + \\frac{17}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 347,
+    "latex": "e \\times 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 349,
+    "latex": "\\frac{3}{12} - \\frac{15}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 350,
+    "latex": "e \\times 46",
+    "difficulty": "normal"
+  },
+  {
+    "id": 353,
+    "latex": "\\frac{2}{6} - \\frac{5}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 355,
+    "latex": "\\frac{19}{4} - \\frac{19}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 356,
+    "latex": "π \\times 76",
+    "difficulty": "normal"
+  },
+  {
+    "id": 358,
+    "latex": "\\ln{21}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 360,
+    "latex": "96 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 361,
+    "latex": "\\frac{9}{8} - \\frac{14}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 364,
+    "latex": "e \\times 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 370,
+    "latex": "(94+83)^{4} + 85",
+    "difficulty": "normal"
+  },
+  {
+    "id": 371,
+    "latex": "\\frac{1}{8} - \\frac{3}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 373,
+    "latex": "97^{3} + 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 375,
+    "latex": "\\ln{53}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 376,
+    "latex": "\\frac{10}{6} - \\frac{7}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 378,
+    "latex": "\\sqrt{12} + 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 379,
+    "latex": "(87 + 30) \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 380,
+    "latex": "\\sqrt{76} \\times 43",
+    "difficulty": "normal"
+  },
+  {
+    "id": 384,
+    "latex": "\\ln{64}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 385,
+    "latex": "π \\times 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 389,
+    "latex": "49^{4} + 58",
+    "difficulty": "normal"
+  },
+  {
+    "id": 390,
+    "latex": "\\cot{36}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 391,
+    "latex": "\\sqrt{8} + 98",
+    "difficulty": "normal"
+  },
+  {
+    "id": 392,
+    "latex": "\\ln{83}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 393,
+    "latex": "\\frac{16}{20} + \\frac{20}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 394,
+    "latex": "(86 + 1) \\times 46",
+    "difficulty": "normal"
+  },
+  {
+    "id": 395,
+    "latex": "(10 + 51) \\times 2",
+    "difficulty": "normal"
+  },
+  {
+    "id": 397,
+    "latex": "e \\times 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 399,
+    "latex": "\\tan{62}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 400,
+    "latex": "\\ln{43}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 407,
+    "latex": "47^{2} + 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 409,
+    "latex": "(68 + 59) \\times 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 410,
+    "latex": "70^{2} + 95",
+    "difficulty": "normal"
+  },
+  {
+    "id": 411,
+    "latex": "\\sqrt{19} + 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 413,
+    "latex": "\\sin{65}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 414,
+    "latex": "45^{4} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 417,
+    "latex": "\\frac{1}{20} + \\frac{4}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 418,
+    "latex": "π \\times 68",
+    "difficulty": "normal"
+  },
+  {
+    "id": 419,
+    "latex": "\\sin{21}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 420,
+    "latex": "e \\times 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 422,
+    "latex": "\\sqrt{8} \\times 12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 423,
+    "latex": "\\frac{10}{5} - \\frac{18}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 435,
+    "latex": "\\tan{69}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 437,
+    "latex": "\\sin{78}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 439,
+    "latex": "\\sqrt{95} + 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 440,
+    "latex": "\\ln{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 445,
+    "latex": "(83 + 36) \\times 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 446,
+    "latex": "\\cos{87}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 449,
+    "latex": "\\frac{10}{4} - \\frac{14}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 450,
+    "latex": "\\frac{2}{11} + \\frac{8}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 451,
+    "latex": "\\cos{90}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 452,
+    "latex": "(17+1)^{3} + 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 453,
+    "latex": "e \\times 85",
+    "difficulty": "normal"
+  },
+  {
+    "id": 455,
+    "latex": "\\tan{75}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 457,
+    "latex": "e \\times 36",
+    "difficulty": "normal"
+  },
+  {
+    "id": 459,
+    "latex": "(67 + 2) \\times 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 463,
+    "latex": "\\frac{5}{8} - \\frac{3}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 464,
+    "latex": "\\sqrt{94} \\times 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 466,
+    "latex": "(60+19)^{3} + 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 467,
+    "latex": "\\sqrt{15} + 57",
+    "difficulty": "normal"
+  },
+  {
+    "id": 469,
+    "latex": "\\frac{14}{20} + \\frac{4}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 473,
+    "latex": "e \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 474,
+    "latex": "77 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 475,
+    "latex": "\\frac{20}{5} - \\frac{3}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 476,
+    "latex": "\\sqrt{11} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 479,
+    "latex": "\\frac{6}{9} + \\frac{6}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 480,
+    "latex": "\\frac{17}{13} + \\frac{4}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 481,
+    "latex": "π \\times 57",
+    "difficulty": "normal"
+  },
+  {
+    "id": 483,
+    "latex": "\\ln{69}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 485,
+    "latex": "(12 + 94) \\times 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 486,
+    "latex": "\\ln{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 487,
+    "latex": "\\ln{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 488,
+    "latex": "(63+5)^{3} + 15",
+    "difficulty": "normal"
+  },
+  {
+    "id": 490,
+    "latex": "\\ln{99}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 491,
+    "latex": "(24+13)^{4} + 17",
+    "difficulty": "normal"
+  },
+  {
+    "id": 496,
+    "latex": "(99 + 22) \\times 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 497,
+    "latex": "\\sqrt{22} \\times 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 499,
+    "latex": "\\sin{75}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 500,
+    "latex": "\\frac{14}{15} - \\frac{8}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 502,
+    "latex": "(15 + 43) \\times 44",
+    "difficulty": "normal"
+  },
+  {
+    "id": 503,
+    "latex": "π \\times 55",
+    "difficulty": "normal"
+  },
+  {
+    "id": 504,
+    "latex": "e \\times 64",
+    "difficulty": "normal"
+  },
+  {
+    "id": 506,
+    "latex": "\\sqrt{45} \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 509,
+    "latex": "\\frac{13}{15} - \\frac{2}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 511,
+    "latex": "\\ln{59}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 515,
+    "latex": "\\frac{10}{5} + \\frac{14}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 516,
+    "latex": "\\frac{3}{20} + \\frac{17}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 517,
+    "latex": "\\frac{17}{18} + \\frac{15}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 519,
+    "latex": "\\cos{86}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 521,
+    "latex": "39^{4} + 21",
+    "difficulty": "normal"
+  },
+  {
+    "id": 523,
+    "latex": "(16 + 26) \\times 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 524,
+    "latex": "(31 + 0) \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 525,
+    "latex": "59 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 528,
+    "latex": "\\sqrt{77} \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 529,
+    "latex": "(83 + 61) \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 531,
+    "latex": "\\frac{4}{20} - \\frac{17}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 538,
+    "latex": "25^{3} + 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 541,
+    "latex": "44 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 544,
+    "latex": "\\cos{61}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 547,
+    "latex": "\\frac{6}{9} + \\frac{20}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 548,
+    "latex": "(81+8)^{2} + 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 549,
+    "latex": "\\sqrt{86} + 82",
+    "difficulty": "normal"
+  },
+  {
+    "id": 550,
+    "latex": "\\sqrt{38} \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 551,
+    "latex": "e \\times 4",
+    "difficulty": "normal"
+  },
+  {
+    "id": 552,
+    "latex": "\\frac{18}{17} + \\frac{20}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 555,
+    "latex": "43 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 556,
+    "latex": "\\cos{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 557,
+    "latex": "\\sin{31}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 558,
+    "latex": "\\ln{80}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 560,
+    "latex": "\\frac{8}{11} - \\frac{5}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 561,
+    "latex": "\\ln{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 566,
+    "latex": "(82+80)^{4} + 86",
+    "difficulty": "normal"
+  },
+  {
+    "id": 568,
+    "latex": "(68+79)^{4} + 69",
+    "difficulty": "normal"
+  },
+  {
+    "id": 570,
+    "latex": "\\cot{37}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 573,
+    "latex": "\\frac{10}{13} - \\frac{16}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 576,
+    "latex": "\\ln{39}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 578,
+    "latex": "\\sqrt{47} + 62",
+    "difficulty": "normal"
+  },
+  {
+    "id": 579,
+    "latex": "\\sqrt{96} \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 580,
+    "latex": "\\tan{0}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 582,
+    "latex": "\\frac{9}{20} + \\frac{13}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 586,
+    "latex": "\\frac{12}{3} + \\frac{16}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 592,
+    "latex": "(68 + 46) \\times 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 593,
+    "latex": "π \\times 69",
+    "difficulty": "normal"
+  },
+  {
+    "id": 595,
+    "latex": "22^{3} + 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 597,
+    "latex": "\\sin{27}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 600,
+    "latex": "\\frac{16}{4} + \\frac{6}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 601,
+    "latex": "56^{4} + 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 606,
+    "latex": "e \\times 79",
+    "difficulty": "normal"
+  },
+  {
+    "id": 607,
+    "latex": "\\frac{16}{5} + \\frac{19}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 608,
+    "latex": "\\cot{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 609,
+    "latex": "(1+88)^{2} + 62",
+    "difficulty": "normal"
+  },
+  {
+    "id": 611,
+    "latex": "\\sqrt{99} \\times 26",
+    "difficulty": "normal"
+  },
+  {
+    "id": 613,
+    "latex": "e \\times 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 614,
+    "latex": "\\sqrt{23} + 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 616,
+    "latex": "\\ln{84}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 617,
+    "latex": "(54+33)^{2} + 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 618,
+    "latex": "\\frac{10}{18} + \\frac{4}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 622,
+    "latex": "π \\times 26",
+    "difficulty": "normal"
+  },
+  {
+    "id": 623,
+    "latex": "(31 + 92) \\times 17",
+    "difficulty": "normal"
+  },
+  {
+    "id": 624,
+    "latex": "π \\times 7",
+    "difficulty": "normal"
+  },
+  {
+    "id": 626,
+    "latex": "\\cot{89}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 629,
+    "latex": "(77+71)^{2} + 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 630,
+    "latex": "e \\times 62",
+    "difficulty": "normal"
+  },
+  {
+    "id": 631,
+    "latex": "\\sqrt{38} \\times 64",
+    "difficulty": "normal"
+  },
+  {
+    "id": 632,
+    "latex": "(66+67)^{3} + 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 633,
+    "latex": "\\frac{5}{16} - \\frac{11}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 635,
+    "latex": "38^{3} + 98",
+    "difficulty": "normal"
+  },
+  {
+    "id": 637,
+    "latex": "\\sin{38}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 638,
+    "latex": "(48+42)^{4} + 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 641,
+    "latex": "\\frac{16}{14} + \\frac{18}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 642,
+    "latex": "\\frac{12}{10} - \\frac{11}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 643,
+    "latex": "(11+64)^{4} + 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 645,
+    "latex": "\\frac{9}{18} - \\frac{17}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 647,
+    "latex": "\\frac{12}{11} + \\frac{4}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 649,
+    "latex": "(53 + 52) \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 650,
+    "latex": "e \\times 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 651,
+    "latex": "\\ln{41}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 654,
+    "latex": "(43 + 50) \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 658,
+    "latex": "π \\times 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 659,
+    "latex": "π \\times 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 662,
+    "latex": "\\sqrt{18} \\times 68",
+    "difficulty": "normal"
+  },
+  {
+    "id": 663,
+    "latex": "(81+65)^{2} + 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 665,
+    "latex": "\\frac{16}{16} - \\frac{7}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 667,
+    "latex": "\\frac{5}{14} + \\frac{6}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 672,
+    "latex": "\\ln{68}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 673,
+    "latex": "\\frac{7}{12} + \\frac{15}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 675,
+    "latex": "\\ln{86}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 677,
+    "latex": "\\sqrt{83} + 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 678,
+    "latex": "e^{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 679,
+    "latex": "\\frac{19}{4} + \\frac{15}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 680,
+    "latex": "\\sqrt{14} \\times 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 681,
+    "latex": "\\sqrt{77} + 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 682,
+    "latex": "\\frac{5}{12} - \\frac{20}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 683,
+    "latex": "e \\times 44",
+    "difficulty": "normal"
+  },
+  {
+    "id": 684,
+    "latex": "\\sqrt{89} \\times 85",
+    "difficulty": "normal"
+  },
+  {
+    "id": 685,
+    "latex": "\\frac{7}{14} + \\frac{1}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 688,
+    "latex": "\\ln{93}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 689,
+    "latex": "\\ln{75}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 690,
+    "latex": "\\tan{63}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 692,
+    "latex": "\\sqrt{68} \\times 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 693,
+    "latex": "\\tan{71}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 696,
+    "latex": "(0 + 37) \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 698,
+    "latex": "\\tan{74}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 700,
+    "latex": "\\sqrt{25} \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 701,
+    "latex": "\\cot{80}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 702,
+    "latex": "\\sqrt{99} \\times 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 704,
+    "latex": "\\ln{74}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 705,
+    "latex": "\\frac{5}{13} + \\frac{18}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 709,
+    "latex": "\\frac{11}{9} + \\frac{18}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 710,
+    "latex": "\\sqrt{10} + 62",
+    "difficulty": "normal"
+  },
+  {
+    "id": 711,
+    "latex": "π \\times 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 713,
+    "latex": "\\frac{2}{20} - \\frac{9}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 716,
+    "latex": "48 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 722,
+    "latex": "30^{2} + 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 724,
+    "latex": "\\sqrt{20} \\times 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 726,
+    "latex": "\\sqrt{86} + 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 727,
+    "latex": "\\frac{2}{15} - \\frac{4}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 729,
+    "latex": "43^{2} + 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 730,
+    "latex": "(67 + 7) \\times 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 731,
+    "latex": "\\sqrt{99} \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 735,
+    "latex": "\\sin{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 738,
+    "latex": "(68 + 94) \\times 63",
+    "difficulty": "normal"
+  },
+  {
+    "id": 740,
+    "latex": "0^{2} + 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 741,
+    "latex": "π \\times 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 744,
+    "latex": "\\sqrt{72} \\times 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 745,
+    "latex": "18^{4} + 62",
+    "difficulty": "normal"
+  },
+  {
+    "id": 746,
+    "latex": "12 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 748,
+    "latex": "π \\times 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 750,
+    "latex": "\\sqrt{62} + 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 751,
+    "latex": "\\sin{55}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 752,
+    "latex": "\\frac{2}{6} - \\frac{9}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 753,
+    "latex": "\\sqrt{67} \\times 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 754,
+    "latex": "e \\times 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 756,
+    "latex": "π \\times 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 757,
+    "latex": "\\sin{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 759,
+    "latex": "e \\times 82",
+    "difficulty": "normal"
+  },
+  {
+    "id": 762,
+    "latex": "(65+99)^{3} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 765,
+    "latex": "π \\times 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 766,
+    "latex": "(16 + 78) \\times 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 769,
+    "latex": "2^{3} + 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 774,
+    "latex": "36 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 776,
+    "latex": "\\cot{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 777,
+    "latex": "30^{4} + 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 779,
+    "latex": "(97+17)^{4} + 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 781,
+    "latex": "6^{4} + 83",
+    "difficulty": "normal"
+  },
+  {
+    "id": 783,
+    "latex": "π \\times 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 784,
+    "latex": "\\sqrt{55} \\times 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 785,
+    "latex": "\\frac{8}{17} - \\frac{2}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 786,
+    "latex": "e \\times 70",
+    "difficulty": "normal"
+  },
+  {
+    "id": 787,
+    "latex": "\\frac{4}{11} - \\frac{1}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 788,
+    "latex": "\\frac{13}{17} + \\frac{6}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 796,
+    "latex": "e \\times 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 797,
+    "latex": "(31+90)^{2} + 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 798,
+    "latex": "\\sin{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 799,
+    "latex": "e \\times 38",
+    "difficulty": "normal"
+  },
+  {
+    "id": 800,
+    "latex": "\\sqrt{6} \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 801,
+    "latex": "\\frac{13}{15} - \\frac{8}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 803,
+    "latex": "\\tan{27}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 804,
+    "latex": "\\sqrt{10} + 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 806,
+    "latex": "\\sqrt{31} + 12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 807,
+    "latex": "\\frac{19}{17} + \\frac{19}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 810,
+    "latex": "\\frac{10}{16} - \\frac{4}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 814,
+    "latex": "\\sqrt{96} \\times 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 816,
+    "latex": "(25+81)^{3} + 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 817,
+    "latex": "\\ln{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 818,
+    "latex": "(13 + 87) \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 819,
+    "latex": "e \\times 7",
+    "difficulty": "normal"
+  },
+  {
+    "id": 821,
+    "latex": "\\sin{49}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 822,
+    "latex": "\\cot{32}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 823,
+    "latex": "\\sqrt{22} + 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 826,
+    "latex": "e \\times 69",
+    "difficulty": "normal"
+  },
+  {
+    "id": 828,
+    "latex": "e \\times 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 833,
+    "latex": "66 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 838,
+    "latex": "e \\times 33",
+    "difficulty": "normal"
+  },
+  {
+    "id": 839,
+    "latex": "35^{4} + 29",
+    "difficulty": "normal"
+  },
+  {
+    "id": 840,
+    "latex": "49 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 843,
+    "latex": "22 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 844,
+    "latex": "\\sqrt{95} + 84",
+    "difficulty": "normal"
+  },
+  {
+    "id": 846,
+    "latex": "\\cot{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 849,
+    "latex": "\\sqrt{25} + 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 851,
+    "latex": "\\frac{8}{19} + \\frac{10}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 852,
+    "latex": "\\cos{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 853,
+    "latex": "33 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 854,
+    "latex": "\\frac{15}{7} + \\frac{17}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 855,
+    "latex": "84^{3} + 26",
+    "difficulty": "normal"
+  },
+  {
+    "id": 858,
+    "latex": "\\sqrt{64} + 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 861,
+    "latex": "\\frac{9}{16} - \\frac{11}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 862,
+    "latex": "\\frac{1}{11} + \\frac{3}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 868,
+    "latex": "\\sqrt{5} \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 871,
+    "latex": "\\frac{19}{19} - \\frac{19}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 874,
+    "latex": "68 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 875,
+    "latex": "\\sqrt{64} \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 879,
+    "latex": "(39 + 78) \\times 15",
+    "difficulty": "normal"
+  },
+  {
+    "id": 881,
+    "latex": "82 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 882,
+    "latex": "\\cot{47}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 884,
+    "latex": "(58 + 49) \\times 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 885,
+    "latex": "\\frac{5}{12} + \\frac{20}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 886,
+    "latex": "(95 + 8) \\times 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 887,
+    "latex": "\\frac{20}{8} - \\frac{1}{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 890,
+    "latex": "\\sin{84}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 894,
+    "latex": "\\tan{50}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 895,
+    "latex": "37^{2} + 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 900,
+    "latex": "\\frac{14}{4} + \\frac{17}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 902,
+    "latex": "(91 + 19) \\times 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 903,
+    "latex": "\\sqrt{39} \\times 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 906,
+    "latex": "(43+46)^{2} + 48",
+    "difficulty": "normal"
+  },
+  {
+    "id": 907,
+    "latex": "\\sqrt{11} + 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 910,
+    "latex": "\\frac{20}{10} - \\frac{3}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 911,
+    "latex": "\\frac{15}{10} - \\frac{1}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 917,
+    "latex": "\\sqrt{11} + 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 918,
+    "latex": "e \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 921,
+    "latex": "(14 + 51) \\times 99",
+    "difficulty": "normal"
+  },
+  {
+    "id": 922,
+    "latex": "\\sqrt{67} \\times 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 923,
+    "latex": "\\frac{13}{4} - \\frac{12}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 925,
+    "latex": "e \\times 9",
+    "difficulty": "normal"
+  },
+  {
+    "id": 926,
+    "latex": "\\tan{40}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 927,
+    "latex": "π \\times 32",
+    "difficulty": "normal"
+  },
+  {
+    "id": 930,
+    "latex": "\\sqrt{77} \\times 76",
+    "difficulty": "normal"
+  },
+  {
+    "id": 931,
+    "latex": "56 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 932,
+    "latex": "\\frac{12}{19} + \\frac{7}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 934,
+    "latex": "\\sqrt{58} \\times 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 936,
+    "latex": "\\frac{18}{8} - \\frac{17}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 937,
+    "latex": "\\cot{52}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 940,
+    "latex": "\\sqrt{83} \\times 18",
+    "difficulty": "normal"
+  },
+  {
+    "id": 942,
+    "latex": "(93+68)^{4} + 86",
+    "difficulty": "normal"
+  },
+  {
+    "id": 944,
+    "latex": "(67+13)^{2} + 84",
+    "difficulty": "normal"
+  },
+  {
+    "id": 946,
+    "latex": "e \\times 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 948,
+    "latex": "\\sqrt{13} + 11",
+    "difficulty": "normal"
+  },
+  {
+    "id": 950,
+    "latex": "\\cot{88}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 951,
+    "latex": "\\frac{16}{20} + \\frac{17}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 952,
+    "latex": "e \\times 32",
+    "difficulty": "normal"
+  },
+  {
+    "id": 957,
+    "latex": "\\ln{88}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 962,
+    "latex": "π \\times 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 963,
+    "latex": "\\cos{76}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 964,
+    "latex": "\\frac{15}{17} - \\frac{8}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 965,
+    "latex": "\\ln{35}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 968,
+    "latex": "(80 + 23) \\times 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 969,
+    "latex": "\\sqrt{8} \\times 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 970,
+    "latex": "(9+48)^{4} + 46",
+    "difficulty": "normal"
+  },
+  {
+    "id": 973,
+    "latex": "\\frac{6}{10} - \\frac{8}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 974,
+    "latex": "(77+74)^{2} + 22",
+    "difficulty": "normal"
+  },
+  {
+    "id": 976,
+    "latex": "86^{3} + 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 978,
+    "latex": "(85 + 18) \\times 12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 979,
+    "latex": "\\sqrt{68} \\times 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 981,
+    "latex": "\\frac{19}{4} + \\frac{4}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 985,
+    "latex": "π \\times 4",
+    "difficulty": "normal"
+  },
+  {
+    "id": 988,
+    "latex": "π \\times 9",
+    "difficulty": "normal"
+  },
+  {
+    "id": 989,
+    "latex": "\\sqrt{90} + 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 993,
+    "latex": "\\frac{7}{2} - \\frac{6}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 994,
+    "latex": "\\sqrt{86} \\times 36",
+    "difficulty": "normal"
+  },
+  {
+    "id": 997,
+    "latex": "(48 + 67) \\times 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 998,
+    "latex": "\\sqrt{36} + 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1001,
+    "latex": "\\frac{1}{11} - \\frac{5}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1002,
+    "latex": "π \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1004,
+    "latex": "e \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1005,
+    "latex": "\\sqrt{49} \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1006,
+    "latex": "\\sqrt{75} + 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1007,
+    "latex": "57^{4} + 32",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1011,
+    "latex": "\\frac{5}{5} - \\frac{19}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1012,
+    "latex": "\\sqrt{27} \\times 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1016,
+    "latex": "\\sqrt{41} \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1017,
+    "latex": "(33 + 79) \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1019,
+    "latex": "(59 + 56) \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1021,
+    "latex": "π \\times 2",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1024,
+    "latex": "(60 + 59) \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1025,
+    "latex": "\\sqrt{25} \\times 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1027,
+    "latex": "84^{4} + 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1028,
+    "latex": "19 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1030,
+    "latex": "\\sqrt{42} \\times 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1031,
+    "latex": "\\tan{46}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1035,
+    "latex": "10 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1036,
+    "latex": "(29 + 79) \\times 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1039,
+    "latex": "\\frac{4}{16} + \\frac{16}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1042,
+    "latex": "\\sqrt{52} + 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1044,
+    "latex": "\\sqrt{81} + 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1047,
+    "latex": "\\sqrt{91} + 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1048,
+    "latex": "e^{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1049,
+    "latex": "\\sqrt{10} \\times 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1051,
+    "latex": "(52 + 0) \\times 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1054,
+    "latex": "\\sqrt{23} + 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1057,
+    "latex": "\\sin{25}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1058,
+    "latex": "e \\times 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1061,
+    "latex": "81 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1063,
+    "latex": "9^{4} + 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1066,
+    "latex": "73 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1067,
+    "latex": "\\ln{52}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1068,
+    "latex": "29 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1069,
+    "latex": "(99+94)^{4} + 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1070,
+    "latex": "\\sqrt{26} + 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1071,
+    "latex": "π \\times 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1073,
+    "latex": "e \\times 57",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1075,
+    "latex": "(62 + 3) \\times 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1076,
+    "latex": "\\sqrt{41} \\times 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1078,
+    "latex": "\\ln{55}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1081,
+    "latex": "π \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1082,
+    "latex": "\\frac{6}{19} - \\frac{4}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1083,
+    "latex": "\\cos{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1086,
+    "latex": "\\frac{8}{2} + \\frac{20}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1089,
+    "latex": "\\cos{48}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1091,
+    "latex": "\\tan{56}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1092,
+    "latex": "π \\times 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1093,
+    "latex": "e \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1095,
+    "latex": "\\frac{9}{8} + \\frac{11}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1097,
+    "latex": "e \\times 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1100,
+    "latex": "π \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1103,
+    "latex": "(60+41)^{4} + 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1107,
+    "latex": "\\frac{3}{9} + \\frac{20}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1110,
+    "latex": "\\sqrt{55} \\times 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1111,
+    "latex": "\\frac{14}{11} - \\frac{13}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1112,
+    "latex": "(25+28)^{3} + 86",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1113,
+    "latex": "\\cot{85}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1117,
+    "latex": "\\ln{78}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1118,
+    "latex": "\\frac{19}{6} + \\frac{16}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1119,
+    "latex": "\\tan{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1120,
+    "latex": "\\frac{3}{2} - \\frac{20}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1122,
+    "latex": "\\cot{67}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1125,
+    "latex": "69^{4} + 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1126,
+    "latex": "\\ln{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1128,
+    "latex": "\\cos{74}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1130,
+    "latex": "\\frac{12}{20} + \\frac{5}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1132,
+    "latex": "7 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1133,
+    "latex": "\\frac{10}{9} - \\frac{15}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1134,
+    "latex": "(83 + 34) \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1136,
+    "latex": "e \\times 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1140,
+    "latex": "(67 + 5) \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1141,
+    "latex": "\\frac{14}{19} + \\frac{5}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1147,
+    "latex": "\\frac{1}{2} + \\frac{20}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1148,
+    "latex": "\\sqrt{76} + 80",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1149,
+    "latex": "(31 + 93) \\times 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1153,
+    "latex": "\\cot{55}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1156,
+    "latex": "\\sqrt{5} \\times 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1158,
+    "latex": "\\sin{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1159,
+    "latex": "\\cot{87}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1161,
+    "latex": "\\sqrt{19} + 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1164,
+    "latex": "\\frac{17}{2} - \\frac{13}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1165,
+    "latex": "π \\times 15",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1166,
+    "latex": "π \\times 8",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1168,
+    "latex": "\\sqrt{41} + 52",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1171,
+    "latex": "\\sqrt{38} \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1174,
+    "latex": "(49+67)^{3} + 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1176,
+    "latex": "\\sqrt{57} + 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1177,
+    "latex": "\\frac{14}{16} + \\frac{9}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1179,
+    "latex": "\\frac{16}{3} - \\frac{9}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1180,
+    "latex": "\\sqrt{77} \\times 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1181,
+    "latex": "π \\times 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1184,
+    "latex": "π \\times 85",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1185,
+    "latex": "\\sqrt{11} \\times 98",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1188,
+    "latex": "\\sqrt{61} \\times 95",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1189,
+    "latex": "17 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1192,
+    "latex": "\\frac{8}{4} - \\frac{10}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1194,
+    "latex": "(16+81)^{2} + 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1195,
+    "latex": "\\frac{2}{17} + \\frac{9}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1196,
+    "latex": "(51 + 61) \\times 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1198,
+    "latex": "\\sin{66}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1200,
+    "latex": "\\frac{12}{6} - \\frac{3}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1201,
+    "latex": "\\sqrt{60} + 21",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1202,
+    "latex": "23^{4} + 53",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1204,
+    "latex": "e \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1205,
+    "latex": "67 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1206,
+    "latex": "\\sqrt{56} + 41",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1207,
+    "latex": "\\frac{17}{16} + \\frac{20}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1208,
+    "latex": "\\frac{18}{10} - \\frac{16}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1209,
+    "latex": "(11 + 36) \\times 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1214,
+    "latex": "\\sqrt{87} \\times 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1216,
+    "latex": "\\frac{15}{17} - \\frac{20}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1217,
+    "latex": "50 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1219,
+    "latex": "\\sqrt{24} + 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1221,
+    "latex": "\\frac{13}{17} + \\frac{18}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1223,
+    "latex": "98^{2} + 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1224,
+    "latex": "\\frac{5}{3} + \\frac{2}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1226,
+    "latex": "\\ln{28}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1228,
+    "latex": "\\frac{17}{5} - \\frac{8}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1231,
+    "latex": "\\sqrt{14} + 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1233,
+    "latex": "\\sqrt{58} + 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1235,
+    "latex": "\\sqrt{53} \\times 4",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1238,
+    "latex": "π \\times 46",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1240,
+    "latex": "\\sqrt{87} \\times 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1241,
+    "latex": "\\frac{20}{15} + \\frac{4}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1242,
+    "latex": "\\sqrt{84} + 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1243,
+    "latex": "\\sqrt{37} + 93",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1245,
+    "latex": "\\sqrt{98} \\times 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1246,
+    "latex": "\\ln{65}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1247,
+    "latex": "\\ln{60}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1248,
+    "latex": "\\sqrt{21} + 53",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1249,
+    "latex": "\\frac{4}{6} - \\frac{19}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1251,
+    "latex": "(22+58)^{3} + 22",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1253,
+    "latex": "\\frac{15}{13} + \\frac{2}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1254,
+    "latex": "\\sqrt{61} + 86",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1257,
+    "latex": "(82 + 41) \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1259,
+    "latex": "\\sqrt{54} + 36",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1260,
+    "latex": "(43+94)^{4} + 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1261,
+    "latex": "\\ln{23}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1265,
+    "latex": "\\sqrt{6} \\times 82",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1270,
+    "latex": "\\cos{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1273,
+    "latex": "\\frac{18}{8} - \\frac{20}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1274,
+    "latex": "(78 + 0) \\times 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1275,
+    "latex": "\\tan{31}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1276,
+    "latex": "\\frac{10}{2} + \\frac{6}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1278,
+    "latex": "(29+57)^{2} + 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1282,
+    "latex": "π \\times 42",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1283,
+    "latex": "(64 + 37) \\times 82",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1285,
+    "latex": "(5 + 19) \\times 18",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1286,
+    "latex": "\\sqrt{79} + 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1288,
+    "latex": "\\sqrt{71} \\times 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1289,
+    "latex": "\\tan{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1291,
+    "latex": "\\frac{11}{20} - \\frac{19}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1292,
+    "latex": "61^{2} + 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1296,
+    "latex": "\\sqrt{23} \\times 99",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1299,
+    "latex": "(54 + 6) \\times 44",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1301,
+    "latex": "\\sqrt{41} \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1304,
+    "latex": "\\ln{51}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1305,
+    "latex": "\\sqrt{59} \\times 54",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1306,
+    "latex": "\\sqrt{21} + 4",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1307,
+    "latex": "(83 + 25) \\times 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1308,
+    "latex": "\\cos{49}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1309,
+    "latex": "π \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1310,
+    "latex": "\\sqrt{63} \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1311,
+    "latex": "\\frac{7}{14} - \\frac{4}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1313,
+    "latex": "e \\times 37",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1315,
+    "latex": "\\frac{2}{4} + \\frac{10}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1317,
+    "latex": "e \\times 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1319,
+    "latex": "\\frac{12}{2} + \\frac{11}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1320,
+    "latex": "e \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1324,
+    "latex": "\\sqrt{63} + 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1326,
+    "latex": "(88 + 77) \\times 43",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1327,
+    "latex": "\\frac{20}{8} - \\frac{8}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1334,
+    "latex": "\\frac{5}{2} + \\frac{5}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1336,
+    "latex": "\\frac{8}{3} + \\frac{9}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1338,
+    "latex": "(25+87)^{3} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1342,
+    "latex": "(14 + 36) \\times 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1343,
+    "latex": "51^{4} + 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1344,
+    "latex": "\\ln{25}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1345,
+    "latex": "e \\times 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1346,
+    "latex": "\\frac{4}{8} - \\frac{6}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1347,
+    "latex": "\\frac{5}{14} - \\frac{12}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1348,
+    "latex": "31 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1349,
+    "latex": "\\frac{15}{13} + \\frac{4}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1351,
+    "latex": "\\ln{100}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1353,
+    "latex": "\\sqrt{43} + 61",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1354,
+    "latex": "\\sqrt{54} + 13",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1356,
+    "latex": "e^{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1357,
+    "latex": "(8 + 45) \\times 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1359,
+    "latex": "\\frac{2}{14} + \\frac{17}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1360,
+    "latex": "π \\times 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1361,
+    "latex": "\\ln{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1363,
+    "latex": "\\ln{24}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1366,
+    "latex": "\\ln{98}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1367,
+    "latex": "(34 + 84) \\times 32",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1369,
+    "latex": "π \\times 1",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1370,
+    "latex": "e \\times 94",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1372,
+    "latex": "\\frac{11}{2} - \\frac{4}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1374,
+    "latex": "\\cos{35}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1375,
+    "latex": "23 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1376,
+    "latex": "\\sqrt{21} \\times 63",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1378,
+    "latex": "\\frac{14}{4} + \\frac{5}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1379,
+    "latex": "e \\times 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1380,
+    "latex": "\\sin{71}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1384,
+    "latex": "1^{4} + 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1385,
+    "latex": "15^{4} + 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1386,
+    "latex": "37 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1388,
+    "latex": "\\tan{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1389,
+    "latex": "\\frac{14}{20} - \\frac{10}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1390,
+    "latex": "\\cos{29}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1393,
+    "latex": "\\frac{15}{3} + \\frac{10}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1401,
+    "latex": "(76 + 39) \\times 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1403,
+    "latex": "π \\times 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1411,
+    "latex": "(67+98)^{4} + 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1413,
+    "latex": "(16+18)^{2} + 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1414,
+    "latex": "\\frac{19}{6} + \\frac{14}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1415,
+    "latex": "(29+40)^{2} + 92",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1418,
+    "latex": "\\sqrt{31} \\times 27",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1420,
+    "latex": "(73+5)^{3} + 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1423,
+    "latex": "98^{3} + 11",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1425,
+    "latex": "(26 + 36) \\times 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1426,
+    "latex": "\\tan{65}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1427,
+    "latex": "\\frac{12}{9} - \\frac{19}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1428,
+    "latex": "\\frac{17}{10} + \\frac{10}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1429,
+    "latex": "e \\times 61",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1431,
+    "latex": "\\frac{15}{13} + \\frac{19}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1432,
+    "latex": "(89+87)^{3} + 48",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1433,
+    "latex": "9^{3} + 85",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1434,
+    "latex": "47^{3} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1435,
+    "latex": "\\frac{3}{7} + \\frac{19}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1439,
+    "latex": "3 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1440,
+    "latex": "\\sqrt{58} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1444,
+    "latex": "\\sqrt{17} + 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1445,
+    "latex": "5 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1448,
+    "latex": "e \\times 53",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1452,
+    "latex": "\\sqrt{4} \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1453,
+    "latex": "\\frac{11}{4} - \\frac{7}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1454,
+    "latex": "\\frac{8}{8} + \\frac{2}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1456,
+    "latex": "e \\times 48",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1457,
+    "latex": "32 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1460,
+    "latex": "\\sqrt{96} + 90",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1461,
+    "latex": "\\sqrt{3} \\times 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1462,
+    "latex": "\\sqrt{80} \\times 94",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1464,
+    "latex": "(12 + 71) \\times 21",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1466,
+    "latex": "(43 + 3) \\times 70",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1467,
+    "latex": "(75 + 54) \\times 20",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1468,
+    "latex": "\\frac{17}{4} - \\frac{17}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1469,
+    "latex": "(30 + 48) \\times 68",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1471,
+    "latex": "\\frac{20}{2} + \\frac{11}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1473,
+    "latex": "(3 + 19) \\times 47",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1474,
+    "latex": "\\frac{7}{18} + \\frac{9}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1475,
+    "latex": "\\sqrt{75} \\times 99",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1476,
+    "latex": "\\frac{6}{19} + \\frac{10}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1477,
+    "latex": "14 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1478,
+    "latex": "\\tan{42}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1480,
+    "latex": "(26 + 30) \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1485,
+    "latex": "55 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1489,
+    "latex": "88 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1492,
+    "latex": "\\frac{1}{2} - \\frac{15}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1493,
+    "latex": "π \\times 74",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1497,
+    "latex": "\\ln{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1500,
+    "latex": "(32 + 89) \\times 83",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1501,
+    "latex": "\\sin{43}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1502,
+    "latex": "\\sqrt{60} \\times 82",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1503,
+    "latex": "78 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1505,
+    "latex": "\\sqrt{2} + 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1507,
+    "latex": "\\sqrt{31} + 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1508,
+    "latex": "\\frac{17}{14} + \\frac{13}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1515,
+    "latex": "\\frac{20}{5} + \\frac{19}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1517,
+    "latex": "π \\times 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1520,
+    "latex": "e \\times 30",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1522,
+    "latex": "\\ln{79}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1523,
+    "latex": "\\sqrt{62} \\times 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1524,
+    "latex": "(44 + 89) \\times 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1525,
+    "latex": "\\ln{48}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1526,
+    "latex": "\\frac{15}{9} - \\frac{14}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1527,
+    "latex": "\\frac{8}{12} - \\frac{9}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1528,
+    "latex": "\\ln{67}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1531,
+    "latex": "\\frac{5}{8} + \\frac{16}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1532,
+    "latex": "\\sqrt{4} \\times 94",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1535,
+    "latex": "\\sqrt{72} \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1538,
+    "latex": "50^{3} + 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1541,
+    "latex": "(31+84)^{3} + 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1542,
+    "latex": "\\frac{3}{9} + \\frac{7}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1543,
+    "latex": "\\frac{6}{13} - \\frac{20}{2}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1546,
+    "latex": "\\tan{34}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1548,
+    "latex": "\\frac{13}{9} + \\frac{13}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1549,
+    "latex": "\\sqrt{89} \\times 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1551,
+    "latex": "\\frac{10}{12} + \\frac{11}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1552,
+    "latex": "38 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1553,
+    "latex": "35^{4} + 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1554,
+    "latex": "π \\times 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1555,
+    "latex": "\\sqrt{70} + 84",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1556,
+    "latex": "π \\times 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1557,
+    "latex": "π \\times 17",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1559,
+    "latex": "π \\times 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1561,
+    "latex": "\\sqrt{89} + 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1566,
+    "latex": "\\frac{6}{7} - \\frac{19}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1569,
+    "latex": "(38 + 69) \\times 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1571,
+    "latex": "\\cot{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1572,
+    "latex": "\\frac{20}{3} + \\frac{13}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1573,
+    "latex": "\\sqrt{91} \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1574,
+    "latex": "(62 + 52) \\times 3",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1575,
+    "latex": "\\sqrt{20} + 71",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1577,
+    "latex": "\\sin{29}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1578,
+    "latex": "91 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1583,
+    "latex": "2 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1584,
+    "latex": "(81 + 38) \\times 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1585,
+    "latex": "\\frac{19}{10} - \\frac{13}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1586,
+    "latex": "\\frac{10}{2} - \\frac{11}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1589,
+    "latex": "(91+95)^{3} + 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1592,
+    "latex": "e \\times 2",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1594,
+    "latex": "84^{3} + 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1597,
+    "latex": "6 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1598,
+    "latex": "π \\times 21",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1599,
+    "latex": "e \\times 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1601,
+    "latex": "\\frac{15}{3} + \\frac{7}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1603,
+    "latex": "\\sqrt{97} \\times 42",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1604,
+    "latex": "(39 + 76) \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1606,
+    "latex": "e \\times 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1610,
+    "latex": "e \\times 26",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1612,
+    "latex": "\\frac{15}{15} + \\frac{5}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1613,
+    "latex": "\\sqrt{45} + 79",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1614,
+    "latex": "\\sqrt{84} + 91",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1617,
+    "latex": "(79 + 20) \\times 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1618,
+    "latex": "\\sqrt{50} + 19",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1619,
+    "latex": "\\sqrt{44} \\times 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1620,
+    "latex": "\\frac{14}{18} - \\frac{11}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1621,
+    "latex": "(20 + 50) \\times 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1622,
+    "latex": "\\frac{4}{18} - \\frac{11}{15}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1623,
+    "latex": "46 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1625,
+    "latex": "\\frac{8}{12} - \\frac{7}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1626,
+    "latex": "\\frac{11}{13} - \\frac{11}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1630,
+    "latex": "\\sqrt{19} + 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1631,
+    "latex": "61 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1632,
+    "latex": "\\frac{9}{16} + \\frac{7}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1635,
+    "latex": "(1+38)^{4} + 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1641,
+    "latex": "\\sqrt{21} + 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1642,
+    "latex": "e \\times 21",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1645,
+    "latex": "\\frac{12}{2} - \\frac{12}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1646,
+    "latex": "e \\times 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1650,
+    "latex": "87 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1652,
+    "latex": "\\frac{7}{12} + \\frac{5}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1655,
+    "latex": "\\sqrt{33} \\times 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1656,
+    "latex": "\\frac{8}{20} + \\frac{3}{5}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1657,
+    "latex": "\\cot{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1658,
+    "latex": "\\ln{76}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1659,
+    "latex": "\\frac{8}{16} - \\frac{5}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1660,
+    "latex": "\\sqrt{20} \\times 26",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1661,
+    "latex": "e \\times 63",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1665,
+    "latex": "71 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1666,
+    "latex": "2^{3} + 83",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1667,
+    "latex": "26 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1670,
+    "latex": "70 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1672,
+    "latex": "\\cos{47}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1674,
+    "latex": "(99 + 5) \\times 14",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1675,
+    "latex": "π \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1677,
+    "latex": "\\sqrt{65} + 32",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1680,
+    "latex": "(5+86)^{4} + 49",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1681,
+    "latex": "30 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1686,
+    "latex": "(56+74)^{2} + 18",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1688,
+    "latex": "\\frac{13}{19} - \\frac{5}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1689,
+    "latex": "(88 + 57) \\times 0",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1691,
+    "latex": "π \\times 92",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1698,
+    "latex": "\\sin{79}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1700,
+    "latex": "\\sqrt{22} + 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1702,
+    "latex": "\\sqrt{34} \\times 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1708,
+    "latex": "\\cot{69}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1710,
+    "latex": "33^{2} + 88",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1712,
+    "latex": "\\sqrt{75} \\times 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1714,
+    "latex": "\\cos{77}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1715,
+    "latex": "60 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1717,
+    "latex": "\\frac{15}{8} - \\frac{19}{6}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1721,
+    "latex": "\\frac{2}{4} - \\frac{11}{13}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1724,
+    "latex": "π \\times 99",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1726,
+    "latex": "\\sqrt{82} \\times 78",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1727,
+    "latex": "\\frac{4}{15} - \\frac{1}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1730,
+    "latex": "\\sqrt{2} + 25",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1733,
+    "latex": "\\sqrt{87} + 87",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1735,
+    "latex": "\\ln{96}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1736,
+    "latex": "62 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1737,
+    "latex": "π \\times 33",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1738,
+    "latex": "25^{4} + 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1739,
+    "latex": "\\sqrt{84} \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1741,
+    "latex": "\\ln{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1742,
+    "latex": "(85 + 96) \\times 57",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1746,
+    "latex": "\\sqrt{55} + 67",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1749,
+    "latex": "(20 + 40) \\times 81",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1753,
+    "latex": "\\cot{59}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1755,
+    "latex": "\\ln{1}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1757,
+    "latex": "(93+73)^{4} + 40",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1761,
+    "latex": "(94 + 83) \\times 1",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1762,
+    "latex": "\\tan{67}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1763,
+    "latex": "(97 + 27) \\times 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1766,
+    "latex": "39 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1769,
+    "latex": "\\frac{5}{17} - \\frac{3}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1778,
+    "latex": "\\sqrt{45} \\times 45",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1779,
+    "latex": "\\frac{1}{15} - \\frac{3}{12}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1781,
+    "latex": "e \\times 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1782,
+    "latex": "π \\times 61",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1783,
+    "latex": "96^{2} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1784,
+    "latex": "\\frac{16}{19} + \\frac{18}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1785,
+    "latex": "\\frac{3}{5} - \\frac{5}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1790,
+    "latex": "π \\times 12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1792,
+    "latex": "(47+42)^{2} + 70",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1796,
+    "latex": "\\sqrt{40} \\times 6",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1800,
+    "latex": "\\sqrt{37} \\times 23",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1801,
+    "latex": "\\cot{79}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1806,
+    "latex": "e \\times 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1814,
+    "latex": "45 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1815,
+    "latex": "\\ln{54}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1816,
+    "latex": "\\sqrt{58} + 29",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1817,
+    "latex": "\\frac{2}{15} - \\frac{7}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1818,
+    "latex": "31^{4} + 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1819,
+    "latex": "\\frac{16}{18} - \\frac{10}{11}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1823,
+    "latex": "52 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1824,
+    "latex": "(55 + 54) \\times 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1828,
+    "latex": "\\sqrt{13} + 15",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1829,
+    "latex": "e \\times 65",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1830,
+    "latex": "\\ln{73}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1832,
+    "latex": "\\sqrt{16} \\times 79",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1834,
+    "latex": "\\sqrt{89} \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1839,
+    "latex": "e \\times 78",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1842,
+    "latex": "(75 + 45) \\times 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1844,
+    "latex": "16 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1848,
+    "latex": "\\frac{5}{3} + \\frac{17}{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1849,
+    "latex": "(59 + 34) \\times 73",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1850,
+    "latex": "\\ln{27}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1853,
+    "latex": "\\frac{5}{13} - \\frac{7}{4}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1863,
+    "latex": "π \\times 72",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1866,
+    "latex": "\\frac{11}{7} + \\frac{3}{14}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1870,
+    "latex": "\\sqrt{37} \\times 10",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1872,
+    "latex": "99 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1875,
+    "latex": "π \\times 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1877,
+    "latex": "(13 + 89) \\times 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1880,
+    "latex": "\\sqrt{68} \\times 33",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1881,
+    "latex": "\\frac{18}{10} - \\frac{3}{8}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1882,
+    "latex": "\\sqrt{24} + 24",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1885,
+    "latex": "\\frac{11}{5} + \\frac{10}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1886,
+    "latex": "\\sqrt{46} \\times 28",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1887,
+    "latex": "\\frac{18}{10} - \\frac{3}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1890,
+    "latex": "98 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1893,
+    "latex": "\\ln{20}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1894,
+    "latex": "\\ln{22}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1895,
+    "latex": "17^{4} + 35",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1899,
+    "latex": "(2 + 93) \\times 68",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1900,
+    "latex": "\\tan{52}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1902,
+    "latex": "\\frac{14}{3} - \\frac{3}{10}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1904,
+    "latex": "\\sqrt{13} \\times 75",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1905,
+    "latex": "\\sqrt{66} \\times 2",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1906,
+    "latex": "28 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1912,
+    "latex": "\\frac{19}{10} + \\frac{7}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1913,
+    "latex": "\\sin{60}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1914,
+    "latex": "\\sqrt{34} \\times 50",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1916,
+    "latex": "e \\times 22",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1917,
+    "latex": "\\frac{6}{18} - \\frac{20}{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1918,
+    "latex": "\\frac{18}{16} - \\frac{3}{18}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1921,
+    "latex": "\\ln{87}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1923,
+    "latex": "\\sqrt{13} + 77",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1925,
+    "latex": "π \\times 39",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1927,
+    "latex": "e \\times 16",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1929,
+    "latex": "\\frac{7}{17} - \\frac{6}{19}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1931,
+    "latex": "(83+47)^{4} + 59",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1932,
+    "latex": "\\sqrt{50} \\times 51",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1933,
+    "latex": "\\ln{29}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1935,
+    "latex": "\\sqrt{35} + 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1936,
+    "latex": "\\ln{31}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1938,
+    "latex": "\\frac{19}{3} - \\frac{17}{3}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1940,
+    "latex": "\\sqrt{37} \\times 95",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1942,
+    "latex": "\\sin{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1943,
+    "latex": "86^{4} + 89",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1945,
+    "latex": "\\sin{59}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1946,
+    "latex": "\\frac{6}{11} - \\frac{12}{16}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1949,
+    "latex": "e \\times 83",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1955,
+    "latex": "\\ln{82}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1960,
+    "latex": "\\sin{23}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1962,
+    "latex": "\\tan{7}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1963,
+    "latex": "65^{3} + 66",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1964,
+    "latex": "\\cot{23}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1965,
+    "latex": "\\sqrt{21} \\times 7",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1966,
+    "latex": "\\ln{17}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1967,
+    "latex": "e \\times 86",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1970,
+    "latex": "\\tan{86}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1971,
+    "latex": "e \\times 55",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1972,
+    "latex": "(33 + 21) \\times 56",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1973,
+    "latex": "\\ln{33}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1976,
+    "latex": "\\sqrt{71} + 34",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1977,
+    "latex": "\\sqrt{21} \\times 31",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1978,
+    "latex": "25^{2} + 92",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1979,
+    "latex": "(18 + 18) \\times 97",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1982,
+    "latex": "\\sqrt{62} + 90",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1985,
+    "latex": "\\frac{3}{6} - \\frac{11}{9}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1987,
+    "latex": "e \\times 98",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1988,
+    "latex": "\\sin{34}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1990,
+    "latex": "\\sqrt{44} \\times 5",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1992,
+    "latex": "\\ln{56}",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1997,
+    "latex": "86 + e",
+    "difficulty": "normal"
+  },
+  {
+    "id": 1999,
+    "latex": "e \\times 96",
+    "difficulty": "normal"
+  },
+  {
+    "id": 4,
+    "latex": "63^{4} + (55+30)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 9,
+    "latex": "π \\times (13 + 9)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 11,
+    "latex": "π \\times (91 + 59)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 13,
+    "latex": "\\acos{0.84}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 15,
+    "latex": "\\sqrt{44} + (51+83)^{3} \\times \\frac{17}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 17,
+    "latex": "\\sqrt{10} + (28+55)^{4} \\times \\frac{10}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 23,
+    "latex": "\\sin{63} \\times \\cot{76} + \\asin{0.25}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 25,
+    "latex": "78 \\mod 13",
+    "difficulty": "complex"
+  },
+  {
+    "id": 30,
+    "latex": "29^{4} + 51^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 32,
+    "latex": "\\tanh{1.73}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 35,
+    "latex": "(46+16)^{4} + (85+3)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 36,
+    "latex": "\\cos{57} \\times \\tan{43} + \\acot{0.24}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 37,
+    "latex": "\\tanh{0.82}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 40,
+    "latex": "0^{2} + (27+3)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 42,
+    "latex": "\\log_{2}{31}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 47,
+    "latex": "\\sin{68} \\times \\cos{81} + \\asin{0.82}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 51,
+    "latex": "\\ln{98} + \\log_{2}{7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 52,
+    "latex": "\\cot{43} \\times \\sin{55} + \\atan{0.15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 54,
+    "latex": "6^{3} + 8^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 57,
+    "latex": "\\ln{42} + \\log_{10}{78}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 60,
+    "latex": "\\sinh{2.92}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 61,
+    "latex": "\\acot{0.35}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 63,
+    "latex": "\\ln{74} + \\log_{2}{94}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 73,
+    "latex": "\\cot{90} \\times \\cot{24} + \\asin{0.61}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 75,
+    "latex": "\\acos{0.13}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 80,
+    "latex": "0^{3} + (61+26)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 83,
+    "latex": "68 \\mod 16",
+    "difficulty": "complex"
+  },
+  {
+    "id": 95,
+    "latex": "\\sinh{2.84}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 101,
+    "latex": "52^{3} + 99^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 104,
+    "latex": "\\sqrt{48} + (56+56)^{2} \\times \\frac{10}{20}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 109,
+    "latex": "\\cot{67} \\times \\cot{63} + \\atan{0.89}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 110,
+    "latex": "85^{3} + 2^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 113,
+    "latex": "47 \\mod 24",
+    "difficulty": "complex"
+  },
+  {
+    "id": 115,
+    "latex": "π \\times (48 + 27)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 118,
+    "latex": "72 \\mod 19",
+    "difficulty": "complex"
+  },
+  {
+    "id": 121,
+    "latex": "π \\times (6 + 9)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 130,
+    "latex": "\\log_{2}{1}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 133,
+    "latex": "\\tanh{0.18}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 136,
+    "latex": "\\sqrt{64} + 33^{3} \\times \\frac{7}{18}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 137,
+    "latex": "\\tanh{1.9}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 139,
+    "latex": "\\asin{0.96}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 143,
+    "latex": "\\cosh{2.95}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 150,
+    "latex": "\\sqrt{50} + (59+71)^{3} \\times \\frac{6}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 159,
+    "latex": "\\cot{21} \\times \\cos{88} + \\asin{0.19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 161,
+    "latex": "86 \\mod 8",
+    "difficulty": "complex"
+  },
+  {
+    "id": 164,
+    "latex": "\\atan{0.88}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 166,
+    "latex": "\\acos{0.99}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 168,
+    "latex": "53 \\mod 36",
+    "difficulty": "complex"
+  },
+  {
+    "id": 172,
+    "latex": "\\cos{73} \\times \\cot{58} + \\acos{0.64}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 184,
+    "latex": "π \\times (87 + 44)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 188,
+    "latex": "π \\times (17 + 2)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 189,
+    "latex": "35^{4} + (64+95)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 190,
+    "latex": "18^{2} + 44^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 195,
+    "latex": "π \\times (38 + 27)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 197,
+    "latex": "63 \\mod 43",
+    "difficulty": "complex"
+  },
+  {
+    "id": 209,
+    "latex": "\\sqrt{90} + 70^{4} \\times \\frac{13}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 213,
+    "latex": "\\ln{74} + \\log_{10}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 216,
+    "latex": "78^{2} + 56^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 217,
+    "latex": "\\cot{22} \\times \\cot{5} + \\acot{0.11}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 219,
+    "latex": "100 \\mod 36",
+    "difficulty": "complex"
+  },
+  {
+    "id": 228,
+    "latex": "93 \\mod 45",
+    "difficulty": "complex"
+  },
+  {
+    "id": 232,
+    "latex": "\\sqrt{34} + (89+79)^{2} \\times \\frac{3}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 239,
+    "latex": "\\ln{3} + \\log_{10}{25}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 242,
+    "latex": "\\sin{42} \\times \\cos{36} + \\asin{0.56}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 243,
+    "latex": "π \\times (67 + 69)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 246,
+    "latex": "\\ln{25} + \\log_{10}{25}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 255,
+    "latex": "58 \\mod 11",
+    "difficulty": "complex"
+  },
+  {
+    "id": 261,
+    "latex": "\\acos{0.15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 266,
+    "latex": "21 \\mod 38",
+    "difficulty": "complex"
+  },
+  {
+    "id": 270,
+    "latex": "\\ln{39} + \\log_{2}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 272,
+    "latex": "π \\times (33 + 47)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 278,
+    "latex": "\\asin{0.55}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 291,
+    "latex": "\\ln{65} + \\log_{10}{43}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 295,
+    "latex": "\\cosh{0.57}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 297,
+    "latex": "\\sqrt{96} + 67^{3} \\times \\frac{3}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 306,
+    "latex": "\\sin{32} \\times \\cos{11} + \\atan{0.12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 308,
+    "latex": "\\atan{0.87}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 311,
+    "latex": "π \\times (56 + 40)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 323,
+    "latex": "5 \\mod 23",
+    "difficulty": "complex"
+  },
+  {
+    "id": 328,
+    "latex": "\\ln{79} + \\log_{2}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 337,
+    "latex": "\\sqrt{81} + 74^{4} \\times \\frac{15}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 338,
+    "latex": "\\atan{0.44}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 341,
+    "latex": "\\sinh{0.37}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 354,
+    "latex": "58^{4} + 44^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 365,
+    "latex": "\\cosh{2.14}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 367,
+    "latex": "\\sin{88} \\times \\cos{46} + \\acot{0.33}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 369,
+    "latex": "\\log_{2}{45}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 372,
+    "latex": "(61+34)^{2} + (73+22)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 383,
+    "latex": "\\asin{0.11}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 388,
+    "latex": "\\sqrt{29} + 32^{3} \\times \\frac{8}{15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 396,
+    "latex": "\\sin{51} \\times \\sin{27} + \\atan{0.94}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 402,
+    "latex": "\\tanh{2.22}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 403,
+    "latex": "93 \\mod 5",
+    "difficulty": "complex"
+  },
+  {
+    "id": 405,
+    "latex": "\\log_{10}{80}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 415,
+    "latex": "\\cosh{0.12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 416,
+    "latex": "\\sqrt{93} + 82^{3} \\times \\frac{14}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 429,
+    "latex": "(20+4)^{3} + 6^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 430,
+    "latex": "\\atan{0.73}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 431,
+    "latex": "\\sinh{1.97}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 432,
+    "latex": "\\sinh{1.44}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 433,
+    "latex": "\\sin{84} \\times \\tan{43} + \\asin{0.83}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 438,
+    "latex": "\\sqrt{35} + (47+83)^{2} \\times \\frac{20}{11}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 441,
+    "latex": "\\sqrt{84} + 5^{2} \\times \\frac{6}{7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 448,
+    "latex": "(82+70)^{3} + 3^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 461,
+    "latex": "\\log_{2}{98}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 465,
+    "latex": "π \\times (90 + 8)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 470,
+    "latex": "\\log_{2}{86}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 472,
+    "latex": "\\acot{0.89}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 477,
+    "latex": "\\tanh{0.17}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 482,
+    "latex": "42^{4} + (4+62)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 484,
+    "latex": "\\sqrt{41} + 93^{4} \\times \\frac{10}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 494,
+    "latex": "\\ln{90} + \\log_{10}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 508,
+    "latex": "π \\times (19 + 0)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 522,
+    "latex": "π \\times (10 + 38)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 526,
+    "latex": "\\sqrt{60} + 20^{4} \\times \\frac{2}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 527,
+    "latex": "\\log_{10}{14}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 530,
+    "latex": "6^{3} + (69+86)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 533,
+    "latex": "\\log_{10}{49}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 554,
+    "latex": "π \\times (9 + 48)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 559,
+    "latex": "56 \\mod 22",
+    "difficulty": "complex"
+  },
+  {
+    "id": 562,
+    "latex": "\\acos{0.1}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 569,
+    "latex": "π \\times (16 + 72)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 572,
+    "latex": "\\ln{23} + \\log_{2}{75}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 575,
+    "latex": "25 \\mod 22",
+    "difficulty": "complex"
+  },
+  {
+    "id": 583,
+    "latex": "\\log_{10}{74}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 585,
+    "latex": "\\acos{0.82}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 587,
+    "latex": "π \\times (88 + 82)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 590,
+    "latex": "\\cosh{1.08}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 591,
+    "latex": "\\tan{42} \\times \\sin{23} + \\acot{0.42}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 604,
+    "latex": "\\ln{52} + \\log_{2}{89}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 612,
+    "latex": "(73+5)^{4} + (24+32)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 619,
+    "latex": "\\tanh{1.28}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 625,
+    "latex": "\\log_{10}{23}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 627,
+    "latex": "\\asin{0.65}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 634,
+    "latex": "\\log_{10}{75}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 644,
+    "latex": "\\sqrt{53} + (94+50)^{2} \\times \\frac{15}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 656,
+    "latex": "\\ln{48} + \\log_{10}{81}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 660,
+    "latex": "\\log_{2}{59}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 666,
+    "latex": "\\sqrt{92} + (85+38)^{2} \\times \\frac{5}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 691,
+    "latex": "89 \\mod 25",
+    "difficulty": "complex"
+  },
+  {
+    "id": 699,
+    "latex": "\\sqrt{16} + (71+11)^{3} \\times \\frac{16}{9}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 712,
+    "latex": "\\sinh{0.17}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 715,
+    "latex": "\\log_{2}{34}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 720,
+    "latex": "\\ln{43} + \\log_{2}{95}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 728,
+    "latex": "\\cot{5} \\times \\sin{13} + \\acot{0.19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 734,
+    "latex": "\\sqrt{60} + 16^{2} \\times \\frac{16}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 737,
+    "latex": "\\cosh{2.3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 755,
+    "latex": "(38+7)^{2} + (23+12)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 758,
+    "latex": "π \\times (95 + 86)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 760,
+    "latex": "(75+32)^{3} + (92+74)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 761,
+    "latex": "\\sqrt{57} + (28+61)^{3} \\times \\frac{17}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 763,
+    "latex": "10 \\mod 14",
+    "difficulty": "complex"
+  },
+  {
+    "id": 764,
+    "latex": "\\cos{31} \\times \\cot{1} + \\atan{0.61}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 767,
+    "latex": "62^{2} + 37^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 771,
+    "latex": "69^{2} + 90^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 772,
+    "latex": "\\ln{86} + \\log_{2}{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 778,
+    "latex": "\\tanh{1.77}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 780,
+    "latex": "\\sqrt{50} + 62^{4} \\times \\frac{10}{15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 790,
+    "latex": "\\ln{79} + \\log_{2}{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 792,
+    "latex": "\\log_{10}{89}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 794,
+    "latex": "\\tan{50} \\times \\cot{90} + \\acot{0.64}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 815,
+    "latex": "\\ln{66} + \\log_{10}{24}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 824,
+    "latex": "\\ln{55} + \\log_{10}{52}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 827,
+    "latex": "18 \\mod 45",
+    "difficulty": "complex"
+  },
+  {
+    "id": 831,
+    "latex": "\\acos{0.22}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 832,
+    "latex": "\\sqrt{73} + (22+74)^{3} \\times \\frac{13}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 834,
+    "latex": "\\cosh{2.38}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 836,
+    "latex": "π \\times (28 + 49)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 845,
+    "latex": "\\sqrt{81} + 2^{4} \\times \\frac{4}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 860,
+    "latex": "99 \\mod 32",
+    "difficulty": "complex"
+  },
+  {
+    "id": 864,
+    "latex": "\\log_{10}{26}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 865,
+    "latex": "78 \\mod 14",
+    "difficulty": "complex"
+  },
+  {
+    "id": 870,
+    "latex": "π \\times (28 + 20)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 878,
+    "latex": "\\sqrt{99} + (96+51)^{4} \\times \\frac{17}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 888,
+    "latex": "(83+30)^{4} + 32^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 892,
+    "latex": "\\acos{0.24}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 896,
+    "latex": "π \\times (70 + 87)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 901,
+    "latex": "\\log_{2}{20}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 916,
+    "latex": "\\sqrt{18} + 98^{3} \\times \\frac{5}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 920,
+    "latex": "\\ln{42} + \\log_{2}{70}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 928,
+    "latex": "10 \\mod 24",
+    "difficulty": "complex"
+  },
+  {
+    "id": 943,
+    "latex": "\\tan{32} \\times \\cos{14} + \\atan{0.63}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 947,
+    "latex": "3 \\mod 38",
+    "difficulty": "complex"
+  },
+  {
+    "id": 949,
+    "latex": "\\sqrt{46} + (91+21)^{2} \\times \\frac{19}{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 953,
+    "latex": "\\cot{55} \\times \\sin{41} + \\acos{0.47}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 959,
+    "latex": "\\tanh{0.6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 960,
+    "latex": "79 \\mod 10",
+    "difficulty": "complex"
+  },
+  {
+    "id": 961,
+    "latex": "\\cot{22} \\times \\sin{80} + \\atan{0.97}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 966,
+    "latex": "\\sqrt{35} + 13^{3} \\times \\frac{16}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 971,
+    "latex": "38^{4} + (28+85)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 977,
+    "latex": "π \\times (83 + 30)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 980,
+    "latex": "\\log_{10}{91}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 984,
+    "latex": "\\ln{37} + \\log_{10}{15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 986,
+    "latex": "π \\times (41 + 81)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 991,
+    "latex": "\\sqrt{27} + 7^{3} \\times \\frac{13}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 992,
+    "latex": "\\sqrt{37} + (86+81)^{4} \\times \\frac{17}{13}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 999,
+    "latex": "\\sqrt{35} + 70^{4} \\times \\frac{1}{19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1010,
+    "latex": "\\sqrt{69} + 82^{3} \\times \\frac{2}{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1029,
+    "latex": "\\log_{10}{8}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1033,
+    "latex": "\\acos{0.77}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1038,
+    "latex": "\\sinh{2.09}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1040,
+    "latex": "\\cosh{2.81}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1052,
+    "latex": "\\log_{10}{81}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1062,
+    "latex": "\\ln{95} + \\log_{2}{11}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1072,
+    "latex": "\\ln{71} + \\log_{2}{52}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1079,
+    "latex": "36^{3} + 85^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1084,
+    "latex": "\\ln{94} + \\log_{2}{87}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1094,
+    "latex": "31 \\mod 7",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1096,
+    "latex": "(62+32)^{2} + (71+29)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1098,
+    "latex": "\\sqrt{53} + 75^{4} \\times \\frac{4}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1102,
+    "latex": "\\sqrt{83} + (79+9)^{3} \\times \\frac{1}{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1114,
+    "latex": "\\acot{0.84}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1115,
+    "latex": "\\sqrt{11} + (52+51)^{4} \\times \\frac{13}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1116,
+    "latex": "\\ln{93} + \\log_{2}{31}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1121,
+    "latex": "90^{2} + (93+83)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1129,
+    "latex": "π \\times (50 + 91)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1137,
+    "latex": "44 \\mod 42",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1142,
+    "latex": "\\log_{10}{98}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1143,
+    "latex": "26 \\mod 15",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1146,
+    "latex": "\\ln{10} + \\log_{10}{29}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1154,
+    "latex": "41 \\mod 31",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1167,
+    "latex": "\\sqrt{97} + 79^{4} \\times \\frac{12}{14}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1170,
+    "latex": "\\sqrt{63} + 26^{4} \\times \\frac{10}{7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1182,
+    "latex": "\\log_{2}{17}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1183,
+    "latex": "\\cosh{0.27}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1190,
+    "latex": "\\asin{0.89}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1191,
+    "latex": "73 \\mod 15",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1193,
+    "latex": "(48+61)^{3} + (58+47)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1215,
+    "latex": "53 \\mod 27",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1230,
+    "latex": "\\log_{10}{1}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1232,
+    "latex": "10^{3} + 5^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1234,
+    "latex": "\\asin{0.36}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1239,
+    "latex": "π \\times (89 + 50)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1255,
+    "latex": "\\ln{50} + \\log_{10}{70}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1256,
+    "latex": "\\log_{2}{100}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1258,
+    "latex": "40^{3} + 13^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1263,
+    "latex": "π \\times (24 + 40)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1264,
+    "latex": "\\acos{0.9}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1266,
+    "latex": "π \\times (68 + 27)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1267,
+    "latex": "\\asin{0.41}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1268,
+    "latex": "\\sqrt{52} + 16^{3} \\times \\frac{6}{19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1271,
+    "latex": "\\log_{2}{40}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1280,
+    "latex": "(74+45)^{4} + (74+39)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1281,
+    "latex": "\\tan{81} \\times \\tan{62} + \\acos{0.85}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1284,
+    "latex": "97^{2} + (90+75)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1294,
+    "latex": "\\atan{0.19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1298,
+    "latex": "93 \\mod 7",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1303,
+    "latex": "\\ln{96} + \\log_{2}{46}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1312,
+    "latex": "\\log_{2}{41}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1316,
+    "latex": "\\acos{0.67}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1318,
+    "latex": "\\cosh{2.98}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1323,
+    "latex": "\\sin{5} \\times \\sin{76} + \\atan{0.84}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1325,
+    "latex": "\\sqrt{95} + (27+65)^{4} \\times \\frac{11}{7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1332,
+    "latex": "\\cot{61} \\times \\tan{48} + \\acot{0.29}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1337,
+    "latex": "π \\times (39 + 92)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1350,
+    "latex": "π \\times (45 + 24)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1352,
+    "latex": "72 \\mod 43",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1364,
+    "latex": "π \\times (34 + 32)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1371,
+    "latex": "\\ln{2} + \\log_{10}{67}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1377,
+    "latex": "52 \\mod 3",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1382,
+    "latex": "\\ln{58} + \\log_{2}{45}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1383,
+    "latex": "98 \\mod 15",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1387,
+    "latex": "\\cosh{1.38}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1395,
+    "latex": "\\sin{69} \\times \\tan{6} + \\asin{0.64}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1396,
+    "latex": "\\sinh{0.4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1399,
+    "latex": "\\cos{15} \\times \\cot{58} + \\acot{0.4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1400,
+    "latex": "\\cot{30} \\times \\cos{87} + \\acos{0.95}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1404,
+    "latex": "50 \\mod 29",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1406,
+    "latex": "\\sqrt{95} + (86+55)^{3} \\times \\frac{18}{19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1408,
+    "latex": "π \\times (39 + 95)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1410,
+    "latex": "π \\times (81 + 58)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1417,
+    "latex": "\\log_{2}{55}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1421,
+    "latex": "π \\times (20 + 92)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1422,
+    "latex": "π \\times (65 + 47)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1430,
+    "latex": "\\sqrt{80} + (7+90)^{3} \\times \\frac{11}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1437,
+    "latex": "\\ln{38} + \\log_{2}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1446,
+    "latex": "29^{3} + 26^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1447,
+    "latex": "\\ln{62} + \\log_{10}{45}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1450,
+    "latex": "\\ln{47} + \\log_{10}{68}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1465,
+    "latex": "π \\times (55 + 53)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1483,
+    "latex": "\\sqrt{3} + 28^{4} \\times \\frac{6}{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1487,
+    "latex": "\\atan{0.4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1488,
+    "latex": "\\atan{0.38}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1490,
+    "latex": "π \\times (60 + 10)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1491,
+    "latex": "\\tan{11} \\times \\cos{4} + \\acos{0.29}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1509,
+    "latex": "\\sqrt{80} + 15^{4} \\times \\frac{10}{15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1510,
+    "latex": "(78+42)^{2} + 45^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1516,
+    "latex": "\\sqrt{91} + (77+26)^{4} \\times \\frac{8}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1519,
+    "latex": "9 \\mod 47",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1529,
+    "latex": "\\tanh{1.91}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1530,
+    "latex": "(50+46)^{4} + (57+3)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1533,
+    "latex": "82 \\mod 14",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1536,
+    "latex": "\\log_{2}{18}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1537,
+    "latex": "68^{2} + (62+36)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1540,
+    "latex": "99 \\mod 20",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1560,
+    "latex": "π \\times (53 + 81)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1563,
+    "latex": "\\ln{86} + \\log_{10}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1564,
+    "latex": "\\tanh{2.37}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1579,
+    "latex": "\\log_{2}{33}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1580,
+    "latex": "π \\times (69 + 10)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1587,
+    "latex": "\\ln{45} + \\log_{10}{74}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1588,
+    "latex": "\\log_{10}{99}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1590,
+    "latex": "\\sqrt{48} + (33+93)^{4} \\times \\frac{12}{7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1591,
+    "latex": "\\acot{0.82}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1596,
+    "latex": "\\log_{2}{25}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1600,
+    "latex": "\\atan{0.32}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1605,
+    "latex": "\\atan{0.76}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1607,
+    "latex": "π \\times (9 + 79)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1627,
+    "latex": "\\log_{10}{41}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1628,
+    "latex": "84 \\mod 4",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1629,
+    "latex": "\\sinh{2.98}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1634,
+    "latex": "\\tanh{0.7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1636,
+    "latex": "\\tan{53} \\times \\tan{61} + \\asin{0.4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1637,
+    "latex": "\\sin{7} \\times \\sin{10} + \\atan{0.16}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1638,
+    "latex": "\\sqrt{64} + 23^{4} \\times \\frac{13}{10}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1639,
+    "latex": "20^{2} + (16+57)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1643,
+    "latex": "\\tan{47} \\times \\cos{13} + \\asin{0.71}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1644,
+    "latex": "\\sinh{2.4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1647,
+    "latex": "\\cot{85} \\times \\cos{55} + \\asin{0.61}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1648,
+    "latex": "\\ln{54} + \\log_{2}{49}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1649,
+    "latex": "\\asin{0.27}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1651,
+    "latex": "80^{3} + (64+76)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1653,
+    "latex": "\\tan{15} \\times \\cos{5} + \\acos{0.51}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1662,
+    "latex": "\\log_{10}{24}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1676,
+    "latex": "17 \\mod 37",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1683,
+    "latex": "\\sqrt{5} + 76^{2} \\times \\frac{20}{16}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1684,
+    "latex": "\\tanh{2.49}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1685,
+    "latex": "(45+62)^{3} + (79+93)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1687,
+    "latex": "\\ln{23} + \\log_{2}{73}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1690,
+    "latex": "\\tan{82} \\times \\sin{0} + \\acot{0.79}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1692,
+    "latex": "77^{2} + 65^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1694,
+    "latex": "\\ln{87} + \\log_{10}{63}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1696,
+    "latex": "\\asin{0.76}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1697,
+    "latex": "\\sqrt{24} + 98^{3} \\times \\frac{18}{19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1705,
+    "latex": "\\cot{27} \\times \\cot{62} + \\acos{0.7}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1706,
+    "latex": "π \\times (57 + 88)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1711,
+    "latex": "\\log_{10}{51}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1716,
+    "latex": "\\atan{0.17}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1720,
+    "latex": "\\tanh{0.3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1729,
+    "latex": "\\ln{23} + \\log_{10}{48}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1734,
+    "latex": "\\sqrt{6} + (92+92)^{2} \\times \\frac{16}{18}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1744,
+    "latex": "\\sqrt{42} + 99^{4} \\times \\frac{9}{6}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1745,
+    "latex": "42 \\mod 20",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1748,
+    "latex": "\\sinh{0.29}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1750,
+    "latex": "\\atan{0.3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1751,
+    "latex": "(35+98)^{4} + (90+20)^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1759,
+    "latex": "\\ln{99} + \\log_{10}{28}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1760,
+    "latex": "21 \\mod 34",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1764,
+    "latex": "\\ln{40} + \\log_{10}{77}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1765,
+    "latex": "\\sinh{1.22}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1767,
+    "latex": "\\ln{70} + \\log_{2}{20}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1770,
+    "latex": "\\log_{10}{87}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1772,
+    "latex": "\\ln{24} + \\log_{2}{58}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1774,
+    "latex": "\\ln{66} + \\log_{2}{94}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1787,
+    "latex": "\\sqrt{38} + 2^{3} \\times \\frac{14}{5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1789,
+    "latex": "\\ln{63} + \\log_{2}{16}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1791,
+    "latex": "\\log_{10}{73}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1794,
+    "latex": "\\ln{49} + \\log_{2}{82}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1795,
+    "latex": "\\asin{0.51}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1798,
+    "latex": "\\log_{10}{96}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1802,
+    "latex": "\\atan{0.2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1803,
+    "latex": "97^{4} + (90+57)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1807,
+    "latex": "\\asin{0.5}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1810,
+    "latex": "\\acot{0.54}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1811,
+    "latex": "\\tan{11} \\times \\cot{21} + \\asin{0.16}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1813,
+    "latex": "\\sin{40} \\times \\cot{54} + \\acos{0.17}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1820,
+    "latex": "\\ln{43} + \\log_{10}{64}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1826,
+    "latex": "\\acot{0.33}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1833,
+    "latex": "\\sqrt{48} + 38^{3} \\times \\frac{18}{15}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1836,
+    "latex": "(53+83)^{3} + 79^{4}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1840,
+    "latex": "\\ln{13} + \\log_{10}{16}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1845,
+    "latex": "\\sqrt{70} + 23^{2} \\times \\frac{4}{12}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1847,
+    "latex": "π \\times (85 + 30)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1851,
+    "latex": "\\tan{10} \\times \\cot{11} + \\acos{0.51}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1856,
+    "latex": "π \\times (65 + 10)^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1861,
+    "latex": "\\ln{84} + \\log_{2}{19}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1867,
+    "latex": "\\log_{2}{92}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1869,
+    "latex": "\\acot{0.29}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1871,
+    "latex": "\\cos{16} \\times \\sin{48} + \\asin{0.35}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1879,
+    "latex": "\\sinh{0.22}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1883,
+    "latex": "21^{2} + 94^{3}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1884,
+    "latex": "91 \\mod 23",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1901,
+    "latex": "\\asin{0.81}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1903,
+    "latex": "\\cot{79} \\times \\tan{17} + \\atan{0.67}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1911,
+    "latex": "\\log_{2}{75}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1920,
+    "latex": "\\atan{0.18}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1922,
+    "latex": "\\ln{9} + \\log_{2}{99}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1930,
+    "latex": "\\cot{0} \\times \\cot{17} + \\asin{0.45}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1937,
+    "latex": "\\cosh{1.02}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1947,
+    "latex": "\\atan{0.34}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1951,
+    "latex": "\\sqrt{15} + 33^{3} \\times \\frac{7}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1953,
+    "latex": "\\tanh{2.06}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1957,
+    "latex": "\\cos{90} \\times \\cos{69} + \\asin{0.87}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1961,
+    "latex": "36 \\mod 47",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1975,
+    "latex": "\\ln{20} + \\log_{2}{95}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1986,
+    "latex": "π \\times (43 + 69)^{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1991,
+    "latex": "55 \\mod 44",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1994,
+    "latex": "\\sqrt{56} + 3^{2} \\times \\frac{11}{2}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1995,
+    "latex": "\\atan{0.56}",
+    "difficulty": "complex"
+  },
+  {
+    "id": 1998,
+    "latex": "\\acot{0.48}",
+    "difficulty": "complex"
+  }
+]

@@ -434,6 +434,10 @@ async function loadExprs(){
     loadDeviceStats();
 
     GROUPS = createGroups(EXPRS, DEVICE_ID);
+    if (GROUPS.length === 0) {
+      console.warn('createGroups 返回 0 组，使用 fallback');
+      GROUPS = [EXPRS];
+    }
     console.log('✅ 分组完成：' + GROUPS.length + ' 组');
 
     GROUP_IDX = parseInt(localStorage.getItem('hw_group_idx') || '0') || 0;
@@ -449,7 +453,8 @@ async function loadExprs(){
       // 正常情况：clamp 到合法范围
       if (GROUP_IDX < 0) GROUP_IDX = 0;
       if (EXPR_IN_GROUP < 0) EXPR_IN_GROUP = 0;
-      if (EXPR_IN_GROUP >= 10) { EXPR_IN_GROUP = 0; }
+      const gLen = GROUPS[GROUP_IDX] ? GROUPS[GROUP_IDX].length : 0;
+      if (EXPR_IN_GROUP >= gLen) { EXPR_IN_GROUP = 0; }
     }
 
     renderDeviceStats();
@@ -457,17 +462,24 @@ async function loadExprs(){
     pickExpr();
     initCanvas();
   } catch(e) {
-    console.error('❌ 加载表达式库失败', e);
+    console.error('❌ 加载表达式库失败，使用内置数据', e);
     EXPRS = [
-      {id:1,latex:'2 + 3', difficulty:'simple'},
-      {id:2,latex:'5 \\times 4', difficulty:'simple'},
-      {id:3,latex:'\\sqrt{16}', difficulty:'normal'},
-      {id:4,latex:'\\frac{1}{2} + \\frac{3}{4}', difficulty:'normal'},
-      {id:5,latex:'\\cos(30)', difficulty:'simple'},
+      {id:1, latex:'2 + 3', difficulty:'simple'},
+      {id:2, latex:'5 \\times 4', difficulty:'simple'},
+      {id:3, latex:'\\sqrt{16}', difficulty:'normal'},
+      {id:4, latex:'\\frac{1}{2} + \\frac{3}{4}', difficulty:'normal'},
+      {id:5, latex:'\\cos(30)', difficulty:'simple'},
+      {id:6, latex:'12 - 5', difficulty:'simple'},
+      {id:7, latex:'\\sin(45)', difficulty:'normal'},
+      {id:8, latex:'3 \\times 7 + 2', difficulty:'normal'},
+      {id:9, latex:'\\sqrt{25} + 10', difficulty:'normal'},
+      {id:10, latex:'\\frac{2}{3} - \\frac{1}{6}', difficulty:'complex'},
     ];
-    GROUPS = [EXPRS];
     DEVICE_ID = getDeviceId();
     loadDeviceStats();
+    // 不用 createGroups，直接做一组
+    GROUPS = [EXPRS];
+    // fallback 数据只有 1 组，不恢复线上进度，直接重置
     GROUP_IDX = 0;
     EXPR_IN_GROUP = 0;
     renderDeviceStats();
@@ -616,13 +628,15 @@ async function sub(){
 
   // 推进组内进度
   EXPR_IN_GROUP++;
-  if (EXPR_IN_GROUP >= 10) {
+  const currentGroup = GROUPS[GROUP_IDX];
+  if (!currentGroup || EXPR_IN_GROUP >= currentGroup.length) {
     GROUP_IDX++;
     EXPR_IN_GROUP = 0;
     if (GROUP_IDX >= GROUPS.length) {
       $('pt').textContent = '已全部完成，感谢参与！';
       st.className = 'status success'; st.textContent = '🎉 全部完成！';
       btn.disabled = true;
+      localStorage.setItem('hw_group_idx', GROUP_IDX);
       return;
     }
   }
@@ -640,7 +654,7 @@ async function sub(){
   updateCounter();
 
   // 显示激励
-  showCelebration(n);
+  showCelebrate(n);
 
   btn.disabled = false;
 
